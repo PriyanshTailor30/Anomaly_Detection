@@ -38,17 +38,17 @@ To get started with this project, please follow the instructions below:
 
 ## Usage Example
 
-Provide a simple example of how to use the application, including any necessary commands or steps to view the results.
+I will Provide a simple example of how to use the application, including any necessary commands or steps to view the results.
 
 ## Contributing
 
-We welcome contributions! Please read our contributing guidelines to learn how you can contribute to this project.
+We welcome contributions! Please read our guidelines to learn how you can contribute to this project.
 
 ## License
 
-This project is licensed under the [License Name] - see the LICENSE file for more details.
+This project is licensed under the [License](https://github.com/PriyanshTailor30/Anomaly_Detection/blob/main/LICENSE) - see the LICENSE file for more details.
 
 ## Contact
 
-For any questions or feedback, feel free to contact [Your Name or Project Team Email].
+For any questions or feedback, feel free to [contact](mailto:tailorpriyansh3008@gmail.com).
 

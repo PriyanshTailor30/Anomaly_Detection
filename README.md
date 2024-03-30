@@ -1,4 +1,4 @@
-# Project Anomaly Detection
+# Anomaly Detection
 
 ## Project Overview
 

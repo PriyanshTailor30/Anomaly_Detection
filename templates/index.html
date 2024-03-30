@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <title>CyberEvolve</title>
+
+  <!-- Favicons -->
+  <link href="static/assets/img/favicon.png" rel="icon">
+  <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Plugins CSS Files -->
+  <link href="static/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/assets/css/style.css" rel="stylesheet">
+
+  <style>
+    body {
+      user-select: none;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">CyberEvolve</a></h1>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+
+          {% if 'user_id' in session %}
+          <li><a class="getstarted scrollto" href="logout.html">Log out</a></li>
+          {% else %}
+          <li><a class="getstarted scrollto" href="login.html">Log in</a></li>
+          {% endif %}
+
+        </ul>
+
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- navbar -->
+
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+          data-aos="fade-up" data-aos-delay="200">
+          <h1>YOUR EVOLVING CYBER SHIELD IN THE DIGITAL REALM</h1>
+          <h2>Navigating the Evolution of Your Cyber Shield in the Dynamic Digital Landscape</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            {% if 'user_id' in session %}
+            <a href="dashboard.html" class="btn-get-started scrollto">Get Started</a>
+            {% else %}
+            <a href="login.html" class="btn-get-started scrollto">Get Started</a>
+            {% endif %}
+
+            <a href="https://www.youtube.com/watch?v=nrI4BK45j1Q" class="glightbox btn-watch-video">
+              <i class="bi bi-play-circle"></i><span>Watch Video</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="static/assets/img/hero-img.png" draggable="false" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients section-bg">
+      <div class="container">
+
+        <div class="row d-flex justify-content-center" data-aos="zoom-in">
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="static/assets/img/clients/client-1.png" class="img-fluid" alt="Rah Infotech">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="static/assets/img/clients/client-2.png" class="img-fluid" alt="Trellix">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="static/assets/img/clients/client-3.png" class="img-fluid" alt="NetSkope">
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Cliens Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              At CyberEvolve, Performance and Effectiveness is Achieved on 3 E’s
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Evolved Technology</li>
+              <li><i class="ri-check-double-line"></i> Expert Cyber Engineering</li>
+              <li><i class="ri-check-double-line"></i> Excellent Infrastructure</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              At CyberEvolve Technologies, we specialize in end-to-end cybersecurity managed services, offering
+              comprehensive solutions to safeguard your digital static/assets. Our expertise extends beyond traditional
+              measures, ensuring your business is equipped to face the evolving cyber threats of today and tomorrow.
+            </p>
+            <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End About Us Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <!-- <section id="why-us" class="why-us section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+            <div class="content">
+              <h3>CyberSecurity <strong>General Information</strong></h3>
+            </div>
+
+            <div class="accordion-list">
+              <ul>
+                <li>
+                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span>
+                    Cybersecurity Awareness – From Maritime Operations to Modern Digital Defence<i
+                      class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                    <p>
+                      In the vast expanse of the digital realm, akin to the boundless oceans, the Chief Information
+                      Security Officer (CISO) stands as the modern-day admiral, steering the ship of an organization
+                      through turbulent waters teeming with unseen cyber threats. As nations have relied on their naval
+                      forces to safeguard maritime borders, businesses today depend on their CISOs to fortify their
+                      digital frontiers.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span>
+                    Differentiators of Next-Gen Security Operations Centers (SOCs) <i
+                      class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      As cyber threats continue to evolve in sophistication and scale, organizations are recognizing the
+                      critical importance of robust cybersecurity measures. In this dynamic landscape, traditional
+                      Security Operations Centers (SOCs) are transforming into Next-Gen SOCs to stay ahead of the curve.
+                      These advanced security centers leverage cutting-edge technologies and methodologies to
+                      proactively detect, respond to, and mitigate cyber threats. In this article, we explore the key
+                      differentiators that set Next-Gen SOCs apart from their predecessors.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> How
+                    do you stay ahead of the latest security threats? <i class="bx bx-chevron-down icon-show"></i><i
+                      class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Limited resources, both in terms of time and expertise, further exacerbate the challenge. The
+                      technical complexity of cyber threats and the dynamic, constantly evolving nature of technology
+                      itself add layers of difficulty, especially for those without a deep technical background.
+                      Moreover, the prevalence of false positives, misinformation, and the diverse nature of cyber
+                      threats across various industries and sectors further complicates the process of staying reliably
+                      updated on the latest security risks. Overcoming these challenges demands a comprehensive approach
+                      involving curated, trusted sources, continuous education, automated tools, collaboration, and
+                      leveraging expert insights within the cybersecurity domain.
+                    </p>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img"
+            style="background-image: url('static/assets/img/why-us.png');" data-aos="zoom-in" data-aos-delay="150">
+            &nbsp;
+          </div>
+        </div>
+
+      </div>
+    </section> -->
+    <!-- End Why Us Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Comprehensive Cybersecurity Servicess</p>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon d-flex justify-content-center "><i class="bx bi-building-add text-center"></i></div>
+              <h4 class="text-center"><a href="">Detection and Response</a></h4>
+              <p class="text-center">Real-time threat detection and rapid response capabilities to mitigate risks
+                effectively.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+            data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon d-flex justify-content-center"><i class="bx bx-file text-center"></i></div>
+              <h4 class="text-center"><a href="">Managed Risk</a></h4>
+              <p class="text-center">Identifying vulnerabilities and managing risks to fortify your cyber defenses.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+            data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon d-flex justify-content-center"><i class="bx bx-tachometer text-center"></i></div>
+              <h4 class="text-center"><a href="">Managed Security Awareness</a></h4>
+              <p class="text-center">Empowering your team with the knowledge to recognize and neutralize cyber threats.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+            data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon  d-flex justify-content-center"><i class="bx bx-layer"></i></div>
+              <h4 class="text-center"><a href="">Incident Respons</a></h4>
+              <p class="text-center">Expert guidance and swift action plans for potential cyber incidents.</p>
+            </div>
+          </div>
+
+
+        </div>
+    </section>
+    <!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>ARE YOU SECURELY EVOLVED YET ?</h3>
+            <p> Elevate Your Security With CyberEvolve's
+              Cutting-Edge Approach</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            {% if 'user_id' in session %}
+            <a class="cta-btn align-middle" href="dashboard.html">Take Action</a>
+            {% else %}
+            <a class="cta-btn align-middle" href="login.html">Take Action</a>
+            {% endif %}
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>At the core of exceptional organizations lie exceptional minds. Our leadership, driven by a singular
+            dedication to cater to our clients, has invested significant effort. With this unwavering mindset, we stand
+            prepared to stride confidently into the future.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="member d-flex align-items-start">
+              <!-- <div class="pic"><img src="static/assets/img/team/team-1.jpg" class="img-fluid" alt=""></div> -->
+              <div class="member-info">
+                <h4>Sachin</h4>
+                <span>Python Developer</span>
+                <!-- <div class="social">
+                  <a href=""> <i class="l-linkedin-box-fill"></i> </a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="member d-flex align-items-start">
+              <!-- <div class="pic"><img src="static/assets/img/team/team-1.jpg" class="img-fluid" alt=""></div> -->
+              <div class="member-info">
+                <h4>Vrushal</h4>
+                <span>Python Developer</span>
+                <!-- <div class="social">
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="member d-flex align-items-start">
+              <!-- <div class="pic"><img src="static/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div> -->
+              <div class="member-info">
+                <h4>Ritesh Mistry</h4>
+                <span>Python Intern</span>
+                <!-- <div class="social">
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
+            <div class="member d-flex align-items-start">
+              <!-- <div class="pic"><img src="static/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div> -->
+              <div class="member-info">
+                <h4>Priyansh Tailor</h4>
+                <span>Python Intern</span>
+                <!-- <div class="social">
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Team Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Get in touch with a CyberEvolve representative for assistance. Expect our response during regular business
+            hours.</p>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>609,Iscon Elegance, Opp. Karnavati Club, S.G Highway, Prahladnagar, Ahmedabad -380015</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>inquiry@cyberevolve.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+91 1142441111</p>
+              </div>
+
+              <iframe
+                src="https://www.google.com/maps/embed/v1/place?q=Iscon+Elegance,+SG+Highway+Service+Road,+Prahlad+Nagar,+Ahmedabad,+Gujarat,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen>
+              </iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <form id="contactForm" method="post">
+                <input type="hidden" name="form_type" value="contact_us">
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" class="form-control" id="name" required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="email" id="email" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" name="message" id="message" rows="10" required></textarea>
+                </div>
+                <div class="text-center">
+                  <button class="btn btn-info" style="margin-top: 50px; color: white;" type="submit">Send
+                    Message</button>
+                </div>
+              </form>
+
+              <div class="alert alert-success" role="alert" id="contactMessageDiv"
+                style="display: none; margin-top: 30px;">
+              </div>
+
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Discover the CyberEvolve Approach to Cybersecurity Excellence</p>
+
+            <form id="newsletterForm " class="needs-validation" method="post" novalidate>
+              <input type="hidden" name="form_type" value="newsletter">
+              <input type="email" name="email" class="form-control" required>
+              <input type="submit" name="Subscribe" value="Subscribe">
+            </form>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Please provide a valid Email.
+            </div>
+            <div class="alert alert-success" role="alert" id="newsletterMessageDiv"
+              style="display: none; margin-top: 30px;">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>CyberEvolve</h3>
+            <p>
+              Cyber Security Managed SOC Service: New Delhi.
+              <br> R & D Center: Ahmedabad, Gujarat<br><br>
+              <strong>Phone:</strong> +91 1142441111<br>
+              <strong>Email:</strong> inquiry@cyberevolve.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> Managed Detection and Response</li>
+              <li><i class="bx bx-chevron-right"></i> Managed Risk</li>
+              <li><i class="bx bx-chevron-right"></i> Managed Security Awareness</li>
+              <li><i class="bx bx-chevron-right"></i> Incident Response</li>
+              <li><i class="bx bx-chevron-right"></i> Cloud Security</li>
+              <li><i class="bx bx-chevron-right"></i> Governance, Risk and Compliance</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <div class="social-links mt-3">
+              <a href="https://twitter.com/cyber_evolveAI" target="_blank" class="twitter"><i
+                  class="bi bi-twitter-x"></i></a>
+              <a href="https://www.facebook.com/cyberevolve" target="_blank" class="facebook"><i
+                  class="bi bi-meta"></i></a>
+              <a href="https://www.instagram.com/cyber_evolveai/" target="_blank" class="instagram"><i
+                  class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/cyberevolve/mycompany/" target="_blank" class="linkedin"><i
+                  class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>CyberEvolve</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- PLugins JS Files -->
+  <script src="static/assets/vendor/aos/aos.js"></script>
+  <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="static/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="static/assets/js/main.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#contactForm').submit(function (e) {
+        e.preventDefault();
+        var formData = $(this).serialize();
+        $.ajax({
+          type: 'POST',
+          url: '/',
+          data: formData,
+          success: function (response) {
+            $('#contactMessageDiv').text('Message sent!').show();
+            setTimeout(function () {
+              $('#contactMessageDiv').fadeOut('slow');
+            }, 3000); // Message will disappear after 3 seconds (3000 milliseconds)
+          },
+          error: function (xhr, status, error) {
+            console.error(xhr.responseText);
+            $('#contactMessageDiv').text('Error sending message.').show();
+            setTimeout(function () {
+              $('#contactMessageDiv').fadeOut('slow');
+            }, 3000); // Message will disappear after 3 seconds (3000 milliseconds)
+          }
+        });
+      });
+
+      $('#newsletterForm').submit(function (e) {
+        e.preventDefault();
+        var formData = $(this).serialize();
+        $.ajax({
+          type: 'POST',
+          url: '/',
+          data: formData,
+          success: function (response) {
+            $('#newsletterMessageDiv').text('Subscribed successfully!').show();
+            setTimeout(function () {
+              $('#newsletterMessageDiv').fadeOut('slow');
+            }, 3000); // Message will disappear after 3 seconds (3000 milliseconds)
+          },
+          error: function (xhr, status, error) {
+            console.error(xhr.responseText);
+            $('#newsletterMessageDiv').text('Error subscribing.').show();
+            setTimeout(function () {
+              $('#newsletterMessageDiv').fadeOut('slow');
+            }, 3000); // Message will disappear after 3 seconds (3000 milliseconds)
+          }
+        });
+      });
+    });
+  </script>
+
+
+</body>
+
+</html>

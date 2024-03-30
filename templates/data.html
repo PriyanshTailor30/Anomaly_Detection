@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Database Table</title>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti non sint provident, hic ex, eos tempore amet
+        pariatur minima saepe commodi porro veniam. Ut, ducimus tenetur ratione illum unde veritatis? Quas impedit animi
+        suscipit corrupti sed! Facere, adipisci perferendis eaque fuga sapiente, cum repellat labore ad magnam, aperiam
+        fugit dicta porro perspiciatis reprehenderit iure magni beatae velit? Recusandae, temporibus ad! Illo officia
+        quas dolores obcaecati, consequuntur, optio ipsa dicta tempora repellendus architecto blanditiis esse at maiores
+        minima sapiente sed ullam ut. Odit aut nisi aperiam eligendi officiis excepturi qui optio ab! Rerum omnis
+        explicabo doloremque quidem laudantium ad eos voluptates?</p>
+    <h1>Data from MySQL Table</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At assumenda odit praesentium. Totam ipsum expedita
+        veniam quam fugiat hic accusantium necessitatibus aliquam animi vel, distinctio provident incidunt sapiente
+        possimus aut delectus, eaque enim accusamus illo reiciendis culpa nam voluptatem esse? Ut, temporibus?
+        Praesentium rerum, velit quo aperiam ex minima doloribus cum cupiditate tenetur quam atque ipsam illo obcaecati.
+        Odio amet beatae atque cum porro, ducimus nulla nisi id magnam magni natus, quos libero deleniti dolore,
+        doloribus sunt ipsum. Nam hic ipsa doloribus. Accusantium sed quia laboriosam doloribus alias nesciunt iste
+        omnis quibusdam nisi magni, ipsa incidunt inventore porro, quae nihil!</p>
+    <table class="table table-hover">
+        <head>
+            <tr>
+                <th scope="col">ID</th>
+                {% for column in columns %}
+                <th scope="col">{{ column }}</th>
+                {% endfor %}
+            </tr>
+        </head>
+
+        <body>
+            
+            {% for row in data %}
+            <tr>
+                <th scope="row">{{ row[0] }}</th>
+                {% for value in row %}
+                <td>{{ value }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </body>
+    </table>
+
+
+
+
+    <table class="table table-hover ">
+        <head>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </head>
+
+        <body class="table-group-divider">
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+            </tr>
+        </body>
+    </table>
+
+
+
+
+
+</body>
+
+</html>

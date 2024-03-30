@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Dashboard</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="static/assets/img/favicon.png" rel="icon">
+    <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="static/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="static/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="static/assets/css/style.css" rel="stylesheet">
+
+    <style>
+        body {
+            user-select: none;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top header-inner-pages">
+        <div class="container d-flex align-items-center">
+
+            <h1 class="logo me-auto"><a href="index.html">CyberEvolve</a></h1>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto " href="index.html">Home</a></li>
+                    <li><a class="nav-link scrollto" href="index.html">About</a></li>
+                    <li><a class="nav-link scrollto" href="index.html">Services</a></li>
+                    <li><a class="nav-link scrollto" href="index.html">Team</a></li>
+                    <li><a class="nav-link scrollto" href="index.html">Contact</a></li>
+                    {% if 'user_id' in session %}
+                    <li><a class="getstarted scrollto" href="logout.html">Log out</a></li>
+                    {% else %}
+                    <li><a class="getstarted scrollto" href="login.html">Log in</a></li>
+                    {% endif %}
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+
+    <main id="main">
+
+        <!-- ======= Breadcrumbs ======= -->
+        <section id="breadcrumbs" class="breadcrumbs">
+            <div class="container">
+
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li aria-current="page">Configure Model</li>
+                </ol>
+                <!-- <h2>Login</h2> -->
+
+            </div>
+        </section><!-- End Breadcrumbs -->
+
+        <section class="inner-page">
+            <div class="container">
+                <!-- ======= Contact Section ======= -->
+                <section id="contact" class="contact">
+                    <div class="container" data-aos="fade-up">
+
+                        <div class="section-title">
+                            <h2>Configure Model</h2>
+                            <p>Explore and analyze the performance of your machine learning models through our
+                                interactive Configuration. Stay informed about key metrics, visualize results, and make
+                                data-driven decisions to optimize your models.</p>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-8 mt-5 mt-lg-0 d-flex justify-content-center align-items-center mx-auto">
+
+                                <form class="row g-3" method="get" action="visualize.html">
+
+                                    {% if user_data %}
+                                    <div class="col-md-6">
+                                        <label for="inputEmail4" class="form-label"
+                                            style="font-weight: bold;">Email</label>
+                                        <input type="email" class="form-control form-control-sm" id="inputEmail4"
+                                            value="{{ user_data[1] }}" disabled>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="name" class="form-label" style="font-weight: bold;">Name</label>
+                                        <input type="name" class="form-control form-control-sm" id="name"
+                                            value=" {{ user_data[0] }}" disabled>
+                                    </div>
+                                    {% else %}
+                                    <script>
+                                        window.location.href = "/login.html"; 
+                                    </script>
+                                    {% endif %}
+
+                                    <div class="col-md-4">
+                                        <label for="inputState" class="form-label"
+                                            style="font-weight: bold;">Database</label>
+                                        <select id="inputTableState" class="form-select" onchange="populateColumns()" name="database" required>
+                                            {% for option in options %}
+                                            {% if option[0] == 'database' %}
+                                            {% if option[1] == 'test_data'%}
+                                            <option value="{{ option[1] }}">{{ option[1] }}</option>
+                                            {%else%}
+                                            <option value="{{ option[1] }}" disabled>{{ option[1] }}</option>
+                                            {% endif %}
+                                            {% endif %}
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="inputState" class="form-label"
+                                            style="display: block; font-weight: bold;">Cleaning:</label>
+                                        {% for option in options %}
+                                        {% if option[0] == 'cleaning' %}
+                                        <div class="form-check-inline mt-3 mt-lg-0">
+                                            <input type="checkbox" class="btn-check"
+                                                id="cleaning-checkbox-{{ loop.index }}" autocomplete="off" name="cleaning">
+                                            <label class="btn btn-outline-success"
+                                                for="cleaning-checkbox-{{ loop.index }}">
+                                                {{ option[1] }}
+                                            </label>
+                                        </div>
+                                        {% endif %}
+                                        {% endfor %}
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <label for="inputformatting" class="form-label"
+                                            style="font-weight: bold;">Formating:</label>
+                                        <select id="inputformatting" class="form-select" name="formatting" required>
+                                            {% for option in options %}
+                                            {% if option[0] == 'formatting' %}
+                                            <option>{{ option[1] }}</option>
+                                            {% endif %}
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <label for="inputScaling" class="form-label" style="font-weight: bold;">Feature
+                                            Scaling:</label>
+                                        <select id="inputScaling" class="form-select" name="scaling" required>
+                                            {% for option in options %}
+                                            {% if option[0] == 'feature_scaling' %}
+                                            <option>{{ option[1] }}</option>
+                                            {% endif %}
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <label for="inputSelection" class="form-label" style="font-weight: bold;">Feature
+                                            Selection:</label>
+                                        <select id="inputSelection" class="form-select" name="selection" required>
+                                            {% for option in options %}
+                                            {% if option[0] == 'feature_selection' %}
+                                            <option>{{ option[1] }}</option>
+                                            {% endif %}
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <label for="inputmodel" class="form-label" style="font-weight: bold;">Select
+                                            Model</label>
+                                        <select id="inputmodel" class="form-select" name="model" required>
+                                            {% for option in options %}
+                                            {% if option[0] == 'select_model' %}
+                                            <option>{{ option[1] }}</option>
+                                            {% endif %}
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+
+                                    <hr>
+
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                                            <label class="form-check-label" for="gridCheck">
+                                                Checking this box will ensure that you have permission to access this
+                                                information
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary btn-block">Get Prediction</button>
+
+                                </form>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div>
+                            </div>
+                </section>
+                <!-- End Contact Section -->
+            </div>
+        </section>
+
+    </main><!-- End #main -->
+
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>CyberEvolve</h3>
+                        <p>
+                            Cyber Security Managed SOC Service: New Delhi.
+                            <br> R & D Center: Ahmedabad, Gujarat<br><br>
+                            <strong>Phone:</strong> +91 1142441111<br>
+                            <strong>Email:</strong> inquiry@cyberevolve.com<br>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> Managed Detection and Response</li>
+                            <li><i class="bx bx-chevron-right"></i> Managed Risk</li>
+                            <li><i class="bx bx-chevron-right"></i> Managed Security Awareness</li>
+                            <li><i class="bx bx-chevron-right"></i> Incident Response</li>
+                            <li><i class="bx bx-chevron-right"></i> Cloud Security</li>
+                            <li><i class="bx bx-chevron-right"></i> Governance, Risk and Compliance</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Social Networks</h4>
+                        <div class="social-links mt-3">
+                            <a href="https://twitter.com/cyber_evolveAI" target="_blank" class="twitter"><i
+                                    class="bi bi-twitter-x"></i></a>
+                            <a href="https://www.facebook.com/cyberevolve" target="_blank" class="facebook"><i
+                                    class="bi bi-meta"></i></a>
+                            <a href="https://www.instagram.com/cyber_evolveai/" target="_blank" class="instagram"><i
+                                    class="bi bi-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/cyberevolve/mycompany/" target="_blank"
+                                class="linkedin"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer-bottom clearfix">
+            <div class="copyright">
+                &copy; Copyright <strong><span>CyberEvolve</span></strong>. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="static/assets/vendor/aos/aos.js"></script>
+    <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="static/assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="static/assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="static/assets/js/main.js"></script>
+
+
+</body>
+
+</html>

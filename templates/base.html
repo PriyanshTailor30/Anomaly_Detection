@@ -1,0 +1,28 @@
+<!-- templates/base.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Your App{% endblock %}</title>
+    
+    <!-- Include common CSS files -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style1.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css') }}">
+    
+    <!-- Include specific CSS files for each page -->
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    <!-- Your content goes here -->
+    {% block content %}{% endblock %}
+    
+    <!-- Include common JS files -->
+    <script src="{{ url_for('static', filename='js/script1.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/script2.js') }}"></script>
+    
+    <!-- Include specific JS files for each page -->
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

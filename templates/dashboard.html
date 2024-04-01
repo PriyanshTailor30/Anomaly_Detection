@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Dashboard</title>
+    <title>Configure Model</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -86,8 +86,8 @@
 
         <section class="inner-page">
             <div class="container">
-                <!-- ======= Contact Section ======= -->
-                <section id="contact" class="contact">
+                <!-- ======= Dashboard Section ======= -->
+                <section id="Dashboard" class="Dashboard">
                     <div class="container" data-aos="fade-up">
 
                         <div class="section-title">
@@ -100,7 +100,7 @@
                         <div class="row">
                             <div class="col-lg-8 mt-5 mt-lg-0 d-flex justify-content-center align-items-center mx-auto">
 
-                                <form class="row g-3" method="get" action="visualize.html">
+                                <form class="row g-3" method="post" action="dashboard.html">
 
                                     {% if user_data %}
                                     <div class="col-md-6">
@@ -124,7 +124,8 @@
                                     <div class="col-md-4">
                                         <label for="inputState" class="form-label"
                                             style="font-weight: bold;">Database</label>
-                                        <select id="inputTableState" class="form-select" onchange="populateColumns()" name="database" required>
+                                        <select id="inputTableState" class="form-select" onchange="populateColumns()"
+                                            name="database" required>
                                             {% for option in options %}
                                             {% if option[0] == 'database' %}
                                             {% if option[1] == 'test_data'%}
@@ -142,14 +143,27 @@
                                             style="display: block; font-weight: bold;">Cleaning:</label>
                                         {% for option in options %}
                                         {% if option[0] == 'cleaning' %}
+                                        {% if option[1] == 'Clean_data' %}
                                         <div class="form-check-inline mt-3 mt-lg-0">
                                             <input type="checkbox" class="btn-check"
-                                                id="cleaning-checkbox-{{ loop.index }}" autocomplete="off" name="cleaning">
+                                                id="cleaning-checkbox-{{ loop.index }}" checked
+                                                name="cleaning[]" value="{{ option[1] }}" required>
                                             <label class="btn btn-outline-success"
                                                 for="cleaning-checkbox-{{ loop.index }}">
                                                 {{ option[1] }}
                                             </label>
                                         </div>
+                                        {% else %}
+                                        <div class="form-check-inline mt-3 mt-lg-0">
+                                            <input type="checkbox" class="btn-check"
+                                                id="cleaning-checkbox-{{ loop.index }}" autocomplete="off"
+                                                name="cleaning[]" value="{{ option[1] }}">
+                                            <label class="btn btn-outline-success"
+                                                for="cleaning-checkbox-{{ loop.index }}">
+                                                {{ option[1] }}
+                                            </label>
+                                        </div>
+                                        {% endif %}
                                         {% endif %}
                                         {% endfor %}
                                     </div>
@@ -179,7 +193,8 @@
                                     </div>
 
                                     <div class="col-md-4">
-                                        <label for="inputSelection" class="form-label" style="font-weight: bold;">Feature
+                                        <label for="inputSelection" class="form-label"
+                                            style="font-weight: bold;">Feature
                                             Selection:</label>
                                         <select id="inputSelection" class="form-select" name="selection" required>
                                             {% for option in options %}
@@ -213,7 +228,8 @@
                                             </label>
                                         </div>
                                     </div>
-
+                                    <p>Click the link to visualize the performance of your configured models:
+                                    <a href="visualize.html">Visualize Configured Models</a></p>
                                     <button type="submit" class="btn btn-primary btn-block">Get Prediction</button>
 
                                 </form>
@@ -233,7 +249,6 @@
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
-
         <div class="footer-top">
             <div class="container">
                 <div class="row">
@@ -312,8 +327,5 @@
 
     <!-- Template Main JS File -->
     <script src="static/assets/js/main.js"></script>
-
-
 </body>
-
 </html>

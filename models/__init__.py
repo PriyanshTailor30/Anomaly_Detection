@@ -8,3 +8,4 @@ app.secret_key = "secret key"
 
 # Import routes to register them with the Flask app
 from models import routes
+from models import forms

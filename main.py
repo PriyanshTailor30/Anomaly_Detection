@@ -1,8 +1,8 @@
-from scripts.dbconfig import *
-from scripts.display import *
+from src.scripts.dbconfig import *
+from src.scripts.display import *
 
-from scripts.cleaning import *
-from scripts.format import *
+from src.scripts.cleaning import *
+from src.scripts.format import *
 
 # from scripts.feature_scaling import *
 # from scripts.feature_selection import *
@@ -15,9 +15,9 @@ df.printSchema()
 
 clean_data(df).show()
 
-handle_null_values(df).show()
+# handle_null_values(df).show()
 
-outliers_handling(df).show()
+# outliers_handling(df).show()
 
 label_encoding(df).show()
 

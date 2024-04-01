@@ -25,8 +25,11 @@ interpretation and understanding of the detected anomalies._
 
 To get started with this project, please follow the instructions below:
 
-1. **Clone the Repository** <br> - `git clone [repository_url]
-  cd anomaly_detection_project`
+1. **Clone the Repository**  
+   Clone the repository using the following command: 
+   ```
+   git clone https://github.com/PriyanshTailor30/Anomaly_Detection.git  
+   ```
 
 2. **Install Dependencies** <br> - `pip install -r requirements.txt`
 

@@ -1,6 +1,6 @@
 from collections import Counter
 from flask import flash, redirect, render_template, request, session, url_for, jsonify
-from models import app
+from src import app
 from utils.db_config import get_database_connection
 from flask import request, render_template, redirect, url_for, session, flash
 from werkzeug.security import generate_password_hash  # Import the hash function

@@ -12,8 +12,6 @@ password = 'root'
 host = '127.0.0.1'
 schema = 'anomaly_detection'
 
-# #db_name = "cyberevolvesocreport"
-
 connection = mysql.connector.connect(
     host=host,
     user=user,

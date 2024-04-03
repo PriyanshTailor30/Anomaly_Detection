@@ -1,6 +1,6 @@
 from collections import Counter
 from flask import flash, redirect, render_template, request, session, url_for, jsonify
-from src import app
+from src import app, dbconfig, display,format #, feature_selections, cleaning, Evaluate, feature_scaling, mlmodel
 from utils.db_config import get_database_connection
 from flask import request, render_template, redirect, url_for, session, flash
 from werkzeug.security import generate_password_hash  # Import the hash function
@@ -176,13 +176,57 @@ def dashboard():
                     ",".join(cleaning) if cleaning else ""
                 )  # Joining the list into a single string
 
-                # print("user_id Selection:", user_id)
-                # print("Database Selection:", database_selection)
-                # print("Cleaning Selection:", cleaning_selection)
-                # print("Formatting Selection:", formatting_selection)
-                # print("Scaling Selection:", scaling_selection)
-                # print("Feature Selection:", feature_selection)
-                # print("Model Selection:", model_selection)
+
+                # Call the corresponding PySpark methods based on selections
+                if database_selection:
+                    data = dbconfig.get_data(database_selection)
+                display.display_information(data)
+                
+                # if "Clean_data" in cleaning_selection:
+                #     data = cleaning.clean_data(data)
+                # if "Handle_null_values" in cleaning_selection:
+                #     data = cleaning.handle_null_values(data)
+                # if "Remove_outliers" in cleaning_selection:
+                #     data = cleaning.outliers_handling(data)
+                # if "Balance_data" in cleaning_selection:
+                #     data = cleaning.balance_data(data)
+
+                if formatting_selection == "Lebel_encoding":
+                    data = format.label_encoding(data)
+                    data = format.vector_assemble(data)
+                elif formatting_selection == "One_hot_encoding":
+                    data = format.hash_encoding(data)
+                    data = format.vector_assemble(data)
+                elif formatting_selection == "HashingTF_Encoding":
+                    data = format.hashing_tf(data)
+                    data = format.vector_assemble(data)
+                elif formatting_selection == "Hash_encoding":
+                    data = format.hash_encoding(data)
+                    data = format.vector_assemble(data)
+                data.show()
+
+                # if scaling_selection == "Standered_scaler":
+                #     data = feature_scaling.standerd_scaler(data)
+                # elif scaling_selection == "Robust_scaler":
+                #     data = feature_scaling.robustScaler(data)
+                # elif scaling_selection == "Minmax_scaler":
+                #     data = feature_scaling.minMaxScaler(data)
+                # elif scaling_selection == "MinAbs_scaler":
+                #     data = feature_scaling.minAbsScaler(data)
+                # elif scaling_selection == "Bucketizer":
+                #     data = feature_scaling.bucketizer(data)
+
+                # if feature_selection == "Chisqselector":
+                #     data = feature_selections.chisqselector(data)
+
+                # if model_selection == "Random_forest":
+                #     data = mlmodel.random_forest(data)
+                # elif model_selection == "Linear_regression":
+                #     data = mlmodel.linear_regression(data)
+                # elif model_selection == "Logistic_regression":
+                #     data = mlmodel.logistic_regression(data)
+                # elif model_selection == "Linear_SVM":
+                #     data = mlmodel.train_linear_svm(data)
 
                 # Insert user selections into the database
                 cursor.execute(

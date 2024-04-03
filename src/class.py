@@ -1,7 +1,7 @@
 from cleaning import *
 from format import *
 from feature_scaling import *
-from feature_selection import *
+from src.feature_selections import *
 
 
 class operation:

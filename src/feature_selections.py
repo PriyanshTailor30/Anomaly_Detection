@@ -1,7 +1,7 @@
-def chisqselector(df):
+def chisqselector(df, label_column="label"):
     from pyspark.ml.feature import ChiSqSelector
 
-    selector = ChiSqSelector(numTopFeatures=5, featuresCol="features", outputCol="selectedFeatures", labelCol="class")
+    selector = ChiSqSelector(numTopFeatures=5, featuresCol="features", outputCol="selectedFeatures", labelCol=label_column)
     df = selector.fit(df).transform(df)
     return df
 

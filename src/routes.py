@@ -1,6 +1,17 @@
 from collections import Counter
 from flask import flash, redirect, render_template, request, session, url_for, jsonify
-from src import app, dbconfig, display,format #, feature_selections, cleaning, Evaluate, feature_scaling, mlmodel
+from src import (
+    app,
+    dbconfig,
+    display,
+    format,
+    feature_selections,
+    cleaning,
+    Evaluate,
+    feature_scaling,
+    mlmodel,
+)
+from pyspark.sql import functions as F
 from utils.db_config import get_database_connection
 from flask import request, render_template, redirect, url_for, session, flash
 from werkzeug.security import generate_password_hash  # Import the hash function
@@ -176,58 +187,6 @@ def dashboard():
                     ",".join(cleaning) if cleaning else ""
                 )  # Joining the list into a single string
 
-
-                # Call the corresponding PySpark methods based on selections
-                if database_selection:
-                    data = dbconfig.get_data(database_selection)
-                display.display_information(data)
-                
-                # if "Clean_data" in cleaning_selection:
-                #     data = cleaning.clean_data(data)
-                # if "Handle_null_values" in cleaning_selection:
-                #     data = cleaning.handle_null_values(data)
-                # if "Remove_outliers" in cleaning_selection:
-                #     data = cleaning.outliers_handling(data)
-                # if "Balance_data" in cleaning_selection:
-                #     data = cleaning.balance_data(data)
-
-                if formatting_selection == "Lebel_encoding":
-                    data = format.label_encoding(data)
-                    data = format.vector_assemble(data)
-                elif formatting_selection == "One_hot_encoding":
-                    data = format.hash_encoding(data)
-                    data = format.vector_assemble(data)
-                elif formatting_selection == "HashingTF_Encoding":
-                    data = format.hashing_tf(data)
-                    data = format.vector_assemble(data)
-                elif formatting_selection == "Hash_encoding":
-                    data = format.hash_encoding(data)
-                    data = format.vector_assemble(data)
-                data.show()
-
-                # if scaling_selection == "Standered_scaler":
-                #     data = feature_scaling.standerd_scaler(data)
-                # elif scaling_selection == "Robust_scaler":
-                #     data = feature_scaling.robustScaler(data)
-                # elif scaling_selection == "Minmax_scaler":
-                #     data = feature_scaling.minMaxScaler(data)
-                # elif scaling_selection == "MinAbs_scaler":
-                #     data = feature_scaling.minAbsScaler(data)
-                # elif scaling_selection == "Bucketizer":
-                #     data = feature_scaling.bucketizer(data)
-
-                # if feature_selection == "Chisqselector":
-                #     data = feature_selections.chisqselector(data)
-
-                # if model_selection == "Random_forest":
-                #     data = mlmodel.random_forest(data)
-                # elif model_selection == "Linear_regression":
-                #     data = mlmodel.linear_regression(data)
-                # elif model_selection == "Logistic_regression":
-                #     data = mlmodel.logistic_regression(data)
-                # elif model_selection == "Linear_SVM":
-                #     data = mlmodel.train_linear_svm(data)
-
                 # Insert user selections into the database
                 cursor.execute(
                     "INSERT INTO `anomaly_detection`.`user_selections` (`userid`, `database_selection`, `cleaning_selection`, `formatting_selection`, `scaling_selection`, `feature_selection`, `model_selection`) VALUES (%s, %s, %s, %s, %s, %s, %s)",
@@ -256,43 +215,142 @@ def dashboard():
 @app.route("/visualize.html", methods=["GET", "POST"])
 def visualize():
     user_id = session.get("user_id")
-    user_data = None
     selection = None  # Initialize selection variable
     selection_column = None  # Initialize selection column variable
 
     if user_id:
         try:
-            # Retrieve user data
             connection = get_database_connection()
-            cursor = connection.cursor()  # Use dictionary cursor for easier data access
-
-            cursor.execute("SELECT name, email FROM register WHERE id=%s", (user_id,))
-            user_data = cursor.fetchone()
+            cursor = connection.cursor()  
 
             # Fetch options for each category
-            cursor.execute("SELECT timestamp FROM anomaly_detection.user_selections")
+            query="SELECT timestamp FROM anomaly_detection.user_selections where userid =%s"
+            cursor.execute(query,(user_id,))
             options = cursor.fetchall()
 
-            query = "SELECT duration,protocol_type,service,flag,class FROM train_data"
+            query = "SELECT * FROM anomaly_detection.windows"
             cursor.execute(query)
             data = cursor.fetchall()
             column_names = [i[0] for i in cursor.description]
             connection.commit()
 
-            query = "SELECT 'anomaly' AS class, SUM(CASE WHEN class='anomaly' THEN 1 ELSE 0 END ) as count FROM train_data UNION ALL SELECT 'normal' AS class, SUM(CASE WHEN class='normal' THEN 1 ELSE 0 END ) as count FROM train_data"
-            cursor.execute(query)
-            collect = cursor.fetchall()
 
-            # Count occurrences of each class
-            anomaly = collect[0][1]
-            normal = collect[1][1]
 
             if request.method == "POST":
+
                 timestamp = request.form["timestamp"]
+
                 query = "SELECT database_selection, cleaning_selection, formatting_selection, scaling_selection, feature_selection, model_selection FROM anomaly_detection.user_selections WHERE timestamp = %s"
+
                 cursor.execute(query, (timestamp,))
                 selection = cursor.fetchall()
+                
+                database_selection = selection[0][0]
+                cleaning_selection = selection[0][1]
+                formatting_selection = selection[0][2]
+                scaling_selection = selection[0][3]
+                feature_selection = selection[0][4]
+                model_selection = selection[0][5]
 
+                print(database_selection)
+                print(cleaning_selection)
+                print(formatting_selection)
+                print(scaling_selection)
+                print(feature_selection)
+                print(model_selection)
+                
+                # Call the corresponding PySpark methods based on selections
+                if database_selection:
+                    data = dbconfig.get_data("labeled")
+                    data.show(5)
+                    
+                    user_counter = {}
+                    # Iterate over each row of the DataFrame
+                    for row in data.collect():
+                        if row['task'] == 'LoginFailure':
+                            if row['targetUserName'] not in user_counter:
+                                user_counter[row['targetUserName']] = 0
+
+                            user_counter[row['targetUserName']] += 1
+
+                            if user_counter[row['targetUserName']] >= 3:
+                                query = f'UPDATE anomaly_detection.labeled SET label = "1" WHERE id = %s'
+                                dbconfig.cursor.execute(query, (row['id'],))
+                                dbconfig.connection.commit()
+                        elif row['task'] == "LogOn":
+                            user_counter[row['targetUserName']] = 0
+
+                        elif row['task'] == "LogOff":
+                            pass
+
+                    print(user_counter)
+                data.show(5, truncate=False)
+                display.display_information(data)
+
+                # if "Clean_data" in cleaning_selection:
+                #     data = cleaning.clean_data(data)
+                # if "Handle_null_values" in cleaning_selection:
+                #     data = cleaning.handle_null_values(data)
+                # if "Remove_outliers" in cleaning_selection:
+                #     data = cleaning.outliers_handling(data)
+                # if "Balance_data" in cleaning_selection:
+                #     data = cleaning.balance_data(data)
+                data.show(5, truncate=False)
+                if formatting_selection == "Lebel_encoding":
+                    data = format.label_encoding(data)
+                    data = format.vector_assemble(data)
+                elif formatting_selection == "One_hot_encoding":
+                    data = format.hash_encoding(data)
+                    data = format.vector_assemble(data)
+                elif formatting_selection == "HashingTF_Encoding":
+                    data = format.hashing_tf(data)
+                    data = format.vector_assemble(data)
+                elif formatting_selection == "Hash_encoding":
+                    data = format.hash_encoding(data)
+                    data = format.vector_assemble(data)
+                data.show(5, truncate=False)
+                if scaling_selection == "Standered_scaler":
+                    data = feature_scaling.standerd_scaler(data)
+                elif scaling_selection == "Robust_scaler":
+                    data = feature_scaling.robustScaler(data)
+                elif scaling_selection == "Minmax_scaler":
+                    data = feature_scaling.minMaxScaler(data)
+                elif scaling_selection == "MinAbs_scaler":
+                    data = feature_scaling.minAbsScaler(data)
+                elif scaling_selection == "Bucketizer":
+                    data = feature_scaling.bucketizer(data)
+                data.show(5, truncate=False)
+                if feature_selection == "Chisqselector":
+                    data = feature_selections.chisqselector(data)
+                data.show(5, truncate=False)
+                if model_selection == "Random_forest":
+                    data = mlmodel.random_forest(data)
+                elif model_selection == "Linear_regression":
+                    data = mlmodel.linear_regression(data)
+                elif model_selection == "Logistic_regression":
+                    data = mlmodel.logistic_regression(data)
+                elif model_selection == "Linear_SVM":
+                    data = mlmodel.train_linear_svm(data)
+                data.show(5, truncate=False)
+
+                grouped_counts = data.groupby("prediction").count()
+                normal = grouped_counts.filter(grouped_counts["prediction"] == 0).select(F.col("count")).first()[0]
+                anomaly = grouped_counts.filter(grouped_counts["prediction"] == 1).select(F.col("count")).first()[0]
+            else:
+                query="SELECT label, COUNT(*) AS count FROM labeled GROUP BY label;"
+                dbconfig.cursor.execute(query)
+                # Fetch the results
+                results = dbconfig.cursor.fetchall()
+                
+                # Initialize counts
+                normal, anomaly = 0, 0
+
+                # Iterate through results to extract counts
+                for row in results:
+                    if row[0] == 0:
+                        normal = row[1]
+                    elif row[0] == 1:
+                        anomaly = row[1]
         except Exception as e:
             print("Error:", e)
         finally:
@@ -304,8 +362,14 @@ def visualize():
         columns=column_names,
         anomaly=anomaly,
         normal=normal,
-        user_data=user_data,
         options=options,
         selection=selection,
-        selection_column=["Database","Cleaning","Formating","Feature Scaling","Feature Selection","Selected Model"],
+        selection_column=[
+            "Database",
+            "Cleaning",
+            "Formating",
+            "Feature Scaling",
+            "Feature Selection",
+            "Selected Model",
+        ],
     )

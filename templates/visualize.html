@@ -109,7 +109,6 @@
                             <div class="col-lg-8 mt-5 mt-lg-0   mx-auto">
                                 <form class="row g-3 d-flex justify-content-center align-items-center" method="post"
                                     action="visualize.html">
-                                    {% if user_data %}
                                     <div class="col-md-6 d-flex justify-content-center align-items-center">
                                         <select id="inputTableState" class="form-select" onchange="populateColumns()"
                                             name="timestamp" required>
@@ -124,11 +123,6 @@
                                     </div>
                             </div>
 
-                            {% else %}
-                            <script>
-                                window.location.href = "/login.html"; 
-                            </script>
-                            {% endif %}
                             </form>
                         </div>
                         <hr>
@@ -206,7 +200,7 @@
                     <div class="row">
                         <div class="container-fluid ">
                             <div class="row justify-content-center">
-                                <div class="col-md-5">
+                                <div class="col-md-8">
                                     <div class="card align-items-center">
                                         <div class="header">
                                             <h4 class="title" style="margin-top: 10px;">Dataset Informaiton</h4>
@@ -217,7 +211,6 @@
                                                 <table class="table  table-hover">
                                                     <head>
                                                         <tr>
-                                                            <th scope="col">ID</th>
                                                             {% for column in columns %}
                                                             <th scope="col">{{ column }}</th>
                                                             {% endfor %}
@@ -226,8 +219,7 @@
 
                                                     <body>
                                                         {% for row in data[:10] %}
-                                                        <tr>
-                                                            <th scope="row">{{ loop.index }}</th>
+                                                        <tr class="{% if 'label' in columns and row['label'] == 1 %}table-danger{% endif %}">
                                                             {% for value in row %}
                                                             <td>{{ value }}</td>
                                                             {% endfor %}
@@ -248,7 +240,9 @@
         </section>
     </main>
     <!-- End #main -->
-
+    <!-- {% for row in data[:10] %}
+    <h1>{{ row }}</h1>
+    {% endfor %} -->
     <!-- ======= Footer ======= -->
     <footer id="footer">
         <div class="footer-top">

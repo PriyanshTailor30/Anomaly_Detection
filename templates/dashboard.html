@@ -130,6 +130,8 @@
                                             {% if option[0] == 'database' %}
                                             {% if option[1] == 'test_data'%}
                                             <option value="{{ option[1] }}">{{ option[1] }}</option>
+                                            {%elif option[1] == 'windows'%}
+                                            <option value="{{ option[1] }}" selected>{{ option[1] }}</option>
                                             {%else%}
                                             <option value="{{ option[1] }}" disabled>{{ option[1] }}</option>
                                             {% endif %}

@@ -1,0 +1,1449 @@
+Timestamp,Message,Source_Ip,EventID,targetUserName,task
+1/4/2024 6:00,An account failed to log on,192.168.0.1,4625,Priyansh,LoginFailure
+1/4/2024 6:01,An account failed to log on,192.168.0.1,4625,Priyansh,LoginFailure
+1/4/2024 6:02,An account failed to log on,192.168.0.1,4625,Priyansh,LoginFailure
+1/4/2024 6:03,An account failed to log on.,070.151.140.135,4625,Priyansh,LogOn
+1/4/2024 6:04,An account failed to log on.,078.046.065.089,4625,kirtan,LoginFailure
+1/4/2024 6:05,An account was successfully logged on.,201.123.228.057,4624,kirtan,Logon
+1/4/2024 6:06,An account was logged off.,204.070.212.187,4634,ramesh,Logoff
+1/4/2024 6:07,An account failed to log on.,091.034.035.199,4625,Priyansh,LoginFailure
+1/4/2024 6:08,An account was logged off.,143.091.015.057,4634,suresh,Logoff
+1/4/2024 6:09,An account failed to log on.,090.158.073.028,4625,pratham,LoginFailure
+1/4/2024 6:10,An account was logged off.,095.172.134.032,4634,pratham,Logoff
+1/4/2024 6:11,An account failed to log on.,098.012.056.248,4625,Priyansh,LoginFailure
+1/4/2024 6:12,An account was logged off.,145.191.138.168,4634,dinesh,Logoff
+1/4/2024 6:13,An account was logged off.,001.002.200.178,4634,kirtan,Logoff
+1/4/2024 6:14,Login failure,022.153.162.241,4624,vishal,Logon
+1/4/2024 6:15,An account failed to log on,10.20.30.40,4625,suresh,LoginFailure
+1/4/2024 6:16,An account failed to log on,10.20.30.40,4625,suresh,LoginFailure
+1/4/2024 6:17,An account failed to log on,10.20.30.40,4625,suresh,LoginFailure
+1/4/2024 6:18,An account failed to log on.,246.070.235.148,4634,Priyansh,Logoff
+1/4/2024 6:19,An account failed to log on.,115.148.181.088,4634,pratham,LoginFailure
+1/4/2024 6:20,An account was successfully logged on.,105.215.072.148,4634,pratham,Logoff
+1/4/2024 6:21,An account was logged off.,043.020.138.055,4624,ramesh,LoginFailure
+1/4/2024 6:22,An account failed to log on.,026.073.036.229,4625,suresh,Logoff
+1/4/2024 6:23,An account was logged off.,147.047.202.180,4625,kirtan,Logoff
+1/4/2024 6:24,An account failed to log on.,214.255.118.078,4625,pratham,Logon
+1/4/2024 6:25,An account was logged off.,120.135.084.254,4634,dinesh,LoginFailure
+1/4/2024 6:26,An account failed to log on.,171.061.161.091,4634,dinesh,LoginFailure
+1/4/2024 6:27,An account was logged off.,141.235.035.173,4624,ramesh,LoginFailure
+1/4/2024 6:28,An account was logged off.,111.237.034.148,4625,suresh,Logoff
+1/4/2024 6:29,An account was successfully logged on.,016.134.199.004,4625,suresh,Logoff
+1/4/2024 6:30,An account failed to log on,172.16.254.1,4625,dinesh,LoginFailure
+1/4/2024 6:31,An account failed to log on,172.16.254.1,4625,dinesh,LoginFailure
+1/4/2024 6:32,An account failed to log on,172.16.254.1,4625,dinesh,LoginFailure
+1/4/2024 6:33,An account failed to log on.,115.105.236.091,4634,ramesh,LoginFailure
+1/4/2024 6:34,An account failed to log on.,036.172.057.235,4625,vishal,LoginFailure
+1/4/2024 6:35,An account was successfully logged on.,067.237.123.217,4625,pratham,LogOn
+1/4/2024 6:36,An account was logged off.,167.100.029.127,4624,dinesh,logOff
+1/4/2024 6:37,An account failed to log on.,250.129.046.221,4634,ramesh,LoginFailure
+1/4/2024 6:38,An account was logged off.,058.224.108.072,4625,dinesh,logOff
+1/4/2024 6:39,An account failed to log on.,005.234.197.098,4624,ramesh,LoginFailure
+1/4/2024 6:40,An account was logged off.,140.067.207.031,4624,Priyansh,logOff
+1/4/2024 6:41,An account failed to log on.,174.200.010.044,4634,ramesh,LoginFailure
+1/4/2024 6:42,An account was logged off.,071.191.241.242,4625,suresh,logOff
+1/4/2024 6:43,An account was logged off.,004.132.184.144,4634,dinesh,logOff
+1/4/2024 6:44,An account was successfully logged on.,060.223.084.173,4625,dinesh,LogOn
+1/4/2024 6:45,An account failed to log on.,091.015.189.188,4624,dinesh,LoginFailure
+1/4/2024 6:46,An account failed to log on.,221.130.134.088,4634,pratham,LoginFailure
+1/4/2024 6:47,An account failed to log on,203.0.113.99,4625,nimmi.adp,LoginFailure
+1/4/2024 6:48,An account failed to log on,203.0.113.99,4625,nimmi.adp,LoginFailure
+1/4/2024 6:49,An account failed to log on,203.0.113.99,4625,nimmi.adp,LoginFailure
+1/4/2024 6:50,An account failed to log on.,047.158.033.242,4625,ramesh,LoginFailure
+1/4/2024 6:51,An account failed to log on.,062.100.024.143,4625,vishal,Logon
+1/4/2024 6:52,An account was successfully logged on.,102.225.243.153,4625,suresh,Logoff
+1/4/2024 6:53,An account was logged off.,072.036.145.137,4625,ramesh,LoginFailure
+1/4/2024 6:54,An account failed to log on.,020.214.221.186,4634,kirtan,Logoff
+1/4/2024 6:55,An account was logged off.,025.064.228.028,4625,vishal,LoginFailure
+1/4/2024 6:56,An account failed to log on.,021.171.079.236,4625,dinesh,Logoff
+1/4/2024 6:57,An account was logged off.,214.177.201.171,4634,Priyansh,LoginFailure
+1/4/2024 6:58,An account failed to log on.,026.034.011.088,4634,Priyansh,Logoff
+1/4/2024 6:59,An account was logged off.,010.171.252.033,4634,suresh,Logoff
+1/4/2024 7:00,An account was logged off.,245.233.139.178,4624,ramesh,Logon
+1/4/2024 7:01,An account was successfully logged on.,092.157.020.066,4625,vishal,LoginFailure
+1/4/2024 7:02,An account failed to log on.,103.082.221.069,4625,suresh,LoginFailure
+1/4/2024 7:03,An account failed to log on.,095.138.118.029,4634,vishal,LoginFailure
+1/4/2024 7:04,An account failed to log on.,223.177.250.108,4634,Priyansh,Logoff
+1/4/2024 7:05,An account was logged off.,022.195.107.189,4624,suresh,Logoff
+1/4/2024 7:06,An account was logged off.,142.178.100.089,4625,kirtan,Logoff
+1/4/2024 7:07,An account was logged off.,144.102.221.018,4625,suresh,Logon
+1/4/2024 7:08,An account was successfully logged on.,194.069.202.025,4634,kirtan,LoginFailure
+1/4/2024 7:09,An account failed to log on.,138.177.066.247,4634,ramesh,LoginFailure
+1/4/2024 7:10,An account failed to log on.,215.212.254.143,4625,pratham,LoginFailure
+1/4/2024 7:11,An account failed to log on.,186.075.250.104,4634,vishal,Logoff
+1/4/2024 7:12,An account was logged off.,122.183.077.237,4634,pratham,Logoff
+1/4/2024 7:13,An account was logged off.,240.146.202.248,4624,ramesh,Logon
+1/4/2024 7:14,An account was successfully logged on.,037.117.194.131,4624,vishal,LoginFailure
+1/4/2024 7:15,An account failed to log on.,255.075.050.038,4634,ramesh,LoginFailure
+1/4/2024 7:16,An account failed to log on.,046.232.156.192,4634,Priyansh,LoginFailure
+1/4/2024 7:17,An account failed to log on.,067.011.188.080,4634,pratham,LoginFailure
+1/4/2024 7:18,An account failed to log on.,075.039.102.206,4624,kirtan,LoginFailure
+1/4/2024 7:19,An account failed to log on.,060.218.211.092,4624,kirtan,Logoff
+1/4/2024 7:20,An account was logged off.,026.052.058.243,4634,ramesh,LoginFailure
+1/4/2024 7:21,An account failed to log on.,190.227.112.141,4634,kirtan,LoginFailure
+1/4/2024 7:22,An account failed to log on.,130.174.189.158,4624,Priyansh,Logon
+1/4/2024 7:23,An account was successfully logged on.,043.160.247.128,4634,dinesh,Logoff
+1/4/2024 7:24,An account was logged off.,087.064.168.214,4634,suresh,LoginFailure
+1/4/2024 7:25,An account failed to log on.,060.189.060.218,4625,suresh,Logon
+1/4/2024 7:26,An account was successfully logged on.,252.112.014.007,4624,Priyansh,Logon
+1/4/2024 7:27,An account was successfully logged on.,077.020.153.091,4624,pratham,Logoff
+1/4/2024 7:28,An account was logged off.,093.202.234.180,4625,Priyansh,LoginFailure
+1/4/2024 7:29,An account failed to log on.,213.136.096.062,4634,kirtan,Logoff
+1/4/2024 7:30,An account was logged off.,180.056.157.178,4634,kirtan,LoginFailure
+1/4/2024 7:31,An account failed to log on.,067.096.071.101,4625,kirtan,Logon
+1/4/2024 7:32,An account was successfully logged on.,127.098.123.078,4634,pratham,Logoff
+1/4/2024 7:33,An account was logged off.,131.075.040.219,4634,suresh,LoginFailure
+1/4/2024 7:34,An account failed to log on.,042.088.110.007,4634,Priyansh,LoginFailure
+1/4/2024 7:35,An account failed to log on.,215.227.143.047,4625,Priyansh,LoginFailure
+1/4/2024 7:36,An account failed to log on.,202.035.237.232,4625,dinesh,LoginFailure
+1/4/2024 7:37,An account failed to log on.,033.098.014.118,4624,suresh,LoginFailure
+1/4/2024 7:38,An account failed to log on.,222.072.251.028,4634,pratham,LoginFailure
+1/4/2024 7:39,An account failed to log on.,074.051.123.226,4625,pratham,LoginFailure
+1/4/2024 7:40,An account failed to log on.,077.166.016.187,4625,kirtan,Logoff
+1/4/2024 7:41,An account was logged off.,209.168.163.024,4624,kirtan,LoginFailure
+1/4/2024 7:42,An account failed to log on.,233.061.133.155,4625,pratham,LoginFailure
+1/4/2024 7:43,An account failed to log on.,146.249.230.173,4634,ramesh,Logoff
+1/4/2024 7:44,An account was logged off.,140.170.252.135,4625,Priyansh,Logoff
+1/4/2024 7:45,An account was logged off.,037.217.255.254,4634,ramesh,Logoff
+1/4/2024 7:46,An account was logged off.,191.124.191.060,4625,pratham,Logon
+1/4/2024 7:47,An account was successfully logged on.,196.075.253.049,4634,kirtan,LoginFailure
+1/4/2024 7:48,An account failed to log on.,133.179.192.061,4634,suresh,LoginFailure
+1/4/2024 7:49,An account failed to log on.,255.122.151.018,4624,dinesh,Logoff
+1/4/2024 7:50,An account was logged off.,051.077.073.119,4634,ramesh,Logoff
+1/4/2024 7:51,An account was logged off.,046.126.041.036,4625,pratham,Logon
+1/4/2024 7:52,An account was successfully logged on.,141.037.096.099,4625,dinesh,LoginFailure
+1/4/2024 7:53,An account failed to log on.,221.110.088.189,4634,Priyansh,LoginFailure
+1/4/2024 7:54,An account failed to log on.,121.059.162.120,4625,vishal,Logoff
+1/4/2024 7:55,An account was logged off.,196.106.177.240,4625,pratham,Logoff
+1/4/2024 7:56,An account was logged off.,106.093.031.108,4634,vishal,LoginFailure
+1/4/2024 7:57,An account failed to log on.,228.205.061.249,4624,dinesh,Logoff
+1/4/2024 7:58,An account was logged off.,200.172.246.068,4625,kirtan,Logoff
+1/4/2024 7:59,An account was logged off.,247.008.161.245,4625,dinesh,Logon
+1/4/2024 8:00,An account was successfully logged on.,062.229.226.066,4625,ramesh,Logon
+1/4/2024 8:01,An account was successfully logged on.,006.049.188.203,4634,vishal,Logoff
+1/4/2024 8:02,An account was logged off.,247.188.107.095,4624,Priyansh,Logoff
+1/4/2024 8:03,An account was logged off.,246.022.168.221,4624,vishal,Logoff
+1/4/2024 8:04,An account was logged off.,146.085.047.135,4625,suresh,Logon
+1/4/2024 8:05,An account was successfully logged on.,161.216.072.113,4625,ramesh,Logon
+1/4/2024 8:06,An account was successfully logged on.,125.160.052.110,4634,kirtan,Logoff
+1/4/2024 8:07,An account was logged off.,063.106.200.056,4634,pratham,Logoff
+1/4/2024 8:08,An account was logged off.,133.033.195.121,4634,suresh,Logon
+1/4/2024 8:09,An account was successfully logged on.,151.200.188.041,4624,kirtan,Logoff
+1/4/2024 8:10,An account was logged off.,157.192.044.232,4624,dinesh,Logoff
+1/4/2024 8:11,An account was logged off.,250.055.071.110,4624,ramesh,LoginFailure
+1/4/2024 8:12,An account failed to log on.,141.240.079.219,4634,suresh,Logon
+1/4/2024 8:13,An account was successfully logged on.,102.134.228.179,4625,dinesh,Logon
+1/4/2024 8:14,An account was successfully logged on.,209.249.181.234,4634,vishal,LoginFailure
+1/4/2024 8:15,An account failed to log on.,142.130.032.091,4634,vishal,Logoff
+1/4/2024 8:16,An account was logged off.,159.058.159.192,4634,vishal,Logoff
+1/4/2024 8:17,An account was logged off.,152.190.144.165,4625,dinesh,LoginFailure
+1/4/2024 8:18,An account failed to log on.,240.030.251.165,4625,ramesh,Logoff
+1/4/2024 8:19,An account was logged off.,096.083.003.233,4624,kirtan,Logoff
+1/4/2024 8:20,An account was logged off.,034.140.234.202,4634,vishal,Logoff
+1/4/2024 8:21,An account was logged off.,087.141.204.084,4624,dinesh,LoginFailure
+1/4/2024 8:22,An account failed to log on.,239.163.173.059,4624,dinesh,LoginFailure
+1/4/2024 8:23,An account failed to log on.,164.006.203.246,4634,suresh,Logon
+1/4/2024 8:24,An account was successfully logged on.,056.234.099.197,4634,kirtan,Logoff
+1/4/2024 8:25,An account was logged off.,210.219.224.239,4625,pratham,LoginFailure
+1/4/2024 8:26,An account failed to log on.,007.244.244.080,4634,suresh,LoginFailure
+1/4/2024 8:27,An account failed to log on.,214.097.100.078,4634,vishal,Logon
+1/4/2024 8:28,An account was successfully logged on.,143.005.004.027,4624,Priyansh,LoginFailure
+1/4/2024 8:29,An account failed to log on.,230.058.251.120,4625,dinesh,Logoff
+1/4/2024 8:30,An account was logged off.,160.249.246.255,4624,pratham,LoginFailure
+1/4/2024 8:31,An account failed to log on.,007.121.192.152,4625,suresh,Logoff
+1/4/2024 8:32,An account was logged off.,242.144.054.202,4625,vishal,LoginFailure
+1/4/2024 8:33,An account failed to log on.,036.106.074.047,4624,kirtan,Logoff
+1/4/2024 8:34,An account was logged off.,061.190.189.120,4634,vishal,Logoff
+1/4/2024 8:35,An account was logged off.,050.198.066.130,4634,ramesh,Logon
+1/4/2024 8:36,An account was successfully logged on.,231.196.217.111,4625,Priyansh,Logoff
+1/4/2024 8:37,An account was logged off.,223.158.252.177,4624,dinesh,LoginFailure
+1/4/2024 8:38,An account failed to log on.,047.222.191.190,4634,kirtan,LoginFailure
+1/4/2024 8:39,An account failed to log on.,111.157.171.011,4634,dinesh,Logoff
+1/4/2024 8:40,An account was logged off.,164.163.096.023,4624,kirtan,LoginFailure
+1/4/2024 8:41,An account failed to log on.,048.052.177.187,4624,vishal,LoginFailure
+1/4/2024 8:42,An account failed to log on.,230.160.201.206,4625,Priyansh,Logoff
+1/4/2024 8:43,An account was logged off.,212.059.006.105,4625,suresh,Logon
+1/4/2024 8:44,An account was successfully logged on.,127.055.142.057,4634,pratham,LoginFailure
+1/4/2024 8:45,An account failed to log on.,000.006.250.189,4624,suresh,LoginFailure
+1/4/2024 8:46,An account failed to log on.,067.022.042.249,4624,dinesh,LoginFailure
+1/4/2024 8:47,An account failed to log on.,021.170.012.197,4634,suresh,Logoff
+1/4/2024 8:48,An account was logged off.,142.015.123.154,4625,kirtan,Logon
+1/4/2024 8:49,An account was successfully logged on.,155.185.015.181,4634,pratham,Logon
+1/4/2024 8:50,An account was successfully logged on.,159.100.232.067,4634,dinesh,LoginFailure
+1/4/2024 8:51,An account failed to log on.,162.253.043.146,4634,ramesh,LoginFailure
+1/4/2024 8:52,An account failed to log on.,114.246.105.207,4624,kirtan,Logoff
+1/4/2024 8:53,An account was logged off.,022.207.076.067,4634,suresh,Logoff
+1/4/2024 8:54,An account was logged off.,114.100.124.068,4625,Priyansh,Logoff
+1/4/2024 8:55,An account was logged off.,032.166.173.180,4624,vishal,Logon
+1/4/2024 8:56,An account was successfully logged on.,146.138.027.247,4625,dinesh,Logon
+1/4/2024 8:57,An account was successfully logged on.,242.004.241.202,4625,ramesh,Logon
+1/4/2024 8:58,An account was successfully logged on.,249.121.058.007,4625,vishal,Logoff
+1/4/2024 8:59,An account was logged off.,068.084.170.158,4625,dinesh,LoginFailure
+1/4/2024 9:00,An account failed to log on.,026.030.051.112,4624,ramesh,Logoff
+1/4/2024 9:01,An account was logged off.,239.190.103.061,4625,vishal,Logoff
+1/4/2024 9:02,An account was logged off.,067.068.165.080,4634,vishal,Logoff
+1/4/2024 9:03,An account was logged off.,127.229.156.162,4634,Priyansh,LoginFailure
+1/4/2024 9:04,An account failed to log on.,248.069.147.056,4624,Priyansh,LoginFailure
+1/4/2024 9:05,An account failed to log on.,075.108.225.214,4624,vishal,Logon
+1/4/2024 9:06,An account was successfully logged on.,123.107.069.242,4624,kirtan,Logoff
+1/4/2024 9:07,An account was logged off.,044.124.031.084,4624,vishal,Logon
+1/4/2024 9:08,An account was successfully logged on.,139.206.161.238,4624,dinesh,Logon
+1/4/2024 9:09,An account was successfully logged on.,193.205.224.141,4625,Priyansh,Logoff
+1/4/2024 9:10,An account was logged off.,045.111.159.109,4625,pratham,Logoff
+1/4/2024 9:11,An account was logged off.,195.077.231.165,4624,kirtan,LoginFailure
+1/4/2024 9:12,An account failed to log on.,055.175.037.030,4625,vishal,Logoff
+1/4/2024 9:13,An account was logged off.,191.101.039.040,4625,pratham,Logoff
+1/4/2024 9:14,An account was logged off.,022.050.251.214,4624,kirtan,Logon
+1/4/2024 9:15,An account was successfully logged on.,138.113.104.131,4634,kirtan,LoginFailure
+1/4/2024 9:16,An account failed to log on.,128.009.196.134,4634,suresh,Logon
+1/4/2024 9:17,An account was successfully logged on.,150.081.133.055,4634,dinesh,LoginFailure
+1/4/2024 9:18,An account failed to log on.,077.241.228.171,4625,kirtan,LoginFailure
+1/4/2024 9:19,An account failed to log on.,101.136.212.130,4625,vishal,Logon
+1/4/2024 9:20,An account was successfully logged on.,064.109.106.177,4625,Priyansh,Logoff
+1/4/2024 9:21,An account was logged off.,243.199.053.073,4624,ramesh,Logoff
+1/4/2024 9:22,An account was logged off.,099.108.204.255,4624,pratham,LoginFailure
+1/4/2024 9:23,An account failed to log on.,209.216.021.002,4634,suresh,Logon
+1/4/2024 9:24,An account was successfully logged on.,004.160.029.003,4624,dinesh,Logoff
+1/4/2024 9:25,An account was logged off.,234.070.214.069,4634,vishal,Logoff
+1/4/2024 9:26,An account was logged off.,170.220.035.206,4634,vishal,Logon
+1/4/2024 9:27,An account was successfully logged on.,130.175.020.244,4634,Priyansh,Logon
+1/4/2024 9:28,An account was successfully logged on.,017.166.228.170,4634,vishal,LoginFailure
+1/4/2024 9:29,An account failed to log on.,127.150.213.162,4625,kirtan,LoginFailure
+1/4/2024 9:30,An account failed to log on.,171.035.164.148,4625,Priyansh,Logoff
+1/4/2024 9:31,An account was logged off.,255.239.111.011,4634,kirtan,Logon
+1/4/2024 9:32,An account was successfully logged on.,074.251.058.133,4634,vishal,Logon
+1/4/2024 9:33,An account was successfully logged on.,024.108.228.117,4625,kirtan,Logoff
+1/4/2024 9:34,An account was logged off.,211.148.074.211,4634,pratham,LoginFailure
+1/4/2024 9:35,An account failed to log on.,036.200.201.247,4625,suresh,Logoff
+1/4/2024 9:36,An account was logged off.,136.135.046.000,4625,suresh,Logoff
+1/4/2024 9:37,An account was logged off.,082.089.123.185,4625,dinesh,Logoff
+1/4/2024 9:38,An account was logged off.,009.027.023.050,4634,dinesh,Logon
+1/4/2024 9:39,An account was successfully logged on.,008.152.185.151,4634,Priyansh,Logoff
+1/4/2024 9:40,An account was logged off.,065.062.075.076,4634,ramesh,LoginFailure
+1/4/2024 9:41,An account failed to log on.,004.218.059.087,4634,ramesh,Logon
+1/4/2024 9:42,An account was successfully logged on.,163.146.050.023,4625,suresh,LoginFailure
+1/4/2024 9:43,An account failed to log on.,143.124.057.076,4634,Priyansh,LoginFailure
+1/4/2024 9:44,An account failed to log on.,047.196.055.233,4625,pratham,LoginFailure
+1/4/2024 9:45,An account failed to log on.,152.030.108.203,4634,ramesh,LoginFailure
+1/4/2024 9:46,An account failed to log on.,094.197.221.081,4634,kirtan,Logon
+1/4/2024 9:47,An account was successfully logged on.,098.181.164.124,4625,Priyansh,LoginFailure
+1/4/2024 9:48,An account failed to log on.,179.115.218.104,4625,vishal,Logoff
+1/4/2024 9:49,An account was logged off.,066.159.092.247,4624,ramesh,Logoff
+1/4/2024 9:50,An account was logged off.,064.213.180.015,4625,Priyansh,Logon
+1/4/2024 9:51,An account was successfully logged on.,251.178.032.012,4634,vishal,Logon
+1/4/2024 9:52,An account was successfully logged on.,004.040.105.105,4625,pratham,Logon
+1/4/2024 9:53,An account was successfully logged on.,169.216.232.208,4634,ramesh,Logon
+1/4/2024 9:54,An account was successfully logged on.,164.043.218.245,4625,dinesh,Logon
+1/4/2024 9:55,An account was successfully logged on.,169.195.133.183,4634,vishal,LoginFailure
+1/4/2024 9:56,An account failed to log on.,137.244.034.030,4625,pratham,LoginFailure
+1/4/2024 9:57,An account failed to log on.,028.088.210.193,4625,Priyansh,Logon
+1/4/2024 9:58,An account was successfully logged on.,072.219.214.083,4624,pratham,LoginFailure
+1/4/2024 9:59,An account failed to log on.,138.243.108.096,4625,pratham,LoginFailure
+1/4/2024 10:00,An account failed to log on.,148.073.254.208,4625,ramesh,Logon
+1/4/2024 10:01,An account was successfully logged on.,107.021.169.163,4634,vishal,Logoff
+1/4/2024 10:02,An account was logged off.,209.237.013.059,4624,dinesh,Logoff
+1/4/2024 10:03,An account was logged off.,069.004.105.075,4634,vishal,Logoff
+1/4/2024 10:04,An account was logged off.,075.002.222.185,4634,pratham,LoginFailure
+1/4/2024 10:05,An account failed to log on.,190.046.008.136,4634,kirtan,LoginFailure
+1/4/2024 10:06,An account failed to log on.,113.224.250.026,4625,dinesh,LoginFailure
+1/4/2024 10:07,An account failed to log on.,203.230.010.221,4634,Priyansh,Logon
+1/4/2024 10:08,An account was successfully logged on.,144.141.029.143,4634,ramesh,Logon
+1/4/2024 10:09,An account was successfully logged on.,244.062.029.105,4625,suresh,Logoff
+1/4/2024 10:10,An account was logged off.,024.204.189.167,4625,kirtan,Logon
+1/4/2024 10:11,An account was successfully logged on.,197.243.173.246,4625,vishal,Logoff
+1/4/2024 10:12,An account was logged off.,104.123.241.109,4625,vishal,Logoff
+1/4/2024 10:13,An account was logged off.,032.138.113.123,4624,kirtan,Logoff
+1/4/2024 10:14,An account was logged off.,000.230.131.124,4625,Priyansh,Logoff
+1/4/2024 10:15,An account was logged off.,228.016.251.080,4634,Priyansh,LoginFailure
+1/4/2024 10:16,An account failed to log on.,221.093.163.093,4624,kirtan,LoginFailure
+1/4/2024 10:17,An account failed to log on.,231.202.234.066,4634,kirtan,Logoff
+1/4/2024 10:18,An account was logged off.,225.234.220.236,4634,pratham,Logoff
+1/4/2024 10:19,An account was logged off.,001.065.008.007,4625,suresh,LoginFailure
+1/4/2024 10:20,An account failed to log on.,162.228.141.034,4624,pratham,Logoff
+1/4/2024 10:21,An account was logged off.,029.188.141.065,4634,kirtan,LoginFailure
+1/4/2024 10:22,An account failed to log on.,105.000.226.065,4624,kirtan,LoginFailure
+1/4/2024 10:23,An account failed to log on.,187.226.207.085,4625,suresh,LoginFailure
+1/4/2024 10:24,An account failed to log on.,062.160.044.146,4634,Priyansh,Logoff
+1/4/2024 10:25,An account was logged off.,242.158.080.014,4634,vishal,Logoff
+1/4/2024 10:26,An account was logged off.,250.020.151.043,4634,dinesh,Logoff
+1/4/2024 10:27,An account was logged off.,087.255.185.242,4634,ramesh,Logoff
+1/4/2024 10:28,An account was logged off.,116.088.019.159,4634,kirtan,LoginFailure
+1/4/2024 10:29,An account failed to log on.,077.025.081.198,4624,Priyansh,Logoff
+1/4/2024 10:30,An account was logged off.,072.210.109.145,4625,suresh,LoginFailure
+1/4/2024 10:31,An account failed to log on.,131.130.110.030,4624,vishal,Logoff
+1/4/2024 10:32,An account was logged off.,097.121.090.106,4624,pratham,Logoff
+1/4/2024 10:33,An account was logged off.,195.003.095.012,4624,kirtan,LoginFailure
+1/4/2024 10:34,An account failed to log on.,208.213.064.232,4624,ramesh,LoginFailure
+1/4/2024 10:35,An account failed to log on.,204.234.053.097,4624,Priyansh,Logon
+1/4/2024 10:36,An account was successfully logged on.,255.223.002.185,4634,ramesh,LoginFailure
+1/4/2024 10:37,An account failed to log on.,123.072.048.128,4634,pratham,Logoff
+1/4/2024 10:38,An account was logged off.,016.181.232.134,4625,vishal,LoginFailure
+1/4/2024 10:39,An account failed to log on.,140.088.017.134,4625,pratham,Logoff
+1/4/2024 10:40,An account was logged off.,007.126.016.241,4634,dinesh,LoginFailure
+1/4/2024 10:41,An account failed to log on.,160.236.100.147,4624,suresh,Logoff
+1/4/2024 10:42,An account was logged off.,193.019.074.173,4634,vishal,LoginFailure
+1/4/2024 10:43,An account failed to log on.,240.019.176.032,4634,vishal,LoginFailure
+1/4/2024 10:44,An account failed to log on.,166.036.132.115,4624,Priyansh,Logon
+1/4/2024 10:45,An account was successfully logged on.,032.102.186.041,4634,ramesh,LoginFailure
+1/4/2024 10:46,An account failed to log on.,233.119.142.152,4625,vishal,LoginFailure
+1/4/2024 10:47,An account failed to log on.,158.008.252.133,4624,Priyansh,Logoff
+1/4/2024 10:48,An account was logged off.,195.017.167.181,4624,kirtan,Logon
+1/4/2024 10:49,An account was successfully logged on.,168.049.058.055,4625,suresh,Logoff
+1/4/2024 10:50,An account was logged off.,240.036.044.044,4634,vishal,Logoff
+1/4/2024 10:51,An account was logged off.,196.048.065.140,4634,kirtan,Logoff
+1/4/2024 10:52,An account was logged off.,230.119.232.147,4625,vishal,LoginFailure
+1/4/2024 10:53,An account failed to log on.,136.165.216.095,4624,vishal,Logoff
+1/4/2024 10:54,An account was logged off.,077.084.255.056,4624,ramesh,Logoff
+1/4/2024 10:55,An account was logged off.,225.096.191.083,4634,suresh,LoginFailure
+1/4/2024 10:56,An account failed to log on.,127.060.015.161,4624,dinesh,LoginFailure
+1/4/2024 10:57,An account failed to log on.,057.085.139.175,4624,ramesh,LoginFailure
+1/4/2024 10:58,An account failed to log on.,167.049.141.137,4634,Priyansh,LoginFailure
+1/4/2024 10:59,An account failed to log on.,019.118.133.050,4624,ramesh,Logon
+1/4/2024 11:00,An account was successfully logged on.,144.042.180.061,4625,Priyansh,LoginFailure
+1/4/2024 11:01,An account failed to log on.,145.002.050.185,4624,vishal,Logoff
+1/4/2024 11:02,An account was logged off.,210.198.105.153,4625,kirtan,Logon
+1/4/2024 11:03,An account was successfully logged on.,151.036.083.006,4625,dinesh,Logoff
+1/4/2024 11:04,An account was logged off.,113.159.111.172,4625,ramesh,Logoff
+1/4/2024 11:05,An account was logged off.,213.104.248.070,4624,pratham,LoginFailure
+1/4/2024 11:06,An account failed to log on.,245.142.202.143,4625,dinesh,Logon
+1/4/2024 11:07,An account was successfully logged on.,019.203.071.120,4634,suresh,Logoff
+1/4/2024 11:08,An account was logged off.,162.068.193.115,4634,vishal,Logon
+1/4/2024 11:09,An account was successfully logged on.,210.047.043.135,4625,Priyansh,LoginFailure
+1/4/2024 11:10,An account failed to log on.,134.176.250.176,4634,Priyansh,Logoff
+1/4/2024 11:11,An account was logged off.,081.215.212.250,4624,vishal,Logoff
+1/4/2024 11:12,An account was logged off.,180.020.253.078,4625,pratham,Logoff
+1/4/2024 11:13,An account was logged off.,014.146.087.180,4634,dinesh,Logoff
+1/4/2024 11:14,An account was logged off.,190.084.178.002,4634,Priyansh,Logoff
+1/4/2024 11:15,An account was logged off.,150.106.129.038,4625,vishal,Logon
+1/4/2024 11:16,An account was successfully logged on.,217.017.173.067,4634,kirtan,LoginFailure
+1/4/2024 11:17,An account failed to log on.,085.031.168.106,4634,Priyansh,Logon
+1/4/2024 11:18,An account was successfully logged on.,011.063.107.034,4634,vishal,Logon
+1/4/2024 11:19,An account was successfully logged on.,240.220.136.015,4624,ramesh,Logon
+1/4/2024 11:20,An account was successfully logged on.,237.156.182.032,4624,dinesh,Logon
+1/4/2024 11:21,An account was successfully logged on.,045.242.107.097,4625,dinesh,Logon
+1/4/2024 11:22,An account was successfully logged on.,042.173.064.040,4634,Priyansh,Logoff
+1/4/2024 11:23,An account was logged off.,195.241.063.122,4634,vishal,Logoff
+1/4/2024 11:24,An account was logged off.,034.241.238.030,4625,pratham,LoginFailure
+1/4/2024 11:25,An account failed to log on.,045.162.237.035,4634,dinesh,LoginFailure
+1/4/2024 11:26,An account failed to log on.,202.124.043.073,4624,Priyansh,Logoff
+1/4/2024 11:27,An account was logged off.,078.148.079.085,4634,kirtan,Logon
+1/4/2024 11:28,An account was successfully logged on.,228.182.044.063,4625,suresh,Logoff
+1/4/2024 11:29,An account was logged off.,044.192.193.159,4634,Priyansh,Logoff
+1/4/2024 11:30,An account was logged off.,194.239.170.175,4634,Priyansh,Logon
+1/4/2024 11:31,An account was successfully logged on.,230.008.137.049,4634,kirtan,Logoff
+1/4/2024 11:32,An account was logged off.,079.192.230.151,4625,ramesh,LoginFailure
+1/4/2024 11:33,An account failed to log on.,063.211.225.020,4624,vishal,Logon
+1/4/2024 11:34,An account was successfully logged on.,142.222.248.214,4634,vishal,Logon
+1/4/2024 11:35,An account was successfully logged on.,121.254.085.254,4624,ramesh,LoginFailure
+1/4/2024 11:36,An account failed to log on.,251.170.221.141,4624,dinesh,Logoff
+1/4/2024 11:37,An account was logged off.,211.190.069.194,4625,kirtan,Logoff
+1/4/2024 11:38,An account was logged off.,191.238.138.076,4634,suresh,LoginFailure
+1/4/2024 11:39,An account failed to log on.,198.091.067.013,4624,dinesh,Logon
+1/4/2024 11:40,An account was successfully logged on.,030.102.200.244,4624,vishal,Logon
+1/4/2024 11:41,An account was successfully logged on.,118.004.021.202,4634,vishal,Logoff
+1/4/2024 11:42,An account was logged off.,067.046.025.181,4634,suresh,Logon
+1/4/2024 11:43,An account was successfully logged on.,175.090.213.174,4634,dinesh,Logon
+1/4/2024 11:44,An account was successfully logged on.,142.121.214.188,4634,dinesh,Logoff
+1/4/2024 11:45,An account was logged off.,191.083.172.155,4634,suresh,Logon
+1/4/2024 11:46,An account was successfully logged on.,111.101.217.151,4634,suresh,LoginFailure
+1/4/2024 11:47,An account failed to log on.,106.238.134.077,4625,dinesh,Logon
+1/4/2024 11:48,An account was successfully logged on.,127.016.187.219,4624,vishal,LoginFailure
+1/4/2024 11:49,An account failed to log on.,147.236.161.169,4634,pratham,LoginFailure
+1/4/2024 11:50,An account failed to log on.,038.114.249.088,4625,ramesh,LoginFailure
+1/4/2024 11:51,An account failed to log on.,022.221.004.217,4624,dinesh,Logon
+1/4/2024 11:52,An account was successfully logged on.,232.153.187.184,4624,suresh,LoginFailure
+1/4/2024 11:53,An account failed to log on.,135.152.112.041,4634,pratham,Logoff
+1/4/2024 11:54,An account was logged off.,083.099.196.132,4625,pratham,Logoff
+1/4/2024 11:55,An account was logged off.,094.089.198.028,4624,suresh,LoginFailure
+1/4/2024 11:56,An account failed to log on.,141.142.170.011,4624,Priyansh,Logoff
+1/4/2024 11:57,An account was logged off.,180.224.240.030,4634,kirtan,Logon
+1/4/2024 11:58,An account was successfully logged on.,177.064.224.060,4634,kirtan,LoginFailure
+1/4/2024 11:59,An account failed to log on.,102.062.224.111,4624,vishal,Logoff
+1/4/2024 12:00,An account was logged off.,059.187.130.064,4634,kirtan,Logoff
+1/4/2024 12:01,An account was logged off.,174.239.225.067,4634,dinesh,LoginFailure
+1/4/2024 12:02,An account failed to log on.,221.144.210.250,4625,pratham,Logoff
+1/4/2024 12:03,An account was logged off.,219.080.019.190,4625,dinesh,Logoff
+1/4/2024 12:04,An account was logged off.,086.055.002.061,4634,suresh,Logoff
+1/4/2024 12:05,An account was logged off.,081.086.208.223,4634,vishal,Logon
+1/4/2024 12:06,An account was successfully logged on.,050.160.193.071,4634,vishal,Logon
+1/4/2024 12:07,An account was successfully logged on.,158.203.089.182,4625,suresh,LoginFailure
+1/4/2024 12:08,An account failed to log on.,000.171.181.135,4625,Priyansh,Logoff
+1/4/2024 12:09,An account was logged off.,005.009.098.225,4625,dinesh,Logoff
+1/4/2024 12:10,An account was logged off.,207.112.072.038,4625,dinesh,LoginFailure
+1/4/2024 12:11,An account failed to log on.,052.145.110.213,4634,pratham,Logoff
+1/4/2024 12:12,An account was logged off.,184.134.051.108,4634,dinesh,Logon
+1/4/2024 12:13,An account was successfully logged on.,227.064.093.127,4634,dinesh,Logoff
+1/4/2024 12:14,An account was logged off.,190.018.098.112,4625,suresh,LoginFailure
+1/4/2024 12:15,An account failed to log on.,094.039.209.232,4625,suresh,Logoff
+1/4/2024 12:16,An account was logged off.,013.227.216.123,4634,dinesh,Logoff
+1/4/2024 12:17,An account was logged off.,110.012.182.169,4625,suresh,Logoff
+1/4/2024 12:18,An account was logged off.,130.103.192.032,4625,kirtan,LoginFailure
+1/4/2024 12:19,An account failed to log on.,066.246.034.120,4625,pratham,Logon
+1/4/2024 12:20,An account was successfully logged on.,144.004.098.007,4625,suresh,Logoff
+1/4/2024 12:21,An account was logged off.,031.025.183.136,4634,ramesh,Logon
+1/4/2024 12:22,An account was successfully logged on.,004.179.137.192,4634,dinesh,Logon
+1/4/2024 12:23,An account was successfully logged on.,239.120.077.129,4625,dinesh,LoginFailure
+1/4/2024 12:24,An account failed to log on.,037.062.094.175,4634,pratham,Logoff
+1/4/2024 12:25,An account was logged off.,007.003.138.009,4624,Priyansh,Logon
+1/4/2024 12:26,An account was successfully logged on.,098.064.004.237,4634,pratham,Logon
+1/4/2024 12:27,An account was successfully logged on.,053.251.083.066,4625,vishal,Logoff
+1/4/2024 12:28,An account was logged off.,001.092.135.155,4634,kirtan,Logoff
+1/4/2024 12:29,An account was logged off.,055.059.229.210,4624,kirtan,Logoff
+1/4/2024 12:30,An account was logged off.,039.037.063.186,4634,kirtan,Logoff
+1/4/2024 12:31,An account was logged off.,139.078.251.020,4634,pratham,Logoff
+1/4/2024 12:32,An account was logged off.,117.195.167.100,4625,dinesh,Logoff
+1/4/2024 12:33,An account was logged off.,159.034.246.205,4634,pratham,LoginFailure
+1/4/2024 12:34,An account failed to log on.,217.128.007.223,4625,Priyansh,Logon
+1/4/2024 12:35,An account was successfully logged on.,021.056.220.038,4624,dinesh,Logoff
+1/4/2024 12:36,An account was logged off.,078.230.190.051,4624,Priyansh,LoginFailure
+1/4/2024 12:37,An account failed to log on.,156.027.107.080,4634,pratham,Logon
+1/4/2024 12:38,An account was successfully logged on.,060.046.131.145,4634,dinesh,Logon
+1/4/2024 12:39,An account was successfully logged on.,181.122.212.085,4634,dinesh,Logoff
+1/4/2024 12:40,An account was logged off.,058.183.166.025,4634,dinesh,LoginFailure
+1/4/2024 12:41,An account failed to log on.,014.134.021.067,4624,pratham,Logon
+1/4/2024 12:42,An account was successfully logged on.,149.132.017.101,4634,dinesh,Logon
+1/4/2024 12:43,An account was successfully logged on.,061.009.175.076,4634,vishal,Logoff
+1/4/2024 12:44,An account was logged off.,079.085.114.235,4625,vishal,Logoff
+1/4/2024 12:45,An account was logged off.,020.072.204.089,4634,Priyansh,Logon
+1/4/2024 12:46,An account was successfully logged on.,054.226.178.025,4634,Priyansh,Logoff
+1/4/2024 12:47,An account was logged off.,081.168.003.102,4624,vishal,Logoff
+1/4/2024 12:48,An account was logged off.,186.115.186.053,4634,pratham,LoginFailure
+1/4/2024 12:49,An account failed to log on.,208.044.007.072,4634,suresh,LoginFailure
+1/4/2024 12:50,An account failed to log on.,229.023.219.232,4625,pratham,Logoff
+1/4/2024 12:51,An account was logged off.,150.070.029.111,4625,pratham,Logoff
+1/4/2024 12:52,An account was logged off.,081.079.184.112,4625,vishal,Logoff
+1/4/2024 12:53,An account was logged off.,019.156.029.175,4634,ramesh,LoginFailure
+1/4/2024 12:54,An account failed to log on.,010.110.254.187,4625,dinesh,LoginFailure
+1/4/2024 12:55,An account failed to log on.,101.210.034.225,4625,pratham,LoginFailure
+1/4/2024 12:56,An account failed to log on.,116.248.022.043,4625,pratham,LoginFailure
+1/4/2024 12:57,An account failed to log on.,018.049.200.196,4625,Priyansh,Logoff
+1/4/2024 12:58,An account was logged off.,087.253.119.004,4634,vishal,Logoff
+1/4/2024 12:59,An account was logged off.,099.165.062.135,4634,Priyansh,Logoff
+1/4/2024 13:00,An account was logged off.,103.034.115.032,4625,pratham,LoginFailure
+1/4/2024 13:01,An account failed to log on.,113.151.037.236,4624,suresh,LoginFailure
+1/4/2024 13:02,An account failed to log on.,052.243.131.138,4634,suresh,Logoff
+1/4/2024 13:03,An account was logged off.,193.069.092.067,4634,kirtan,LoginFailure
+1/4/2024 13:04,An account failed to log on.,187.176.179.056,4625,ramesh,LoginFailure
+1/4/2024 13:05,An account failed to log on.,004.181.143.187,4634,ramesh,LoginFailure
+1/4/2024 13:06,An account failed to log on.,023.212.116.034,4634,Priyansh,LoginFailure
+1/4/2024 13:07,An account failed to log on.,210.210.119.229,4624,dinesh,Logoff
+1/4/2024 13:08,An account was logged off.,207.092.078.185,4634,Priyansh,Logoff
+1/4/2024 13:09,An account was logged off.,121.166.204.089,4624,dinesh,LoginFailure
+1/4/2024 13:10,An account failed to log on.,130.036.161.169,4625,suresh,Logoff
+1/4/2024 13:11,An account was logged off.,169.180.156.051,4634,kirtan,Logon
+1/4/2024 13:12,An account was successfully logged on.,023.231.038.127,4634,kirtan,Logoff
+1/4/2024 13:13,An account was logged off.,019.209.225.110,4634,pratham,LoginFailure
+1/4/2024 13:14,An account failed to log on.,216.115.235.209,4624,vishal,Logoff
+1/4/2024 13:15,An account was logged off.,221.172.136.034,4625,pratham,Logon
+1/4/2024 13:16,An account was successfully logged on.,199.121.246.091,4625,vishal,Logoff
+1/4/2024 13:17,An account was logged off.,115.117.000.254,4625,suresh,Logoff
+1/4/2024 13:18,An account was logged off.,004.061.241.169,4624,Priyansh,LoginFailure
+1/4/2024 13:19,An account failed to log on.,236.019.017.254,4625,pratham,Logoff
+1/4/2024 13:20,An account was logged off.,144.128.143.224,4625,pratham,LoginFailure
+1/4/2024 13:21,An account failed to log on.,156.047.242.007,4624,vishal,Logon
+1/4/2024 13:22,An account was successfully logged on.,186.082.015.230,4634,dinesh,Logon
+1/4/2024 13:23,An account was successfully logged on.,249.088.160.170,4625,kirtan,Logoff
+1/4/2024 13:24,An account was logged off.,032.226.188.061,4634,vishal,Logoff
+1/4/2024 13:25,An account was logged off.,013.155.220.053,4625,pratham,Logoff
+1/4/2024 13:26,An account was logged off.,014.234.206.230,4624,dinesh,Logoff
+1/4/2024 13:27,An account was logged off.,252.136.200.064,4634,pratham,Logon
+1/4/2024 13:28,An account was successfully logged on.,045.080.127.050,4625,Priyansh,Logoff
+1/4/2024 13:29,An account was logged off.,060.154.119.135,4625,suresh,Logoff
+1/4/2024 13:30,An account was logged off.,209.039.024.115,4625,pratham,LoginFailure
+1/4/2024 13:31,An account failed to log on.,090.145.058.132,4624,kirtan,Logoff
+1/4/2024 13:32,An account was logged off.,178.135.246.250,4634,pratham,Logoff
+1/4/2024 13:33,An account was logged off.,085.122.071.243,4634,ramesh,Logon
+1/4/2024 13:34,An account was successfully logged on.,250.181.129.055,4625,kirtan,Logoff
+1/4/2024 13:35,An account was logged off.,214.063.082.035,4625,dinesh,Logoff
+1/4/2024 13:36,An account was logged off.,145.004.179.246,4634,vishal,LoginFailure
+1/4/2024 13:37,An account failed to log on.,205.151.061.026,4624,Priyansh,LoginFailure
+1/4/2024 13:38,An account failed to log on.,238.141.057.012,4634,pratham,LoginFailure
+1/4/2024 13:39,An account failed to log on.,244.211.033.001,4625,vishal,Logoff
+1/4/2024 13:40,An account was logged off.,196.255.062.071,4634,kirtan,LoginFailure
+1/4/2024 13:41,An account failed to log on.,071.008.189.156,4625,Priyansh,LoginFailure
+1/4/2024 13:42,An account failed to log on.,170.251.057.140,4634,suresh,LoginFailure
+1/4/2024 13:43,An account failed to log on.,251.018.220.161,4625,Priyansh,LoginFailure
+1/4/2024 13:44,An account failed to log on.,152.176.147.185,4625,kirtan,Logoff
+1/4/2024 13:45,An account was logged off.,130.050.051.133,4625,ramesh,Logoff
+1/4/2024 13:46,An account was logged off.,070.129.017.109,4625,vishal,LoginFailure
+1/4/2024 13:47,An account failed to log on.,055.139.124.010,4624,dinesh,Logon
+1/4/2024 13:48,An account was successfully logged on.,087.058.004.086,4625,Priyansh,Logoff
+1/4/2024 13:49,An account was logged off.,046.104.122.150,4625,pratham,Logoff
+1/4/2024 13:50,An account was logged off.,248.086.195.126,4634,kirtan,LoginFailure
+1/4/2024 13:51,An account failed to log on.,184.186.238.096,4624,Priyansh,Logoff
+1/4/2024 13:52,An account was logged off.,017.139.116.181,4634,kirtan,Logoff
+1/4/2024 13:53,An account was logged off.,056.122.185.018,4625,vishal,Logon
+1/4/2024 13:54,An account was successfully logged on.,094.138.146.134,4634,dinesh,Logoff
+1/4/2024 13:55,An account was logged off.,047.156.251.082,4625,dinesh,Logon
+1/4/2024 13:56,An account was successfully logged on.,007.235.225.242,4634,suresh,LoginFailure
+1/4/2024 13:57,An account failed to log on.,201.072.198.201,4625,kirtan,Logoff
+1/4/2024 13:58,An account was logged off.,122.121.212.080,4634,kirtan,Logoff
+1/4/2024 13:59,An account was logged off.,193.004.137.103,4624,Priyansh,Logoff
+1/4/2024 14:00,An account was logged off.,066.173.109.010,4624,kirtan,Logon
+1/4/2024 14:01,An account was successfully logged on.,157.062.096.096,4625,dinesh,LoginFailure
+1/4/2024 14:02,An account failed to log on.,144.228.047.212,4625,suresh,LoginFailure
+1/4/2024 14:03,An account failed to log on.,009.000.130.137,4634,kirtan,LoginFailure
+1/4/2024 14:04,An account failed to log on.,170.165.086.186,4634,Priyansh,Logon
+1/4/2024 14:05,An account was successfully logged on.,012.148.218.157,4634,pratham,LoginFailure
+1/4/2024 14:06,An account failed to log on.,163.076.088.200,4634,vishal,LoginFailure
+1/4/2024 14:07,An account failed to log on.,016.073.027.174,4634,Priyansh,Logon
+1/4/2024 14:08,An account was successfully logged on.,226.191.066.151,4625,dinesh,Logoff
+1/4/2024 14:09,An account was logged off.,225.073.233.071,4634,Priyansh,LoginFailure
+1/4/2024 14:10,An account failed to log on.,150.106.048.156,4625,suresh,Logoff
+1/4/2024 14:11,An account was logged off.,203.120.112.089,4625,vishal,LoginFailure
+1/4/2024 14:12,An account failed to log on.,180.220.162.178,4624,pratham,Logon
+1/4/2024 14:13,An account was successfully logged on.,011.178.255.194,4634,dinesh,Logoff
+1/4/2024 14:14,An account was logged off.,025.068.100.245,4625,kirtan,LoginFailure
+1/4/2024 14:15,An account failed to log on.,141.076.031.175,4625,ramesh,LoginFailure
+1/4/2024 14:16,An account failed to log on.,255.201.083.114,4634,ramesh,LoginFailure
+1/4/2024 14:17,An account failed to log on.,228.001.119.075,4634,ramesh,Logon
+1/4/2024 14:18,An account was successfully logged on.,186.193.104.157,4624,dinesh,Logoff
+1/4/2024 14:19,An account was logged off.,079.214.209.220,4634,dinesh,Logoff
+1/4/2024 14:20,An account was logged off.,020.161.045.156,4624,kirtan,LoginFailure
+1/4/2024 14:21,An account failed to log on.,023.252.038.174,4624,ramesh,LoginFailure
+1/4/2024 14:22,An account failed to log on.,172.063.119.238,4625,ramesh,Logoff
+1/4/2024 14:23,An account was logged off.,013.093.058.022,4624,ramesh,Logon
+1/4/2024 14:24,An account was successfully logged on.,135.052.245.170,4634,suresh,Logoff
+1/4/2024 14:25,An account was logged off.,034.079.026.202,4624,pratham,LoginFailure
+1/4/2024 14:26,An account failed to log on.,075.175.240.109,4634,kirtan,Logoff
+1/4/2024 14:27,An account was logged off.,051.190.063.098,4634,suresh,LoginFailure
+1/4/2024 14:28,An account failed to log on.,137.093.105.216,4634,vishal,Logoff
+1/4/2024 14:29,An account was logged off.,012.236.172.181,4634,dinesh,LoginFailure
+1/4/2024 14:30,An account failed to log on.,040.017.152.036,4625,vishal,LoginFailure
+1/4/2024 14:31,An account failed to log on.,008.058.148.021,4625,kirtan,LoginFailure
+1/4/2024 14:32,An account failed to log on.,180.209.130.210,4625,kirtan,LoginFailure
+1/4/2024 14:33,An account failed to log on.,223.254.218.094,4625,suresh,Logon
+1/4/2024 14:34,An account was successfully logged on.,153.228.087.053,4625,Priyansh,LoginFailure
+1/4/2024 14:35,An account failed to log on.,130.080.032.133,4624,kirtan,LoginFailure
+1/4/2024 14:36,An account failed to log on.,233.013.224.103,4634,suresh,Logoff
+1/4/2024 14:37,An account was logged off.,243.038.147.009,4625,Priyansh,Logon
+1/4/2024 14:38,An account was successfully logged on.,077.094.241.134,4624,suresh,Logoff
+1/4/2024 14:39,An account was logged off.,250.195.042.068,4634,kirtan,LoginFailure
+1/4/2024 14:40,An account failed to log on.,226.200.049.139,4624,ramesh,Logoff
+1/4/2024 14:41,An account was logged off.,081.230.154.049,4634,Priyansh,LoginFailure
+1/4/2024 14:42,An account failed to log on.,186.219.050.216,4625,suresh,Logoff
+1/4/2024 14:43,An account was logged off.,063.242.139.002,4634,dinesh,LoginFailure
+1/4/2024 14:44,An account failed to log on.,039.033.193.238,4624,kirtan,Logoff
+1/4/2024 14:45,An account was logged off.,173.024.190.025,4625,kirtan,Logon
+1/4/2024 14:46,An account was successfully logged on.,048.212.219.016,4634,pratham,Logon
+1/4/2024 14:47,An account was successfully logged on.,156.147.164.152,4634,ramesh,LoginFailure
+1/4/2024 14:48,An account failed to log on.,036.102.166.161,4634,pratham,LoginFailure
+1/4/2024 14:49,An account failed to log on.,171.116.229.149,4625,vishal,Logoff
+1/4/2024 14:50,An account was logged off.,214.080.031.123,4634,Priyansh,Logoff
+1/4/2024 14:51,An account was logged off.,064.079.104.025,4634,vishal,Logoff
+1/4/2024 14:52,An account was logged off.,002.202.095.163,4625,pratham,Logoff
+1/4/2024 14:53,An account was logged off.,151.053.120.007,4634,pratham,Logoff
+1/4/2024 14:54,An account was logged off.,031.078.137.148,4634,ramesh,LoginFailure
+1/4/2024 14:55,An account failed to log on.,156.172.012.136,4624,ramesh,Logoff
+1/4/2024 14:56,An account was logged off.,101.042.083.192,4625,suresh,LoginFailure
+1/4/2024 14:57,An account failed to log on.,236.144.055.147,4625,ramesh,LoginFailure
+1/4/2024 14:58,An account failed to log on.,020.186.137.030,4634,kirtan,Logon
+1/4/2024 14:59,An account was successfully logged on.,044.219.054.099,4625,suresh,Logoff
+1/4/2024 15:00,An account was logged off.,172.003.255.091,4625,ramesh,LoginFailure
+1/4/2024 15:01,An account failed to log on.,093.246.181.155,4624,ramesh,LoginFailure
+1/4/2024 15:02,An account failed to log on.,061.088.125.205,4634,Priyansh,Logoff
+1/4/2024 15:03,An account was logged off.,113.075.082.024,4625,dinesh,Logoff
+1/4/2024 15:04,An account was logged off.,093.080.089.063,4634,dinesh,Logon
+1/4/2024 15:05,An account was successfully logged on.,103.249.178.248,4634,vishal,Logoff
+1/4/2024 15:06,An account was logged off.,084.186.186.178,4634,Priyansh,Logon
+1/4/2024 15:07,An account was successfully logged on.,177.145.134.238,4634,dinesh,Logon
+1/4/2024 15:08,An account was successfully logged on.,186.064.038.085,4625,kirtan,LoginFailure
+1/4/2024 15:09,An account failed to log on.,205.234.227.019,4624,vishal,Logon
+1/4/2024 15:10,An account was successfully logged on.,123.159.222.081,4634,kirtan,Logoff
+1/4/2024 15:11,An account was logged off.,163.162.216.034,4625,kirtan,Logon
+1/4/2024 15:12,An account was successfully logged on.,090.117.085.055,4624,ramesh,Logoff
+1/4/2024 15:13,An account was logged off.,139.234.151.099,4634,pratham,Logoff
+1/4/2024 15:14,An account was logged off.,056.112.039.255,4625,dinesh,Logoff
+1/4/2024 15:15,An account was logged off.,039.056.226.123,4624,pratham,Logoff
+1/4/2024 15:16,An account was logged off.,007.011.131.160,4634,suresh,LoginFailure
+1/4/2024 15:17,An account failed to log on.,005.084.054.004,4625,suresh,LoginFailure
+1/4/2024 15:18,An account failed to log on.,068.242.206.019,4624,vishal,LoginFailure
+1/4/2024 15:19,An account failed to log on.,249.189.128.245,4625,suresh,LoginFailure
+1/4/2024 15:20,An account failed to log on.,171.154.037.153,4625,Priyansh,LoginFailure
+1/4/2024 15:21,An account failed to log on.,051.096.064.166,4624,dinesh,Logon
+1/4/2024 15:22,An account was successfully logged on.,128.076.041.142,4625,pratham,Logoff
+1/4/2024 15:23,An account was logged off.,053.151.032.174,4624,suresh,LoginFailure
+1/4/2024 15:24,An account failed to log on.,033.165.225.191,4624,vishal,Logon
+1/4/2024 15:25,An account was successfully logged on.,095.246.152.254,4634,vishal,Logoff
+1/4/2024 15:26,An account was logged off.,118.203.039.131,4625,kirtan,Logon
+1/4/2024 15:27,An account was successfully logged on.,121.210.249.182,4634,ramesh,Logoff
+1/4/2024 15:28,An account was logged off.,091.121.113.253,4624,pratham,LoginFailure
+1/4/2024 15:29,An account failed to log on.,174.229.026.183,4634,dinesh,Logoff
+1/4/2024 15:30,An account was logged off.,135.228.210.176,4634,Priyansh,Logon
+1/4/2024 15:31,An account was successfully logged on.,213.038.147.137,4624,kirtan,LoginFailure
+1/4/2024 15:32,An account failed to log on.,084.185.197.070,4634,ramesh,Logoff
+1/4/2024 15:33,An account was logged off.,094.190.082.233,4634,vishal,Logoff
+1/4/2024 15:34,An account was logged off.,000.031.050.026,4634,pratham,Logoff
+1/4/2024 15:35,An account was logged off.,087.009.244.014,4624,kirtan,LoginFailure
+1/4/2024 15:36,An account failed to log on.,120.104.131.048,4625,ramesh,Logoff
+1/4/2024 15:37,An account was logged off.,157.132.137.092,4634,suresh,Logoff
+1/4/2024 15:38,An account was logged off.,080.200.212.158,4625,dinesh,LoginFailure
+1/4/2024 15:39,An account failed to log on.,096.143.185.201,4634,ramesh,Logoff
+1/4/2024 15:40,An account was logged off.,222.167.021.145,4625,ramesh,Logoff
+1/4/2024 15:41,An account was logged off.,099.199.180.245,4634,Priyansh,Logon
+1/4/2024 15:42,An account was successfully logged on.,021.200.151.032,4624,ramesh,LoginFailure
+1/4/2024 15:43,An account failed to log on.,153.166.099.087,4634,pratham,LoginFailure
+1/4/2024 15:44,An account failed to log on.,046.008.238.081,4634,suresh,Logoff
+1/4/2024 15:45,An account was logged off.,047.205.075.148,4634,ramesh,LoginFailure
+1/4/2024 15:46,An account failed to log on.,044.095.030.225,4634,suresh,LoginFailure
+1/4/2024 15:47,An account failed to log on.,182.116.051.168,4625,ramesh,Logon
+1/4/2024 15:48,An account was successfully logged on.,130.048.072.145,4624,ramesh,Logoff
+1/4/2024 15:49,An account was logged off.,159.241.129.254,4634,ramesh,LoginFailure
+1/4/2024 15:50,An account failed to log on.,249.136.098.134,4625,ramesh,Logoff
+1/4/2024 15:51,An account was logged off.,191.166.213.207,4634,kirtan,Logoff
+1/4/2024 15:52,An account was logged off.,090.133.179.141,4624,vishal,Logoff
+1/4/2024 15:53,An account was logged off.,157.220.169.122,4625,kirtan,Logoff
+1/4/2024 15:54,An account was logged off.,155.214.237.150,4624,ramesh,LoginFailure
+1/4/2024 15:55,An account failed to log on.,086.003.153.208,4634,dinesh,Logon
+1/4/2024 15:56,An account was successfully logged on.,205.120.164.072,4625,Priyansh,Logoff
+1/4/2024 15:57,An account was logged off.,111.181.141.148,4625,vishal,LoginFailure
+1/4/2024 15:58,An account failed to log on.,129.249.221.167,4634,dinesh,Logon
+1/4/2024 15:59,An account was successfully logged on.,226.031.093.186,4624,ramesh,Logoff
+1/4/2024 16:00,An account was logged off.,060.152.190.018,4634,ramesh,LoginFailure
+1/4/2024 16:01,An account failed to log on.,243.148.052.243,4624,kirtan,Logon
+1/4/2024 16:02,An account was successfully logged on.,247.252.242.203,4625,kirtan,Logoff
+1/4/2024 16:03,An account was logged off.,067.146.016.176,4634,ramesh,LoginFailure
+1/4/2024 16:04,An account failed to log on.,237.122.099.008,4634,vishal,Logon
+1/4/2024 16:05,An account was successfully logged on.,173.062.024.068,4634,pratham,LoginFailure
+1/4/2024 16:06,An account failed to log on.,148.144.208.072,4624,dinesh,LoginFailure
+1/4/2024 16:07,An account failed to log on.,226.109.162.044,4634,dinesh,Logon
+1/4/2024 16:08,An account was successfully logged on.,120.125.227.091,4625,suresh,LoginFailure
+1/4/2024 16:09,An account failed to log on.,193.002.021.002,4634,pratham,Logon
+1/4/2024 16:10,An account was successfully logged on.,214.124.007.057,4625,vishal,Logon
+1/4/2024 16:11,An account was successfully logged on.,249.237.031.244,4634,ramesh,Logoff
+1/4/2024 16:12,An account was logged off.,199.125.150.041,4634,pratham,LoginFailure
+1/4/2024 16:13,An account failed to log on.,167.071.125.077,4624,suresh,Logoff
+1/4/2024 16:14,An account was logged off.,053.173.151.198,4625,kirtan,Logon
+1/4/2024 16:15,An account was successfully logged on.,027.236.030.186,4634,dinesh,Logoff
+1/4/2024 16:16,An account was logged off.,017.117.062.023,4634,pratham,Logoff
+1/4/2024 16:17,An account was logged off.,249.220.079.223,4625,kirtan,Logon
+1/4/2024 16:18,An account was successfully logged on.,175.191.233.129,4625,pratham,Logoff
+1/4/2024 16:19,An account was logged off.,039.161.201.143,4624,ramesh,Logoff
+1/4/2024 16:20,An account was logged off.,168.080.246.041,4625,kirtan,Logoff
+1/4/2024 16:21,An account was logged off.,193.096.066.228,4634,Priyansh,Logon
+1/4/2024 16:22,An account was successfully logged on.,150.235.059.067,4624,pratham,LoginFailure
+1/4/2024 16:23,An account failed to log on.,252.243.253.209,4634,Priyansh,Logoff
+1/4/2024 16:24,An account was logged off.,153.040.065.199,4634,vishal,LoginFailure
+1/4/2024 16:25,An account failed to log on.,211.044.238.071,4634,pratham,Logoff
+1/4/2024 16:26,An account was logged off.,007.216.178.206,4634,ramesh,LoginFailure
+1/4/2024 16:27,An account failed to log on.,071.181.069.130,4624,ramesh,Logoff
+1/4/2024 16:28,An account was logged off.,035.234.008.176,4624,dinesh,Logon
+1/4/2024 16:29,An account was successfully logged on.,105.125.101.170,4624,Priyansh,Logoff
+1/4/2024 16:30,An account was logged off.,148.184.004.100,4634,suresh,Logoff
+1/4/2024 16:31,An account was logged off.,149.006.128.208,4625,Priyansh,Logoff
+1/4/2024 16:32,An account was logged off.,012.246.210.058,4634,ramesh,Logoff
+1/4/2024 16:33,An account was logged off.,115.006.052.005,4634,vishal,LoginFailure
+1/4/2024 16:34,An account failed to log on.,234.100.025.163,4634,Priyansh,Logon
+1/4/2024 16:35,An account was successfully logged on.,201.170.079.207,4634,ramesh,Logoff
+1/4/2024 16:36,An account was logged off.,062.124.062.153,4634,suresh,LoginFailure
+1/4/2024 16:37,An account failed to log on.,220.077.237.176,4624,dinesh,Logoff
+1/4/2024 16:38,An account was logged off.,152.214.198.059,4624,kirtan,Logon
+1/4/2024 16:39,An account was successfully logged on.,178.080.116.037,4634,Priyansh,LoginFailure
+1/4/2024 16:40,An account failed to log on.,207.085.230.079,4624,Priyansh,Logon
+1/4/2024 16:41,An account was successfully logged on.,248.144.189.176,4634,kirtan,Logoff
+1/4/2024 16:42,An account was logged off.,185.121.111.066,4625,suresh,LoginFailure
+1/4/2024 16:43,An account failed to log on.,055.044.039.236,4624,pratham,LoginFailure
+1/4/2024 16:44,An account failed to log on.,105.164.180.021,4634,suresh,Logoff
+1/4/2024 16:45,An account was logged off.,159.088.165.120,4634,vishal,Logon
+1/4/2024 16:46,An account was successfully logged on.,074.233.249.160,4634,dinesh,Logoff
+1/4/2024 16:47,An account was logged off.,218.208.245.003,4625,ramesh,Logon
+1/4/2024 16:48,An account was successfully logged on.,245.172.088.067,4625,dinesh,LoginFailure
+1/4/2024 16:49,An account failed to log on.,018.145.119.105,4634,suresh,Logoff
+1/4/2024 16:50,An account was logged off.,038.046.006.199,4634,pratham,Logoff
+1/4/2024 16:51,An account was logged off.,134.241.018.027,4625,suresh,Logoff
+1/4/2024 16:52,An account was logged off.,109.008.201.101,4634,pratham,Logon
+1/4/2024 16:53,An account was successfully logged on.,078.049.255.109,4625,pratham,Logoff
+1/4/2024 16:54,An account was logged off.,187.222.063.080,4634,vishal,LoginFailure
+1/4/2024 16:55,An account failed to log on.,207.111.255.021,4625,dinesh,Logoff
+1/4/2024 16:56,An account was logged off.,188.049.150.137,4624,dinesh,LoginFailure
+1/4/2024 16:57,An account failed to log on.,133.183.239.196,4634,pratham,Logoff
+1/4/2024 16:58,An account was logged off.,003.092.113.087,4634,Priyansh,Logoff
+1/4/2024 16:59,An account was logged off.,174.067.074.224,4634,suresh,Logon
+1/4/2024 17:00,An account was successfully logged on.,160.005.073.173,4634,suresh,LoginFailure
+1/4/2024 17:01,An account failed to log on.,027.028.254.222,4625,dinesh,Logoff
+1/4/2024 17:02,An account was logged off.,043.110.155.122,4634,ramesh,Logoff
+1/4/2024 17:03,An account was logged off.,039.021.178.206,4634,suresh,LoginFailure
+1/4/2024 17:04,An account failed to log on.,006.027.068.236,4634,dinesh,LoginFailure
+1/4/2024 17:05,An account failed to log on.,088.182.046.035,4624,kirtan,Logon
+1/4/2024 17:06,An account was successfully logged on.,181.134.025.072,4634,ramesh,LoginFailure
+1/4/2024 17:07,An account failed to log on.,224.018.012.161,4634,Priyansh,Logoff
+1/4/2024 17:08,An account was logged off.,076.218.101.114,4634,Priyansh,Logon
+1/4/2024 17:09,An account was successfully logged on.,097.000.021.155,4625,Priyansh,Logoff
+1/4/2024 17:10,An account was logged off.,100.217.050.105,4634,Priyansh,Logoff
+1/4/2024 17:11,An account was logged off.,243.063.121.005,4634,kirtan,Logoff
+1/4/2024 17:12,An account was logged off.,246.042.198.249,4624,dinesh,Logoff
+1/4/2024 17:13,An account was logged off.,082.065.077.244,4625,pratham,Logon
+1/4/2024 17:14,An account was successfully logged on.,192.093.225.005,4624,suresh,Logon
+1/4/2024 17:15,An account was successfully logged on.,106.113.167.103,4634,suresh,Logon
+1/4/2024 17:16,An account was successfully logged on.,158.168.226.163,4625,pratham,Logoff
+1/4/2024 17:17,An account was logged off.,049.141.116.186,4634,ramesh,LoginFailure
+1/4/2024 17:18,An account failed to log on.,226.201.102.155,4625,vishal,Logoff
+1/4/2024 17:19,An account was logged off.,163.074.026.212,4634,dinesh,Logoff
+1/4/2024 17:20,An account was logged off.,046.110.004.137,4625,Priyansh,Logoff
+1/4/2024 17:21,An account was logged off.,137.144.036.063,4625,ramesh,Logoff
+1/4/2024 17:22,An account was logged off.,025.051.129.084,4634,kirtan,Logoff
+1/4/2024 17:23,An account was logged off.,181.099.065.100,4625,Priyansh,Logon
+1/4/2024 17:24,An account was successfully logged on.,226.066.229.001,4624,dinesh,Logon
+1/4/2024 17:25,An account was successfully logged on.,042.085.147.005,4634,dinesh,Logoff
+1/4/2024 17:26,An account was logged off.,216.025.108.222,4625,pratham,Logon
+1/4/2024 17:27,An account was successfully logged on.,147.088.122.230,4625,vishal,Logoff
+1/4/2024 17:28,An account was logged off.,148.032.185.038,4634,vishal,LoginFailure
+1/4/2024 17:29,An account failed to log on.,043.043.049.220,4634,ramesh,Logon
+1/4/2024 17:30,An account was successfully logged on.,098.224.195.130,4634,Priyansh,Logoff
+1/4/2024 17:31,An account was logged off.,034.108.243.213,4634,Priyansh,Logoff
+1/4/2024 17:32,An account was logged off.,183.022.102.141,4624,vishal,Logoff
+1/4/2024 17:33,An account was logged off.,077.198.210.027,4625,dinesh,LoginFailure
+1/4/2024 17:34,An account failed to log on.,252.084.145.205,4624,kirtan,LoginFailure
+1/4/2024 17:35,An account failed to log on.,079.136.224.114,4625,kirtan,Logoff
+1/4/2024 17:36,An account was logged off.,210.247.022.074,4625,ramesh,Logoff
+1/4/2024 17:37,An account was logged off.,202.175.042.092,4634,kirtan,LoginFailure
+1/4/2024 17:38,An account failed to log on.,139.087.125.082,4624,kirtan,Logoff
+1/4/2024 17:39,An account was logged off.,025.218.085.182,4634,Priyansh,LoginFailure
+1/4/2024 17:40,An account failed to log on.,087.157.087.198,4625,dinesh,Logoff
+1/4/2024 17:41,An account was logged off.,209.137.065.122,4634,pratham,LoginFailure
+1/4/2024 17:42,An account failed to log on.,030.066.142.096,4624,vishal,Logon
+1/4/2024 17:43,An account was successfully logged on.,187.088.244.165,4624,kirtan,Logoff
+1/4/2024 17:44,An account was logged off.,094.078.159.114,4625,pratham,Logoff
+1/4/2024 17:45,An account was logged off.,200.078.109.187,4625,ramesh,Logoff
+1/4/2024 17:46,An account was logged off.,224.072.168.249,4634,kirtan,Logoff
+1/4/2024 17:47,An account was logged off.,245.054.120.219,4634,Priyansh,LoginFailure
+1/4/2024 17:48,An account failed to log on.,241.024.027.008,4625,Priyansh,Logoff
+1/4/2024 17:49,An account was logged off.,158.145.219.106,4634,dinesh,Logoff
+1/4/2024 17:50,An account was logged off.,065.086.088.127,4634,dinesh,Logoff
+1/4/2024 17:51,An account was logged off.,137.015.222.036,4634,kirtan,Logon
+1/4/2024 17:52,An account was successfully logged on.,208.046.068.081,4624,vishal,Logoff
+1/4/2024 17:53,An account was logged off.,214.022.069.114,4634,ramesh,Logoff
+1/4/2024 17:54,An account was logged off.,164.132.119.120,4625,dinesh,Logoff
+1/4/2024 17:55,An account was logged off.,175.190.141.070,4634,dinesh,LoginFailure
+1/4/2024 17:56,An account failed to log on.,175.097.011.068,4634,Priyansh,Logoff
+1/4/2024 17:57,An account was logged off.,190.210.128.203,4625,pratham,Logoff
+1/4/2024 17:58,An account was logged off.,128.203.114.247,4634,ramesh,Logon
+1/4/2024 17:59,An account was successfully logged on.,022.109.041.227,4634,Priyansh,LoginFailure
+1/4/2024 18:00,An account failed to log on.,138.191.192.231,4634,Priyansh,Logon
+1/4/2024 18:01,An account was successfully logged on.,039.019.149.126,4634,dinesh,Logoff
+1/4/2024 18:02,An account was logged off.,184.025.200.150,4634,ramesh,LoginFailure
+1/4/2024 18:03,An account failed to log on.,235.001.069.098,4625,suresh,Logoff
+1/4/2024 18:04,An account was logged off.,253.178.161.027,4624,pratham,LoginFailure
+1/4/2024 18:05,An account failed to log on.,112.132.135.015,4634,Priyansh,Logoff
+1/4/2024 18:06,An account was logged off.,209.135.178.223,4625,kirtan,LoginFailure
+1/4/2024 18:07,An account failed to log on.,065.083.003.116,4625,suresh,LoginFailure
+1/4/2024 18:08,An account failed to log on.,249.025.009.126,4634,pratham,Logoff
+1/4/2024 18:09,An account was logged off.,185.142.104.020,4624,suresh,LoginFailure
+1/4/2024 18:10,An account failed to log on.,091.189.165.073,4625,ramesh,Logon
+1/4/2024 18:11,An account was successfully logged on.,200.105.164.002,4634,suresh,Logoff
+1/4/2024 18:12,An account was logged off.,177.184.033.033,4624,ramesh,LoginFailure
+1/4/2024 18:13,An account failed to log on.,092.125.040.054,4625,pratham,LoginFailure
+1/4/2024 18:14,An account failed to log on.,254.118.206.215,4634,kirtan,Logoff
+1/4/2024 18:15,An account was logged off.,128.172.060.171,4625,kirtan,Logoff
+1/4/2024 18:16,An account was logged off.,012.075.079.248,4625,ramesh,Logoff
+1/4/2024 18:17,An account was logged off.,037.033.025.175,4634,vishal,Logoff
+1/4/2024 18:18,An account was logged off.,155.138.040.162,4634,pratham,Logon
+1/4/2024 18:19,An account was successfully logged on.,030.242.006.138,4625,dinesh,LoginFailure
+1/4/2024 18:20,An account failed to log on.,104.137.156.002,4634,ramesh,Logon
+1/4/2024 18:21,An account was successfully logged on.,210.089.255.018,4625,dinesh,LoginFailure
+1/4/2024 18:22,An account failed to log on.,210.037.057.149,4625,kirtan,LoginFailure
+1/4/2024 18:23,An account failed to log on.,097.011.244.052,4634,suresh,Logoff
+1/4/2024 18:24,An account was logged off.,185.199.121.087,4624,kirtan,Logon
+1/4/2024 18:25,An account was successfully logged on.,185.216.084.114,4634,ramesh,Logoff
+1/4/2024 18:26,An account was logged off.,215.205.156.147,4624,Priyansh,LoginFailure
+1/4/2024 18:27,An account failed to log on.,160.086.074.076,4634,dinesh,Logoff
+1/4/2024 18:28,An account was logged off.,068.092.021.216,4625,pratham,Logon
+1/4/2024 18:29,An account was successfully logged on.,131.095.038.033,4634,ramesh,Logon
+1/4/2024 18:30,An account was successfully logged on.,182.148.207.154,4624,ramesh,LoginFailure
+1/4/2024 18:31,An account failed to log on.,224.088.172.054,4624,dinesh,LoginFailure
+1/4/2024 18:32,An account failed to log on.,120.008.135.150,4625,dinesh,Logoff
+1/4/2024 18:33,An account was logged off.,165.042.040.113,4634,vishal,Logoff
+1/4/2024 18:34,An account was logged off.,005.095.185.217,4634,vishal,LoginFailure
+1/4/2024 18:35,An account failed to log on.,016.184.109.244,4634,kirtan,Logoff
+1/4/2024 18:36,An account was logged off.,013.195.175.199,4634,vishal,Logoff
+1/4/2024 18:37,An account was logged off.,109.156.036.055,4634,suresh,Logoff
+1/4/2024 18:38,An account was logged off.,060.191.127.138,4634,Priyansh,Logon
+1/4/2024 18:39,An account was successfully logged on.,167.178.163.048,4625,pratham,Logoff
+1/4/2024 18:40,An account was logged off.,212.194.091.255,4634,vishal,LoginFailure
+1/4/2024 18:41,An account failed to log on.,100.029.219.122,4625,vishal,Logoff
+1/4/2024 18:42,An account was logged off.,014.074.126.189,4634,dinesh,Logoff
+1/4/2024 18:43,An account was logged off.,116.250.077.029,4624,dinesh,LoginFailure
+1/4/2024 18:44,An account failed to log on.,002.087.010.112,4625,Priyansh,Logoff
+1/4/2024 18:45,An account was logged off.,120.058.162.201,4625,suresh,Logoff
+1/4/2024 18:46,An account was logged off.,199.158.035.124,4625,suresh,Logoff
+1/4/2024 18:47,An account was logged off.,172.016.236.202,4634,dinesh,Logoff
+1/4/2024 18:48,An account was logged off.,138.053.048.032,4625,vishal,Logoff
+1/4/2024 18:49,An account was logged off.,022.113.010.062,4624,ramesh,LoginFailure
+1/4/2024 18:50,An account failed to log on.,120.039.112.149,4625,ramesh,Logon
+1/4/2024 18:51,An account was successfully logged on.,047.063.131.017,4624,dinesh,Logoff
+1/4/2024 18:52,An account was logged off.,073.034.033.150,4624,vishal,LoginFailure
+1/4/2024 18:53,An account failed to log on.,086.111.076.075,4624,suresh,LoginFailure
+1/4/2024 18:54,An account failed to log on.,196.199.217.024,4625,ramesh,Logoff
+1/4/2024 18:55,An account was logged off.,105.128.020.253,4634,suresh,Logon
+1/4/2024 18:56,An account was successfully logged on.,140.024.240.137,4634,pratham,LoginFailure
+1/4/2024 18:57,An account failed to log on.,043.076.067.200,4634,ramesh,Logoff
+1/4/2024 18:58,An account was logged off.,099.005.157.163,4634,Priyansh,Logon
+1/4/2024 18:59,An account was successfully logged on.,199.153.244.125,4634,Priyansh,LoginFailure
+1/4/2024 19:00,An account failed to log on.,104.111.210.173,4624,suresh,Logoff
+1/4/2024 19:01,An account was logged off.,173.022.074.088,4625,suresh,LoginFailure
+1/4/2024 19:02,An account failed to log on.,077.153.046.046,4625,pratham,LoginFailure
+1/4/2024 19:03,An account failed to log on.,222.184.118.237,4625,pratham,Logoff
+1/4/2024 19:04,An account was logged off.,056.132.207.148,4625,suresh,Logoff
+1/4/2024 19:05,An account was logged off.,178.165.255.188,4634,pratham,LoginFailure
+1/4/2024 19:06,An account failed to log on.,038.200.154.010,4625,dinesh,Logoff
+1/4/2024 19:07,An account was logged off.,226.244.159.231,4634,ramesh,LoginFailure
+1/4/2024 19:08,An account failed to log on.,103.147.078.141,4634,vishal,LoginFailure
+1/4/2024 19:09,An account failed to log on.,193.045.173.077,4625,ramesh,Logoff
+1/4/2024 19:10,An account was logged off.,138.045.045.045,4634,dinesh,Logon
+1/4/2024 19:11,An account was successfully logged on.,092.219.025.150,4624,suresh,Logoff
+1/4/2024 19:12,An account was logged off.,170.163.084.055,4634,pratham,Logon
+1/4/2024 19:13,An account was successfully logged on.,088.052.109.117,4625,kirtan,Logoff
+1/4/2024 19:14,An account was logged off.,191.065.231.049,4634,vishal,LoginFailure
+1/4/2024 19:15,An account failed to log on.,145.220.016.033,4634,vishal,Logoff
+1/4/2024 19:16,An account was logged off.,206.163.113.143,4634,kirtan,Logon
+1/4/2024 19:17,An account was successfully logged on.,139.193.237.067,4624,dinesh,Logon
+1/4/2024 19:18,An account was successfully logged on.,066.091.149.215,4625,suresh,LoginFailure
+1/4/2024 19:19,An account failed to log on.,104.155.114.252,4624,ramesh,Logoff
+1/4/2024 19:20,An account was logged off.,233.074.033.207,4624,vishal,Logoff
+1/4/2024 19:21,An account was logged off.,047.206.104.140,4634,pratham,Logoff
+1/4/2024 19:22,An account was logged off.,094.236.018.185,4634,pratham,Logoff
+1/4/2024 19:23,An account was logged off.,143.192.025.242,4625,vishal,Logoff
+1/4/2024 19:24,An account was logged off.,238.079.041.116,4625,dinesh,Logoff
+1/4/2024 19:25,An account was logged off.,066.197.098.063,4634,suresh,LoginFailure
+1/4/2024 19:26,An account failed to log on.,106.075.017.135,4634,suresh,Logoff
+1/4/2024 19:27,An account was logged off.,204.238.113.085,4625,ramesh,LoginFailure
+1/4/2024 19:28,An account failed to log on.,030.247.035.238,4634,ramesh,Logoff
+1/4/2024 19:29,An account was logged off.,072.065.027.027,4625,suresh,Logon
+1/4/2024 19:30,An account was successfully logged on.,095.076.177.086,4634,dinesh,LoginFailure
+1/4/2024 19:31,An account failed to log on.,191.202.142.054,4625,suresh,LoginFailure
+1/4/2024 19:32,An account failed to log on.,204.146.006.003,4634,kirtan,LoginFailure
+1/4/2024 19:33,An account failed to log on.,032.233.192.170,4634,dinesh,Logoff
+1/4/2024 19:34,An account was logged off.,211.201.164.202,4634,ramesh,LoginFailure
+1/4/2024 19:35,An account failed to log on.,221.161.152.093,4625,dinesh,Logon
+1/4/2024 19:36,An account was successfully logged on.,057.100.219.022,4634,dinesh,LoginFailure
+1/4/2024 19:37,An account failed to log on.,167.185.234.028,4634,Priyansh,Logon
+1/4/2024 19:38,An account was successfully logged on.,017.055.208.008,4634,pratham,Logon
+1/4/2024 19:39,An account was successfully logged on.,002.151.003.042,4634,ramesh,Logon
+1/4/2024 19:40,An account was successfully logged on.,103.217.212.121,4625,suresh,LoginFailure
+1/4/2024 19:41,An account failed to log on.,183.022.083.184,4634,vishal,Logoff
+1/4/2024 19:42,An account was logged off.,116.129.137.011,4625,dinesh,Logoff
+1/4/2024 19:43,An account was logged off.,246.150.126.176,4634,ramesh,Logoff
+1/4/2024 19:44,An account was logged off.,189.033.244.130,4624,pratham,Logoff
+1/4/2024 19:45,An account was logged off.,183.176.245.069,4634,vishal,Logoff
+1/4/2024 19:46,An account was logged off.,209.062.022.145,4634,Priyansh,Logon
+1/4/2024 19:47,An account was successfully logged on.,186.134.032.073,4625,Priyansh,LoginFailure
+1/4/2024 19:48,An account failed to log on.,055.157.035.081,4625,suresh,LoginFailure
+1/4/2024 19:49,An account failed to log on.,139.216.150.214,4634,pratham,LoginFailure
+1/4/2024 19:50,An account failed to log on.,129.247.228.156,4624,suresh,LoginFailure
+1/4/2024 19:51,An account failed to log on.,056.176.086.175,4625,Priyansh,Logoff
+1/4/2024 19:52,An account was logged off.,001.212.069.221,4625,kirtan,LoginFailure
+1/4/2024 19:53,An account failed to log on.,251.200.102.049,4625,Priyansh,Logoff
+1/4/2024 19:54,An account was logged off.,229.069.059.077,4625,vishal,Logoff
+1/4/2024 19:55,An account was logged off.,186.150.093.207,4624,pratham,LoginFailure
+1/4/2024 19:56,An account failed to log on.,147.146.131.124,4634,Priyansh,Logoff
+1/4/2024 19:57,An account was logged off.,178.162.177.248,4625,dinesh,Logon
+1/4/2024 19:58,An account was successfully logged on.,044.088.153.051,4625,kirtan,Logoff
+1/4/2024 19:59,An account was logged off.,195.140.187.078,4625,vishal,LoginFailure
+1/4/2024 20:00,An account failed to log on.,092.200.168.048,4634,pratham,Logoff
+1/4/2024 20:01,An account was logged off.,187.098.231.091,4624,Priyansh,Logoff
+1/4/2024 20:02,An account was logged off.,246.156.037.135,4634,pratham,Logoff
+1/4/2024 20:03,An account was logged off.,006.206.201.213,4624,dinesh,Logon
+1/4/2024 20:04,An account was successfully logged on.,052.108.054.069,4624,dinesh,LoginFailure
+1/4/2024 20:05,An account failed to log on.,089.192.205.069,4634,Priyansh,Logon
+1/4/2024 20:06,An account was successfully logged on.,213.014.243.011,4634,ramesh,Logon
+1/4/2024 20:07,An account was successfully logged on.,241.062.148.140,4624,vishal,Logoff
+1/4/2024 20:08,An account was logged off.,233.243.253.094,4634,Priyansh,Logoff
+1/4/2024 20:09,An account was logged off.,118.157.017.114,4624,kirtan,LoginFailure
+1/4/2024 20:10,An account failed to log on.,083.120.158.053,4625,pratham,LoginFailure
+1/4/2024 20:11,An account failed to log on.,181.207.065.214,4624,pratham,Logoff
+1/4/2024 20:12,An account was logged off.,111.060.187.076,4625,pratham,Logoff
+1/4/2024 20:13,An account was logged off.,168.226.244.015,4625,vishal,LoginFailure
+1/4/2024 20:14,An account failed to log on.,120.168.135.111,4634,Priyansh,Logoff
+1/4/2024 20:15,An account was logged off.,247.146.047.122,4624,Priyansh,LoginFailure
+1/4/2024 20:16,An account failed to log on.,082.238.227.010,4625,suresh,Logoff
+1/4/2024 20:17,An account was logged off.,017.251.197.080,4634,ramesh,LoginFailure
+1/4/2024 20:18,An account failed to log on.,223.137.003.058,4625,suresh,Logoff
+1/4/2024 20:19,An account was logged off.,188.035.075.079,4625,suresh,Logoff
+1/4/2024 20:20,An account was logged off.,213.221.060.243,4624,dinesh,Logoff
+1/4/2024 20:21,An account was logged off.,045.046.252.144,4625,vishal,LoginFailure
+1/4/2024 20:22,An account failed to log on.,181.091.020.047,4625,vishal,Logoff
+1/4/2024 20:23,An account was logged off.,246.025.103.042,4634,Priyansh,Logoff
+1/4/2024 20:24,An account was logged off.,135.181.078.001,4634,dinesh,Logoff
+1/4/2024 20:25,An account was logged off.,049.236.233.116,4634,suresh,Logoff
+1/4/2024 20:26,An account was logged off.,040.082.127.233,4624,pratham,LoginFailure
+1/4/2024 20:27,An account failed to log on.,050.232.182.160,4624,ramesh,Logoff
+1/4/2024 20:28,An account was logged off.,189.205.175.248,4625,Priyansh,LoginFailure
+1/4/2024 20:29,An account failed to log on.,072.042.017.032,4634,pratham,Logoff
+1/4/2024 20:30,An account was logged off.,109.093.056.232,4634,pratham,Logon
+1/4/2024 20:31,An account was successfully logged on.,022.140.073.082,4634,Priyansh,Logoff
+1/4/2024 20:32,An account was logged off.,191.049.000.038,4634,dinesh,Logoff
+1/4/2024 20:33,An account was logged off.,091.251.035.197,4634,Priyansh,LoginFailure
+1/4/2024 20:34,An account failed to log on.,046.252.021.047,4625,pratham,LoginFailure
+1/4/2024 20:35,An account failed to log on.,124.093.007.126,4634,pratham,Logoff
+1/4/2024 20:36,An account was logged off.,051.111.043.140,4634,vishal,Logon
+1/4/2024 20:37,An account was successfully logged on.,171.084.085.047,4634,dinesh,LoginFailure
+1/4/2024 20:38,An account failed to log on.,089.102.241.151,4625,pratham,LoginFailure
+1/4/2024 20:39,An account failed to log on.,210.167.229.213,4625,kirtan,LoginFailure
+1/4/2024 20:40,An account failed to log on.,024.145.173.042,4625,Priyansh,LoginFailure
+1/4/2024 20:41,An account failed to log on.,001.011.021.078,4625,kirtan,Logon
+1/4/2024 20:42,An account was successfully logged on.,036.208.242.006,4625,kirtan,Logoff
+1/4/2024 20:43,An account was logged off.,196.048.050.040,4625,dinesh,LoginFailure
+1/4/2024 20:44,An account failed to log on.,106.018.046.191,4634,dinesh,LoginFailure
+1/4/2024 20:45,An account failed to log on.,016.082.062.243,4634,pratham,LoginFailure
+1/4/2024 20:46,An account failed to log on.,220.198.083.131,4634,vishal,Logoff
+1/4/2024 20:47,An account was logged off.,033.096.034.254,4624,suresh,Logon
+1/4/2024 20:48,An account was successfully logged on.,144.006.046.011,4624,pratham,Logoff
+1/4/2024 20:49,An account was logged off.,005.045.219.242,4625,suresh,Logon
+1/4/2024 20:50,An account was successfully logged on.,226.181.004.241,4624,vishal,Logon
+1/4/2024 20:51,An account was successfully logged on.,054.012.140.049,4625,dinesh,Logoff
+1/4/2024 20:52,An account was logged off.,138.015.126.136,4625,vishal,Logoff
+1/4/2024 20:53,An account was logged off.,100.090.186.027,4634,Priyansh,Logon
+1/4/2024 20:54,An account was successfully logged on.,206.198.092.061,4625,kirtan,Logoff
+1/4/2024 20:55,An account was logged off.,086.138.120.065,4634,pratham,Logon
+1/4/2024 20:56,An account was successfully logged on.,135.010.247.180,4634,Priyansh,LoginFailure
+1/4/2024 20:57,An account failed to log on.,005.137.070.202,4625,kirtan,Logon
+1/4/2024 20:58,An account was successfully logged on.,226.021.149.187,4634,pratham,LoginFailure
+1/4/2024 20:59,An account failed to log on.,225.156.010.069,4634,ramesh,LoginFailure
+1/4/2024 21:00,An account failed to log on.,176.120.151.176,4624,dinesh,Logoff
+1/4/2024 21:01,An account was logged off.,145.035.231.000,4625,vishal,Logon
+1/4/2024 21:02,An account was successfully logged on.,206.011.157.017,4634,Priyansh,LoginFailure
+1/4/2024 21:03,An account failed to log on.,113.018.125.206,4624,Priyansh,Logoff
+1/4/2024 21:04,An account was logged off.,040.066.231.025,4625,dinesh,LoginFailure
+1/4/2024 21:05,An account failed to log on.,176.047.250.048,4634,vishal,LoginFailure
+1/4/2024 21:06,An account failed to log on.,134.106.008.068,4634,kirtan,Logon
+1/4/2024 21:07,An account was successfully logged on.,017.173.092.033,4624,Priyansh,LoginFailure
+1/4/2024 21:08,An account failed to log on.,243.008.050.123,4634,pratham,LoginFailure
+1/4/2024 21:09,An account failed to log on.,082.049.185.013,4624,pratham,Logoff
+1/4/2024 21:10,An account was logged off.,103.131.118.073,4634,suresh,Logoff
+1/4/2024 21:11,An account was logged off.,071.214.110.217,4634,vishal,Logoff
+1/4/2024 21:12,An account was logged off.,124.091.093.105,4634,Priyansh,Logon
+1/4/2024 21:13,An account was successfully logged on.,134.112.024.065,4634,vishal,Logon
+1/4/2024 21:14,An account was successfully logged on.,145.025.222.053,4625,vishal,LoginFailure
+1/4/2024 21:15,An account failed to log on.,141.046.236.176,4634,kirtan,Logoff
+1/4/2024 21:16,An account was logged off.,028.085.068.255,4625,vishal,Logoff
+1/4/2024 21:17,An account was logged off.,125.212.185.166,4625,ramesh,Logoff
+1/4/2024 21:18,An account was logged off.,025.006.068.194,4625,vishal,Logoff
+1/4/2024 21:19,An account was logged off.,129.153.091.069,4634,ramesh,Logoff
+1/4/2024 21:20,An account was logged off.,065.025.194.182,4625,Priyansh,LoginFailure
+1/4/2024 21:21,An account failed to log on.,177.074.202.113,4625,dinesh,Logoff
+1/4/2024 21:22,An account was logged off.,034.161.111.178,4634,kirtan,Logoff
+1/4/2024 21:23,An account was logged off.,004.038.059.006,4624,pratham,Logoff
+1/4/2024 21:24,An account was logged off.,092.170.102.223,4634,kirtan,LoginFailure
+1/4/2024 21:25,An account failed to log on.,254.011.034.011,4624,vishal,LoginFailure
+1/4/2024 21:26,An account failed to log on.,027.096.089.192,4625,ramesh,LoginFailure
+1/4/2024 21:27,An account failed to log on.,137.071.111.070,4625,Priyansh,LoginFailure
+1/4/2024 21:28,An account failed to log on.,030.216.000.240,4634,dinesh,LoginFailure
+1/4/2024 21:29,An account failed to log on.,055.078.200.022,4634,kirtan,LoginFailure
+1/4/2024 21:30,An account failed to log on.,254.006.141.009,4624,pratham,Logoff
+1/4/2024 21:31,An account was logged off.,117.203.238.066,4634,kirtan,Logoff
+1/4/2024 21:32,An account was logged off.,192.093.112.238,4625,vishal,Logoff
+1/4/2024 21:33,An account was logged off.,039.113.006.158,4624,suresh,Logon
+1/4/2024 21:34,An account was successfully logged on.,155.022.186.183,4634,dinesh,Logon
+1/4/2024 21:35,An account was successfully logged on.,088.177.048.117,4624,kirtan,LoginFailure
+1/4/2024 21:36,An account failed to log on.,079.245.176.036,4625,vishal,Logon
+1/4/2024 21:37,An account was successfully logged on.,187.046.081.109,4624,vishal,LoginFailure
+1/4/2024 21:38,An account failed to log on.,181.015.006.121,4624,Priyansh,LoginFailure
+1/4/2024 21:39,An account failed to log on.,227.207.226.147,4634,ramesh,Logoff
+1/4/2024 21:40,An account was logged off.,213.218.145.115,4634,Priyansh,LoginFailure
+1/4/2024 21:41,An account failed to log on.,105.122.181.021,4634,kirtan,Logoff
+1/4/2024 21:42,An account was logged off.,236.144.097.171,4624,ramesh,Logoff
+1/4/2024 21:43,An account was logged off.,143.003.156.084,4624,pratham,LoginFailure
+1/4/2024 21:44,An account failed to log on.,144.212.055.094,4634,Priyansh,Logoff
+1/4/2024 21:45,An account was logged off.,111.000.125.173,4634,suresh,Logoff
+1/4/2024 21:46,An account was logged off.,195.036.190.075,4625,suresh,Logon
+1/4/2024 21:47,An account was successfully logged on.,090.043.250.045,4625,ramesh,LoginFailure
+1/4/2024 21:48,An account failed to log on.,195.087.096.001,4634,kirtan,Logoff
+1/4/2024 21:49,An account was logged off.,174.208.084.191,4624,ramesh,Logon
+1/4/2024 21:50,An account was successfully logged on.,011.253.037.207,4634,Priyansh,LoginFailure
+1/4/2024 21:51,An account failed to log on.,224.247.241.187,4625,Priyansh,Logoff
+1/4/2024 21:52,An account was logged off.,044.162.110.193,4634,kirtan,Logoff
+1/4/2024 21:53,An account was logged off.,060.119.197.120,4634,vishal,Logon
+1/4/2024 21:54,An account was successfully logged on.,076.163.228.187,4634,ramesh,Logoff
+1/4/2024 21:55,An account was logged off.,026.052.015.151,4634,kirtan,Logon
+1/4/2024 21:56,An account was successfully logged on.,184.000.120.238,4634,vishal,Logoff
+1/4/2024 21:57,An account was logged off.,001.212.105.151,4624,ramesh,Logoff
+1/4/2024 21:58,An account was logged off.,205.042.222.079,4625,suresh,Logoff
+1/4/2024 21:59,An account was logged off.,014.214.070.143,4634,suresh,Logoff
+1/4/2024 22:00,An account was logged off.,043.162.143.043,4634,ramesh,LoginFailure
+1/4/2024 22:01,An account failed to log on.,080.063.152.145,4625,ramesh,Logoff
+1/4/2024 22:02,An account was logged off.,122.086.186.126,4634,vishal,LoginFailure
+1/4/2024 22:03,An account failed to log on.,053.044.226.028,4634,suresh,LoginFailure
+1/4/2024 22:04,An account failed to log on.,165.174.050.047,4624,dinesh,LoginFailure
+1/4/2024 22:05,An account failed to log on.,034.005.068.244,4624,kirtan,Logoff
+1/4/2024 22:06,An account was logged off.,186.199.151.132,4634,dinesh,LoginFailure
+1/4/2024 22:07,An account failed to log on.,088.145.097.170,4634,kirtan,LoginFailure
+1/4/2024 22:08,An account failed to log on.,088.195.060.048,4624,vishal,Logoff
+1/4/2024 22:09,An account was logged off.,243.115.242.093,4634,pratham,Logon
+1/4/2024 22:10,An account was successfully logged on.,111.049.133.164,4634,vishal,Logoff
+1/4/2024 22:11,An account was logged off.,085.203.072.017,4634,vishal,Logon
+1/4/2024 22:12,An account was successfully logged on.,243.232.201.112,4634,Priyansh,LoginFailure
+1/4/2024 22:13,An account failed to log on.,132.226.073.231,4634,pratham,LoginFailure
+1/4/2024 22:14,An account failed to log on.,047.198.046.169,4625,Priyansh,Logoff
+1/4/2024 22:15,An account was logged off.,212.153.073.030,4634,vishal,Logoff
+1/4/2024 22:16,An account was logged off.,112.110.119.001,4625,ramesh,Logon
+1/4/2024 22:17,An account was successfully logged on.,114.124.020.120,4634,Priyansh,Logoff
+1/4/2024 22:18,An account was logged off.,180.044.232.012,4624,vishal,LoginFailure
+1/4/2024 22:19,An account failed to log on.,196.174.089.001,4634,dinesh,Logon
+1/4/2024 22:20,An account was successfully logged on.,141.032.237.022,4634,Priyansh,Logoff
+1/4/2024 22:21,An account was logged off.,031.022.143.171,4624,kirtan,Logon
+1/4/2024 22:22,An account was successfully logged on.,140.253.251.063,4624,ramesh,LoginFailure
+1/4/2024 22:23,An account failed to log on.,111.143.058.142,4624,Priyansh,Logon
+1/4/2024 22:24,An account was successfully logged on.,154.144.209.102,4634,dinesh,Logon
+1/4/2024 22:25,An account was successfully logged on.,024.081.036.212,4634,Priyansh,Logoff
+1/4/2024 22:26,An account was logged off.,240.026.218.023,4634,ramesh,Logoff
+1/4/2024 22:27,An account was logged off.,194.237.153.088,4625,pratham,Logoff
+1/4/2024 22:28,An account was logged off.,142.090.164.005,4624,kirtan,Logon
+1/4/2024 22:29,An account was successfully logged on.,135.105.205.041,4624,suresh,Logon
+1/4/2024 22:30,An account was successfully logged on.,120.181.083.101,4634,Priyansh,Logoff
+1/4/2024 22:31,An account was logged off.,233.049.246.134,4625,ramesh,Logoff
+1/4/2024 22:32,An account was logged off.,229.025.249.094,4634,Priyansh,LoginFailure
+1/4/2024 22:33,An account failed to log on.,231.221.178.079,4625,Priyansh,LoginFailure
+1/4/2024 22:34,An account failed to log on.,158.143.141.017,4624,vishal,Logoff
+1/4/2024 22:35,An account was logged off.,176.083.044.008,4625,dinesh,Logon
+1/4/2024 22:36,An account was successfully logged on.,028.043.202.202,4634,dinesh,Logoff
+1/4/2024 22:37,An account was logged off.,010.001.089.010,4634,kirtan,LoginFailure
+1/4/2024 22:38,An account failed to log on.,137.010.028.215,4625,kirtan,Logoff
+1/4/2024 22:39,An account was logged off.,010.245.008.207,4624,pratham,Logoff
+1/4/2024 22:40,An account was logged off.,071.126.044.043,4634,vishal,Logoff
+1/4/2024 22:41,An account was logged off.,055.046.215.099,4634,Priyansh,Logoff
+1/4/2024 22:42,An account was logged off.,117.071.205.086,4625,Priyansh,Logoff
+1/4/2024 22:43,An account was logged off.,211.143.195.006,4624,pratham,Logon
+1/4/2024 22:44,An account was successfully logged on.,158.123.171.135,4634,pratham,LoginFailure
+1/4/2024 22:45,An account failed to log on.,078.126.125.090,4625,dinesh,Logoff
+1/4/2024 22:46,An account was logged off.,255.083.177.080,4634,vishal,Logoff
+1/4/2024 22:47,An account was logged off.,252.124.039.188,4624,kirtan,LoginFailure
+1/4/2024 22:48,An account failed to log on.,016.032.030.241,4634,pratham,Logoff
+1/4/2024 22:49,An account was logged off.,138.231.243.055,4634,ramesh,Logoff
+1/4/2024 22:50,An account was logged off.,142.219.242.179,4634,vishal,Logon
+1/4/2024 22:51,An account was successfully logged on.,187.179.138.137,4624,Priyansh,Logon
+1/4/2024 22:52,An account was successfully logged on.,185.121.250.171,4625,dinesh,Logoff
+1/4/2024 22:53,An account was logged off.,207.102.049.236,4625,suresh,Logoff
+1/4/2024 22:54,An account was logged off.,145.153.236.137,4634,kirtan,Logon
+1/4/2024 22:55,An account was successfully logged on.,081.066.063.161,4625,ramesh,Logoff
+1/4/2024 22:56,An account was logged off.,064.078.032.022,4625,ramesh,Logoff
+1/4/2024 22:57,An account was logged off.,019.013.127.212,4634,kirtan,Logoff
+1/4/2024 22:58,An account was logged off.,208.035.024.248,4634,ramesh,Logoff
+1/4/2024 22:59,An account was logged off.,238.204.192.154,4624,Priyansh,Logoff
+1/4/2024 23:00,An account was logged off.,171.167.212.115,4625,vishal,LoginFailure
+1/4/2024 23:01,An account failed to log on.,110.000.243.035,4625,pratham,Logoff
+1/4/2024 23:02,An account was logged off.,243.089.132.145,4634,vishal,LoginFailure
+1/4/2024 23:03,An account failed to log on.,207.112.155.172,4634,vishal,Logoff
+1/4/2024 23:04,An account was logged off.,086.089.251.077,4624,Priyansh,Logon
+1/4/2024 23:05,An account was successfully logged on.,063.118.033.181,4625,dinesh,Logoff
+1/4/2024 23:06,An account was logged off.,220.154.163.004,4634,dinesh,Logoff
+1/4/2024 23:07,An account was logged off.,038.141.013.197,4625,ramesh,Logon
+1/4/2024 23:08,An account was successfully logged on.,243.013.076.165,4624,kirtan,Logon
+1/4/2024 23:09,An account was successfully logged on.,089.220.010.143,4625,dinesh,Logon
+1/4/2024 23:10,An account was successfully logged on.,150.043.253.073,4625,suresh,Logoff
+1/4/2024 23:11,An account was logged off.,222.098.075.083,4634,pratham,Logoff
+1/4/2024 23:12,An account was logged off.,110.189.129.176,4625,dinesh,Logoff
+1/4/2024 23:13,An account was logged off.,215.086.144.196,4625,pratham,LoginFailure
+1/4/2024 23:14,An account failed to log on.,144.123.077.008,4624,dinesh,Logon
+1/4/2024 23:15,An account was successfully logged on.,224.107.056.234,4624,suresh,Logon
+1/4/2024 23:16,An account was successfully logged on.,218.119.004.001,4625,Priyansh,Logoff
+1/4/2024 23:17,An account was logged off.,025.023.089.115,4634,dinesh,LoginFailure
+1/4/2024 23:18,An account failed to log on.,103.215.225.237,4634,suresh,Logoff
+1/4/2024 23:19,An account was logged off.,104.226.236.075,4625,pratham,LoginFailure
+1/4/2024 23:20,An account failed to log on.,057.102.184.217,4625,suresh,Logon
+1/4/2024 23:21,An account was successfully logged on.,160.085.136.210,4624,Priyansh,LoginFailure
+1/4/2024 23:22,An account failed to log on.,156.220.147.076,4634,Priyansh,Logoff
+1/4/2024 23:23,An account was logged off.,057.157.216.112,4625,vishal,Logoff
+1/4/2024 23:24,An account was logged off.,155.164.197.104,4625,vishal,LoginFailure
+1/4/2024 23:25,An account failed to log on.,035.098.157.203,4634,ramesh,Logon
+1/4/2024 23:26,An account was successfully logged on.,235.122.198.131,4624,Priyansh,Logoff
+1/4/2024 23:27,An account was logged off.,074.218.196.171,4634,ramesh,Logoff
+1/4/2024 23:28,An account was logged off.,055.096.086.228,4634,kirtan,LoginFailure
+1/4/2024 23:29,An account failed to log on.,040.020.127.179,4634,pratham,Logon
+1/4/2024 23:30,An account was successfully logged on.,166.170.088.203,4624,dinesh,Logoff
+1/4/2024 23:31,An account was logged off.,108.013.213.163,4624,suresh,LoginFailure
+1/4/2024 23:32,An account failed to log on.,191.101.001.074,4634,Priyansh,Logoff
+1/4/2024 23:33,An account was logged off.,156.084.083.224,4634,pratham,Logon
+1/4/2024 23:34,An account was successfully logged on.,069.026.035.110,4624,suresh,Logoff
+1/4/2024 23:35,An account was logged off.,240.231.131.082,4634,pratham,Logoff
+1/4/2024 23:36,An account was logged off.,150.037.187.199,4634,vishal,Logoff
+1/4/2024 23:37,An account was logged off.,088.055.099.115,4624,vishal,Logon
+1/4/2024 23:38,An account was successfully logged on.,093.050.234.190,4634,vishal,LoginFailure
+1/4/2024 23:39,An account failed to log on.,112.118.054.007,4624,ramesh,LoginFailure
+1/4/2024 23:40,An account failed to log on.,196.131.210.242,4625,pratham,Logoff
+1/4/2024 23:41,An account was logged off.,230.051.056.236,4634,suresh,LoginFailure
+1/4/2024 23:42,An account failed to log on.,106.144.037.072,4634,pratham,LoginFailure
+1/4/2024 23:43,An account failed to log on.,144.064.156.005,4634,pratham,Logoff
+1/4/2024 23:44,An account was logged off.,061.247.061.205,4624,vishal,Logoff
+1/4/2024 23:45,An account was logged off.,140.195.183.000,4625,kirtan,Logon
+1/4/2024 23:46,An account was successfully logged on.,190.134.000.227,4625,vishal,LoginFailure
+1/4/2024 23:47,An account failed to log on.,091.159.127.060,4625,dinesh,LoginFailure
+1/4/2024 23:48,An account failed to log on.,221.141.127.004,4634,vishal,Logoff
+1/4/2024 23:49,An account was logged off.,119.180.198.049,4625,ramesh,Logoff
+1/4/2024 23:50,An account was logged off.,035.236.066.150,4624,pratham,Logon
+1/4/2024 23:51,An account was successfully logged on.,129.099.180.103,4634,pratham,LoginFailure
+1/4/2024 23:52,An account failed to log on.,105.019.199.165,4625,vishal,Logoff
+1/4/2024 23:53,An account was logged off.,229.040.132.197,4624,ramesh,LoginFailure
+1/4/2024 23:54,An account failed to log on.,062.242.157.054,4625,kirtan,Logon
+1/4/2024 23:55,An account was successfully logged on.,241.050.000.212,4625,suresh,LoginFailure
+1/4/2024 23:56,An account failed to log on.,060.154.130.170,4625,Priyansh,LoginFailure
+1/4/2024 23:57,An account failed to log on.,145.255.078.231,4625,vishal,Logoff
+1/4/2024 23:58,An account was logged off.,214.080.075.180,4634,Priyansh,LoginFailure
+1/4/2024 23:59,An account failed to log on.,160.127.034.153,4634,ramesh,LoginFailure
+1/5/2024 0:00,An account failed to log on.,245.127.159.232,4634,dinesh,Logon
+1/5/2024 0:01,An account was successfully logged on.,108.103.173.131,4634,ramesh,Logon
+1/5/2024 0:02,An account was successfully logged on.,106.019.204.027,4625,vishal,LoginFailure
+1/5/2024 0:03,An account failed to log on.,038.178.160.128,4634,vishal,Logoff
+1/5/2024 0:04,An account was logged off.,157.069.069.049,4634,Priyansh,Logoff
+1/5/2024 0:05,An account was logged off.,005.086.184.200,4634,vishal,LoginFailure
+1/5/2024 0:06,An account failed to log on.,138.145.055.020,4624,suresh,LoginFailure
+1/5/2024 0:07,An account failed to log on.,149.084.227.242,4625,dinesh,Logon
+1/5/2024 0:08,An account was successfully logged on.,048.066.217.115,4624,ramesh,Logoff
+1/5/2024 0:09,An account was logged off.,189.143.252.177,4625,kirtan,LoginFailure
+1/5/2024 0:10,An account failed to log on.,090.093.134.240,4634,pratham,LoginFailure
+1/5/2024 0:11,An account failed to log on.,242.114.091.056,4634,dinesh,Logoff
+1/5/2024 0:12,An account was logged off.,192.135.229.086,4634,suresh,Logon
+1/5/2024 0:13,An account was successfully logged on.,197.046.117.223,4624,Priyansh,Logoff
+1/5/2024 0:14,An account was logged off.,142.133.139.181,4634,pratham,Logoff
+1/5/2024 0:15,An account was logged off.,013.134.079.057,4625,ramesh,Logoff
+1/5/2024 0:16,An account was logged off.,168.017.153.076,4624,dinesh,Logon
+1/5/2024 0:17,An account was successfully logged on.,247.235.252.200,4624,pratham,Logon
+1/5/2024 0:18,An account was successfully logged on.,124.032.197.130,4634,ramesh,Logoff
+1/5/2024 0:19,An account was logged off.,120.121.239.231,4634,dinesh,Logoff
+1/5/2024 0:20,An account was logged off.,010.233.041.042,4634,dinesh,Logon
+1/5/2024 0:21,An account was successfully logged on.,099.004.072.142,4624,suresh,Logoff
+1/5/2024 0:22,An account was logged off.,023.077.206.236,4625,dinesh,Logoff
+1/5/2024 0:23,An account was logged off.,067.030.242.244,4634,kirtan,Logon
+1/5/2024 0:24,An account was successfully logged on.,027.229.224.141,4625,pratham,Logoff
+1/5/2024 0:25,An account was logged off.,047.200.150.052,4625,kirtan,Logon
+1/5/2024 0:26,An account was successfully logged on.,034.099.160.161,4625,vishal,LoginFailure
+1/5/2024 0:27,An account failed to log on.,014.077.098.156,4634,kirtan,Logoff
+1/5/2024 0:28,An account was logged off.,163.191.077.050,4625,kirtan,Logoff
+1/5/2024 0:29,An account was logged off.,099.054.162.074,4625,pratham,Logoff
+1/5/2024 0:30,An account was logged off.,078.025.077.231,4634,dinesh,Logon
+1/5/2024 0:31,An account was successfully logged on.,149.255.159.218,4634,vishal,LoginFailure
+1/5/2024 0:32,An account failed to log on.,013.189.158.156,4634,pratham,LoginFailure
+1/5/2024 0:33,An account failed to log on.,008.161.002.176,4634,ramesh,LoginFailure
+1/5/2024 0:34,An account failed to log on.,082.061.084.239,4625,ramesh,Logoff
+1/5/2024 0:35,An account was logged off.,012.144.176.123,4634,pratham,LoginFailure
+1/5/2024 0:36,An account failed to log on.,243.100.000.184,4625,kirtan,Logon
+1/5/2024 0:37,An account was successfully logged on.,219.242.221.059,4634,suresh,Logoff
+1/5/2024 0:38,An account was logged off.,144.197.050.123,4634,pratham,LoginFailure
+1/5/2024 0:39,An account failed to log on.,188.217.030.072,4625,pratham,Logon
+1/5/2024 0:40,An account was successfully logged on.,160.119.161.043,4634,pratham,LoginFailure
+1/5/2024 0:41,An account failed to log on.,225.191.004.171,4625,ramesh,LoginFailure
+1/5/2024 0:42,An account failed to log on.,158.024.252.073,4634,Priyansh,LoginFailure
+1/5/2024 0:43,An account failed to log on.,175.251.132.040,4634,vishal,LoginFailure
+1/5/2024 0:44,An account failed to log on.,159.213.163.223,4634,pratham,Logoff
+1/5/2024 0:45,An account was logged off.,227.023.050.165,4624,Priyansh,Logoff
+1/5/2024 0:46,An account was logged off.,178.153.038.197,4625,Priyansh,Logoff
+1/5/2024 0:47,An account was logged off.,147.065.064.194,4634,suresh,Logoff
+1/5/2024 0:48,An account was logged off.,026.186.249.099,4625,vishal,LoginFailure
+1/5/2024 0:49,An account failed to log on.,149.194.100.151,4624,vishal,Logoff
+1/5/2024 0:50,An account was logged off.,088.219.030.122,4624,ramesh,Logoff
+1/5/2024 0:51,An account was logged off.,195.243.242.128,4624,dinesh,Logoff
+1/5/2024 0:52,An account was logged off.,083.097.208.040,4624,dinesh,Logon
+1/5/2024 0:53,An account was successfully logged on.,081.044.238.015,4634,vishal,LoginFailure
+1/5/2024 0:54,An account failed to log on.,174.146.089.026,4625,Priyansh,Logon
+1/5/2024 0:55,An account was successfully logged on.,254.142.193.198,4634,dinesh,LoginFailure
+1/5/2024 0:56,An account failed to log on.,064.246.053.095,4634,ramesh,Logoff
+1/5/2024 0:57,An account was logged off.,226.039.132.247,4625,kirtan,Logoff
+1/5/2024 0:58,An account was logged off.,127.158.072.115,4625,pratham,Logoff
+1/5/2024 0:59,An account was logged off.,199.189.246.157,4634,pratham,Logon
+1/5/2024 1:00,An account was successfully logged on.,108.028.221.181,4625,suresh,Logoff
+1/5/2024 1:01,An account was logged off.,036.255.044.073,4634,pratham,LoginFailure
+1/5/2024 1:02,An account failed to log on.,143.087.214.108,4634,Priyansh,Logon
+1/5/2024 1:03,An account was successfully logged on.,184.182.202.243,4634,dinesh,Logon
+1/5/2024 1:04,An account was successfully logged on.,178.049.217.100,4634,suresh,Logoff
+1/5/2024 1:05,An account was logged off.,046.010.133.155,4634,suresh,Logoff
+1/5/2024 1:06,An account was logged off.,030.122.076.050,4624,pratham,Logoff
+1/5/2024 1:07,An account was logged off.,180.250.225.241,4625,pratham,Logon
+1/5/2024 1:08,An account was successfully logged on.,152.106.026.189,4634,dinesh,LoginFailure
+1/5/2024 1:09,An account failed to log on.,070.155.240.139,4625,suresh,Logoff
+1/5/2024 1:10,An account was logged off.,142.191.055.087,4624,kirtan,LoginFailure
+1/5/2024 1:11,An account failed to log on.,075.151.027.238,4634,kirtan,LoginFailure
+1/5/2024 1:12,An account failed to log on.,151.165.181.172,4634,pratham,LoginFailure
+1/5/2024 1:13,An account failed to log on.,169.030.098.147,4624,kirtan,Logoff
+1/5/2024 1:14,An account was logged off.,092.197.109.163,4634,kirtan,LoginFailure
+1/5/2024 1:15,An account failed to log on.,165.066.001.014,4634,suresh,LoginFailure
+1/5/2024 1:16,An account failed to log on.,203.212.214.232,4624,dinesh,Logoff
+1/5/2024 1:17,An account was logged off.,166.101.007.011,4634,Priyansh,Logoff
+1/5/2024 1:18,An account was logged off.,051.252.228.243,4625,suresh,Logoff
+1/5/2024 1:19,An account was logged off.,216.090.248.028,4625,dinesh,Logoff
+1/5/2024 1:20,An account was logged off.,208.220.086.044,4634,vishal,LoginFailure
+1/5/2024 1:21,An account failed to log on.,164.015.218.137,4634,vishal,Logoff
+1/5/2024 1:22,An account was logged off.,121.203.157.176,4634,kirtan,LoginFailure
+1/5/2024 1:23,An account failed to log on.,126.189.175.020,4624,kirtan,Logoff
+1/5/2024 1:24,An account was logged off.,018.101.064.062,4634,suresh,Logoff
+1/5/2024 1:25,An account was logged off.,209.188.098.234,4625,ramesh,LoginFailure
+1/5/2024 1:26,An account failed to log on.,221.193.024.179,4624,pratham,Logoff
+1/5/2024 1:27,An account was logged off.,201.013.020.001,4634,dinesh,LoginFailure
+1/5/2024 1:28,An account failed to log on.,044.018.106.148,4634,ramesh,Logoff
+1/5/2024 1:29,An account was logged off.,087.169.076.002,4624,ramesh,Logoff
+1/5/2024 1:30,An account was logged off.,045.063.092.134,4634,vishal,Logoff
+1/5/2024 1:31,An account was logged off.,161.251.075.124,4625,pratham,Logon
+1/5/2024 1:32,An account was successfully logged on.,080.083.250.016,4624,pratham,LoginFailure
+1/5/2024 1:33,An account failed to log on.,206.076.035.193,4634,suresh,Logoff
+1/5/2024 1:34,An account was logged off.,168.185.228.029,4634,vishal,LoginFailure
+1/5/2024 1:35,An account failed to log on.,212.130.190.031,4625,dinesh,Logon
+1/5/2024 1:36,An account was successfully logged on.,101.029.221.102,4634,kirtan,Logon
+1/5/2024 1:37,An account was successfully logged on.,015.005.177.163,4634,dinesh,Logon
+1/5/2024 1:38,An account was successfully logged on.,142.056.186.174,4624,pratham,Logon
+1/5/2024 1:39,An account was successfully logged on.,150.024.200.088,4634,ramesh,Logoff
+1/5/2024 1:40,An account was logged off.,242.220.077.006,4625,Priyansh,LoginFailure
+1/5/2024 1:41,An account failed to log on.,240.110.133.246,4634,suresh,Logoff
+1/5/2024 1:42,An account was logged off.,123.106.101.206,4634,ramesh,Logoff
+1/5/2024 1:43,An account was logged off.,240.238.117.145,4634,suresh,LoginFailure
+1/5/2024 1:44,An account failed to log on.,113.174.170.201,4624,Priyansh,LoginFailure
+1/5/2024 1:45,An account failed to log on.,086.091.142.080,4625,kirtan,Logoff
+1/5/2024 1:46,An account was logged off.,082.254.003.146,4634,vishal,LoginFailure
+1/5/2024 1:47,An account failed to log on.,174.030.095.251,4634,vishal,Logoff
+1/5/2024 1:48,An account was logged off.,153.201.235.050,4634,suresh,Logoff
+1/5/2024 1:49,An account was logged off.,111.036.056.247,4625,vishal,Logoff
+1/5/2024 1:50,An account was logged off.,080.132.245.083,4625,Priyansh,Logoff
+1/5/2024 1:51,An account was logged off.,038.183.184.211,4634,pratham,Logoff
+1/5/2024 1:52,An account was logged off.,235.141.251.151,4634,suresh,Logon
+1/5/2024 1:53,An account was successfully logged on.,161.216.229.077,4624,suresh,LoginFailure
+1/5/2024 1:54,An account failed to log on.,089.219.104.231,4634,dinesh,Logoff
+1/5/2024 1:55,An account was logged off.,092.009.182.158,4624,dinesh,LoginFailure
+1/5/2024 1:56,An account failed to log on.,069.055.150.002,4625,dinesh,Logon
+1/5/2024 1:57,An account was successfully logged on.,219.011.094.136,4624,dinesh,Logoff
+1/5/2024 1:58,An account was logged off.,217.131.169.233,4634,Priyansh,Logoff
+1/5/2024 1:59,An account was logged off.,021.170.155.102,4634,suresh,Logon
+1/5/2024 2:00,An account was successfully logged on.,080.173.224.105,4634,dinesh,Logoff
+1/5/2024 2:01,An account was logged off.,191.239.224.223,4634,kirtan,Logoff
+1/5/2024 2:02,An account was logged off.,019.219.193.046,4624,pratham,Logon
+1/5/2024 2:03,An account was successfully logged on.,107.142.178.060,4624,vishal,Logoff
+1/5/2024 2:04,An account was logged off.,214.003.251.123,4634,pratham,LoginFailure
+1/5/2024 2:05,An account failed to log on.,072.008.226.040,4634,vishal,LoginFailure
+1/5/2024 2:06,An account failed to log on.,199.124.188.207,4625,kirtan,Logoff
+1/5/2024 2:07,An account was logged off.,043.050.029.067,4634,vishal,Logoff
+1/5/2024 2:08,An account was logged off.,015.101.211.207,4624,dinesh,Logoff
+1/5/2024 2:09,An account was logged off.,151.090.067.020,4634,kirtan,Logon
+1/5/2024 2:10,An account was successfully logged on.,225.057.243.004,4624,pratham,Logoff
+1/5/2024 2:11,An account was logged off.,232.134.015.216,4625,dinesh,LoginFailure
+1/5/2024 2:12,An account failed to log on.,219.044.170.134,4625,vishal,Logon
+1/5/2024 2:13,An account was successfully logged on.,236.109.244.161,4634,suresh,Logoff
+1/5/2024 2:14,An account was logged off.,086.141.198.173,4634,dinesh,Logoff
+1/5/2024 2:15,An account was logged off.,156.006.002.071,4625,vishal,Logon
+1/5/2024 2:16,An account was successfully logged on.,011.199.118.145,4624,kirtan,Logoff
+1/5/2024 2:17,An account was logged off.,216.082.035.126,4624,ramesh,LoginFailure
+1/5/2024 2:18,An account failed to log on.,078.208.128.184,4624,suresh,Logon
+1/5/2024 2:19,An account was successfully logged on.,186.133.243.041,4625,ramesh,Logoff
+1/5/2024 2:20,An account was logged off.,175.189.128.129,4625,Priyansh,Logoff
+1/5/2024 2:21,An account was logged off.,166.217.185.122,4624,ramesh,LoginFailure
+1/5/2024 2:22,An account failed to log on.,128.181.074.131,4634,suresh,Logoff
+1/5/2024 2:23,An account was logged off.,150.087.104.156,4634,Priyansh,Logoff
+1/5/2024 2:24,An account was logged off.,082.111.247.211,4634,vishal,Logon
+1/5/2024 2:25,An account was successfully logged on.,043.165.241.253,4634,vishal,Logoff
+1/5/2024 2:26,An account was logged off.,005.024.159.038,4624,vishal,LoginFailure
+1/5/2024 2:27,An account failed to log on.,036.151.088.007,4624,ramesh,Logoff
+1/5/2024 2:28,An account was logged off.,175.159.015.145,4624,dinesh,Logoff
+1/5/2024 2:29,An account was logged off.,042.070.076.083,4634,kirtan,Logoff
+1/5/2024 2:30,An account was logged off.,112.178.196.195,4634,vishal,Logon
+1/5/2024 2:31,An account was successfully logged on.,143.130.121.146,4634,dinesh,LoginFailure
+1/5/2024 2:32,An account failed to log on.,145.207.159.208,4625,pratham,Logoff
+1/5/2024 2:33,An account was logged off.,125.040.239.093,4624,Priyansh,Logoff
+1/5/2024 2:34,An account was logged off.,075.038.097.169,4634,kirtan,Logoff
+1/5/2024 2:35,An account was logged off.,193.179.203.245,4625,suresh,LoginFailure
+1/5/2024 2:36,An account failed to log on.,154.064.248.121,4624,pratham,LoginFailure
+1/5/2024 2:37,An account failed to log on.,050.001.173.247,4634,vishal,Logoff
+1/5/2024 2:38,An account was logged off.,243.228.170.252,4625,Priyansh,Logoff
+1/5/2024 2:39,An account was logged off.,095.123.131.181,4634,pratham,Logon
+1/5/2024 2:40,An account was successfully logged on.,119.091.209.255,4624,dinesh,Logoff
+1/5/2024 2:41,An account was logged off.,052.052.021.252,4634,suresh,Logon
+1/5/2024 2:42,An account was successfully logged on.,251.034.157.174,4625,Priyansh,LoginFailure
+1/5/2024 2:43,An account failed to log on.,108.092.045.181,4634,suresh,Logon
+1/5/2024 2:44,An account was successfully logged on.,129.185.094.228,4625,dinesh,Logoff
+1/5/2024 2:45,An account was logged off.,198.109.090.098,4634,dinesh,Logoff
+1/5/2024 2:46,An account was logged off.,019.148.017.154,4634,Priyansh,Logoff
+1/5/2024 2:47,An account was logged off.,146.125.115.232,4634,kirtan,Logoff
+1/5/2024 2:48,An account was logged off.,114.253.153.171,4624,suresh,Logon
+1/5/2024 2:49,An account was successfully logged on.,104.125.092.051,4625,Priyansh,Logon
+1/5/2024 2:50,An account was successfully logged on.,152.112.107.165,4634,suresh,Logoff
+1/5/2024 2:51,An account was logged off.,007.187.184.238,4625,dinesh,Logoff
+1/5/2024 2:52,An account was logged off.,202.231.224.160,4634,ramesh,LoginFailure
+1/5/2024 2:53,An account failed to log on.,019.126.239.098,4634,dinesh,Logoff
+1/5/2024 2:54,An account was logged off.,004.044.243.099,4625,ramesh,Logon
+1/5/2024 2:55,An account was successfully logged on.,147.059.103.183,4634,ramesh,Logoff
+1/5/2024 2:56,An account was logged off.,251.169.091.158,4625,vishal,Logon
+1/5/2024 2:57,An account was successfully logged on.,201.095.196.239,4634,ramesh,LoginFailure
+1/5/2024 2:58,An account failed to log on.,244.151.087.151,4634,ramesh,LoginFailure
+1/5/2024 2:59,An account failed to log on.,224.068.228.217,4634,Priyansh,Logoff
+1/5/2024 3:00,An account was logged off.,099.000.006.105,4625,ramesh,Logoff
+1/5/2024 3:01,An account was logged off.,248.018.028.235,4625,pratham,LoginFailure
+1/5/2024 3:02,An account failed to log on.,194.186.079.242,4634,pratham,Logon
+1/5/2024 3:03,An account was successfully logged on.,010.254.210.141,4634,vishal,Logon
+1/5/2024 3:04,An account was successfully logged on.,035.212.151.109,4634,suresh,Logon
+1/5/2024 3:05,An account was successfully logged on.,078.002.022.149,4624,dinesh,LoginFailure
+1/5/2024 3:06,An account failed to log on.,103.001.238.111,4625,ramesh,LoginFailure
+1/5/2024 3:07,An account failed to log on.,036.046.127.167,4624,pratham,Logon
+1/5/2024 3:08,An account was successfully logged on.,195.054.145.101,4625,ramesh,Logoff
+1/5/2024 3:09,An account was logged off.,002.143.070.250,4624,pratham,Logoff
+1/5/2024 3:10,An account was logged off.,147.169.049.125,4634,ramesh,Logoff
+1/5/2024 3:11,An account was logged off.,121.134.239.246,4624,vishal,Logoff
+1/5/2024 3:12,An account was logged off.,015.245.198.210,4624,suresh,Logon
+1/5/2024 3:13,An account was successfully logged on.,173.052.197.090,4634,kirtan,Logon
+1/5/2024 3:14,An account was successfully logged on.,249.114.044.254,4625,ramesh,Logon
+1/5/2024 3:15,An account was successfully logged on.,201.022.167.023,4624,vishal,Logoff
+1/5/2024 3:16,An account was logged off.,166.005.237.069,4624,ramesh,Logoff
+1/5/2024 3:17,An account was logged off.,141.145.063.183,4625,pratham,Logoff
+1/5/2024 3:18,An account was logged off.,063.035.031.194,4634,kirtan,LoginFailure
+1/5/2024 3:19,An account failed to log on.,047.151.217.227,4634,pratham,Logon
+1/5/2024 3:20,An account was successfully logged on.,097.046.057.119,4634,pratham,Logoff
+1/5/2024 3:21,An account was logged off.,059.222.198.198,4625,Priyansh,LoginFailure
+1/5/2024 3:22,An account failed to log on.,091.110.246.136,4634,kirtan,Logon
+1/5/2024 3:23,An account was successfully logged on.,209.071.211.011,4624,ramesh,Logoff
+1/5/2024 3:24,An account was logged off.,128.098.032.184,4625,Priyansh,LoginFailure
+1/5/2024 3:25,An account failed to log on.,062.017.078.060,4634,kirtan,Logoff
+1/5/2024 3:26,An account was logged off.,106.075.107.145,4634,dinesh,Logon
+1/5/2024 3:27,An account was successfully logged on.,175.007.103.082,4634,dinesh,Logoff
+1/5/2024 3:28,An account was logged off.,138.057.062.003,4625,Priyansh,LoginFailure
+1/5/2024 3:29,An account failed to log on.,166.089.142.154,4625,kirtan,Logoff
+1/5/2024 3:30,An account was logged off.,027.049.155.234,4634,ramesh,LoginFailure
+1/5/2024 3:31,An account failed to log on.,062.095.233.064,4625,kirtan,Logoff
+1/5/2024 3:32,An account was logged off.,060.029.179.066,4624,kirtan,Logoff
+1/5/2024 3:33,An account was logged off.,177.202.103.078,4634,vishal,Logoff
+1/5/2024 3:34,An account was logged off.,189.118.023.062,4625,pratham,Logon
+1/5/2024 3:35,An account was successfully logged on.,232.200.217.193,4625,vishal,LoginFailure
+1/5/2024 3:36,An account failed to log on.,059.011.035.083,4634,kirtan,Logoff
+1/5/2024 3:37,An account was logged off.,078.166.175.068,4634,vishal,LoginFailure
+1/5/2024 3:38,An account failed to log on.,036.254.135.125,4634,ramesh,Logoff
+1/5/2024 3:39,An account was logged off.,162.054.166.214,4634,vishal,Logoff
+1/5/2024 3:40,An account was logged off.,125.235.017.059,4634,ramesh,LoginFailure
+1/5/2024 3:41,An account failed to log on.,025.138.224.187,4634,kirtan,Logoff
+1/5/2024 3:42,An account was logged off.,034.183.062.005,4624,Priyansh,LoginFailure
+1/5/2024 3:43,An account failed to log on.,180.150.211.100,4625,pratham,Logoff
+1/5/2024 3:44,An account was logged off.,098.197.137.128,4625,suresh,Logoff
+1/5/2024 3:45,An account was logged off.,228.023.117.235,4634,kirtan,Logoff
+1/5/2024 3:46,An account was logged off.,079.092.073.080,4624,kirtan,LoginFailure
+1/5/2024 3:47,An account failed to log on.,147.129.093.118,4634,pratham,LoginFailure
+1/5/2024 3:48,An account failed to log on.,243.100.233.106,4634,pratham,Logoff
+1/5/2024 3:49,An account was logged off.,170.170.050.103,4634,kirtan,Logoff
+1/5/2024 3:50,An account was logged off.,036.062.117.176,4625,kirtan,Logoff
+1/5/2024 3:51,An account was logged off.,052.247.001.030,4634,kirtan,Logon
+1/5/2024 3:52,An account was successfully logged on.,230.115.080.191,4634,kirtan,LoginFailure
+1/5/2024 3:53,An account failed to log on.,068.005.216.167,4625,dinesh,Logon
+1/5/2024 3:54,An account was successfully logged on.,036.048.134.195,4634,suresh,LoginFailure
+1/5/2024 3:55,An account failed to log on.,119.179.196.115,4634,Priyansh,Logon
+1/5/2024 3:56,An account was successfully logged on.,230.192.083.023,4634,suresh,Logoff
+1/5/2024 3:57,An account was logged off.,100.068.185.155,4634,pratham,Logon
+1/5/2024 3:58,An account was successfully logged on.,046.084.227.068,4624,vishal,Logon
+1/5/2024 3:59,An account was successfully logged on.,243.114.070.166,4625,vishal,Logoff
+1/5/2024 4:00,An account was logged off.,242.120.188.074,4624,Priyansh,LoginFailure
+1/5/2024 4:01,An account failed to log on.,063.039.133.032,4625,pratham,Logon
+1/5/2024 4:02,An account was successfully logged on.,182.243.107.044,4634,pratham,Logon
+1/5/2024 4:03,An account was successfully logged on.,239.070.193.244,4634,Priyansh,LoginFailure
+1/5/2024 4:04,An account failed to log on.,147.055.124.126,4625,dinesh,Logoff
+1/5/2024 4:05,An account was logged off.,168.097.135.117,4634,kirtan,Logoff
+1/5/2024 4:06,An account was logged off.,059.034.205.097,4625,vishal,Logoff
+1/5/2024 4:07,An account was logged off.,158.018.156.033,4625,ramesh,LoginFailure
+1/5/2024 4:08,An account failed to log on.,253.145.166.079,4624,pratham,Logoff
+1/5/2024 4:09,An account was logged off.,091.020.222.126,4634,Priyansh,Logon
+1/5/2024 4:10,An account was successfully logged on.,224.082.222.196,4624,suresh,LoginFailure
+1/5/2024 4:11,An account failed to log on.,116.187.114.081,4634,vishal,Logoff
+1/5/2024 4:12,An account was logged off.,104.022.029.178,4634,suresh,Logoff
+1/5/2024 4:13,An account was logged off.,079.009.251.223,4624,kirtan,Logoff
+1/5/2024 4:14,An account was logged off.,238.192.148.189,4624,Priyansh,LoginFailure
+1/5/2024 4:15,An account failed to log on.,034.179.048.169,4625,dinesh,LoginFailure
+1/5/2024 4:16,An account failed to log on.,072.239.197.216,4625,kirtan,Logoff
+1/5/2024 4:17,An account was logged off.,131.129.182.222,4624,Priyansh,LoginFailure
+1/5/2024 4:18,An account failed to log on.,085.104.073.168,4634,kirtan,Logon
+1/5/2024 4:19,An account was successfully logged on.,094.040.240.035,4634,Priyansh,Logoff
+1/5/2024 4:20,An account was logged off.,233.235.079.122,4625,kirtan,LoginFailure
+1/5/2024 4:21,An account failed to log on.,120.161.012.099,4625,Priyansh,LoginFailure
+1/5/2024 4:22,An account failed to log on.,254.127.045.216,4625,kirtan,Logoff
+1/5/2024 4:23,An account was logged off.,177.245.043.009,4625,ramesh,Logoff
+1/5/2024 4:24,An account was logged off.,061.204.051.039,4634,Priyansh,Logoff
+1/5/2024 4:25,An account was logged off.,046.040.183.083,4634,pratham,Logoff
+1/5/2024 4:26,An account was logged off.,162.017.234.046,4625,pratham,Logoff
+1/5/2024 4:27,An account was logged off.,149.059.067.052,4634,kirtan,Logoff
+1/5/2024 4:28,An account was logged off.,115.121.109.072,4634,vishal,Logon
+1/5/2024 4:29,An account was successfully logged on.,178.185.073.220,4624,Priyansh,LoginFailure
+1/5/2024 4:30,An account failed to log on.,151.028.055.054,4634,vishal,LoginFailure
+1/5/2024 4:31,An account failed to log on.,254.143.241.146,4634,kirtan,Logoff
+1/5/2024 4:32,An account was logged off.,081.198.210.194,4625,dinesh,Logon
+1/5/2024 4:33,An account was successfully logged on.,247.135.178.086,4634,suresh,Logoff
+1/5/2024 4:34,An account was logged off.,187.018.219.171,4625,kirtan,Logoff
+1/5/2024 4:35,An account was logged off.,177.065.158.114,4634,ramesh,Logoff
+1/5/2024 4:36,An account was logged off.,180.088.228.213,4634,kirtan,LoginFailure
+1/5/2024 4:37,An account failed to log on.,053.160.082.238,4625,dinesh,Logoff
+1/5/2024 4:38,An account was logged off.,134.111.216.066,4634,ramesh,Logoff
+1/5/2024 4:39,An account was logged off.,078.239.233.154,4625,kirtan,LoginFailure
+1/5/2024 4:40,An account failed to log on.,051.023.076.194,4634,Priyansh,Logoff
+1/5/2024 4:41,An account was logged off.,123.002.244.058,4634,pratham,Logoff
+1/5/2024 4:42,An account was logged off.,122.016.203.248,4634,kirtan,Logoff
+1/5/2024 4:43,An account was logged off.,080.128.037.245,4625,dinesh,Logoff
+1/5/2024 4:44,An account was logged off.,069.231.196.061,4634,suresh,Logon
+1/5/2024 4:45,An account was successfully logged on.,032.019.193.153,4634,dinesh,LoginFailure
+1/5/2024 4:46,An account failed to log on.,188.070.074.117,4624,vishal,Logon
+1/5/2024 4:47,An account was successfully logged on.,229.218.064.097,4624,ramesh,LoginFailure
+1/5/2024 4:48,An account failed to log on.,054.092.099.130,4624,ramesh,Logoff
+1/5/2024 4:49,An account was logged off.,141.192.224.085,4634,Priyansh,Logoff
+1/5/2024 4:50,An account was logged off.,073.168.050.127,4625,vishal,LoginFailure
+1/5/2024 4:51,An account failed to log on.,233.141.183.252,4634,ramesh,Logoff
+1/5/2024 4:52,An account was logged off.,010.049.092.251,4634,vishal,LoginFailure
+1/5/2024 4:53,An account failed to log on.,019.045.091.154,4634,pratham,LoginFailure
+1/5/2024 4:54,An account failed to log on.,131.109.065.161,4625,ramesh,Logon
+1/5/2024 4:55,An account was successfully logged on.,069.090.088.245,4625,Priyansh,Logoff
+1/5/2024 4:56,An account was logged off.,060.254.184.018,4624,vishal,Logon
+1/5/2024 4:57,An account was successfully logged on.,229.163.071.253,4625,kirtan,Logoff
+1/5/2024 4:58,An account was logged off.,244.232.196.137,4634,ramesh,Logoff
+1/5/2024 4:59,An account was logged off.,245.056.219.162,4624,dinesh,Logon
+1/5/2024 5:00,An account was successfully logged on.,105.255.053.166,4634,ramesh,Logon
+1/5/2024 5:01,An account was successfully logged on.,234.046.037.231,4634,vishal,LoginFailure
+1/5/2024 5:02,An account failed to log on.,116.217.063.210,4624,ramesh,LoginFailure
+1/5/2024 5:03,An account failed to log on.,233.214.157.041,4634,Priyansh,Logon
+1/5/2024 5:04,An account was successfully logged on.,092.132.154.034,4625,kirtan,Logoff
+1/5/2024 5:05,An account was logged off.,199.182.144.096,4634,ramesh,Logoff
+1/5/2024 5:06,An account was logged off.,021.002.121.153,4634,kirtan,LoginFailure
+1/5/2024 5:07,An account failed to log on.,188.192.034.127,4625,ramesh,LoginFailure
+1/5/2024 5:08,An account failed to log on.,009.092.113.147,4625,pratham,LoginFailure
+1/5/2024 5:09,An account failed to log on.,027.093.203.119,4634,pratham,LoginFailure
+1/5/2024 5:10,An account failed to log on.,158.168.241.089,4624,Priyansh,Logoff
+1/5/2024 5:11,An account was logged off.,221.100.158.183,4624,Priyansh,Logoff
+1/5/2024 5:12,An account was logged off.,220.160.116.150,4634,ramesh,LoginFailure
+1/5/2024 5:13,An account failed to log on.,223.075.034.189,4634,Priyansh,Logoff
+1/5/2024 5:14,An account was logged off.,042.198.110.109,4624,dinesh,Logoff
+1/5/2024 5:15,An account was logged off.,004.173.056.032,4625,pratham,Logon
+1/5/2024 5:16,An account was successfully logged on.,218.235.123.181,4634,vishal,Logoff
+1/5/2024 5:17,An account was logged off.,130.139.198.128,4625,Priyansh,Logoff
+1/5/2024 5:18,An account was logged off.,145.008.071.079,4625,dinesh,LoginFailure
+1/5/2024 5:19,An account failed to log on.,139.228.075.184,4634,ramesh,Logoff
+1/5/2024 5:20,An account was logged off.,143.204.027.250,4625,kirtan,LoginFailure
+1/5/2024 5:21,An account failed to log on.,080.151.127.160,4625,kirtan,Logoff
+1/5/2024 5:22,An account was logged off.,091.239.063.046,4625,ramesh,Logoff
+1/5/2024 5:23,An account was logged off.,157.101.032.198,4634,kirtan,LoginFailure
+1/5/2024 5:24,An account failed to log on.,111.068.008.236,4634,Priyansh,Logoff
+1/5/2024 5:25,An account was logged off.,019.175.249.225,4634,ramesh,LoginFailure
+1/5/2024 5:26,An account failed to log on.,140.228.207.052,4624,suresh,Logoff
+1/5/2024 5:27,An account was logged off.,233.235.129.052,4634,dinesh,Logoff
+1/5/2024 5:28,An account was logged off.,215.069.035.235,4624,kirtan,Logoff
+1/5/2024 5:29,An account was logged off.,089.152.163.202,4624,suresh,LoginFailure
+1/5/2024 5:30,An account failed to log on.,252.251.064.018,4625,dinesh,Logoff
+1/5/2024 5:31,An account was logged off.,025.213.203.108,4634,Priyansh,Logoff
+1/5/2024 5:32,An account was logged off.,171.014.218.042,4634,suresh,Logon
+1/5/2024 5:33,An account was successfully logged on.,216.225.023.244,4624,ramesh,Logon
+1/5/2024 5:34,An account was successfully logged on.,011.186.055.013,4624,Priyansh,Logon
+1/5/2024 5:35,An account was successfully logged on.,025.017.053.002,4634,pratham,Logoff
+1/5/2024 5:36,An account was logged off.,168.027.241.025,4634,vishal,LoginFailure
+1/5/2024 5:37,An account failed to log on.,189.210.024.205,4625,suresh,Logoff
+1/5/2024 5:38,An account was logged off.,026.074.066.240,4625,dinesh,Logoff
+1/5/2024 5:39,An account was logged off.,124.132.138.008,4625,vishal,Logoff
+1/5/2024 5:40,An account was logged off.,129.106.110.136,4624,vishal,LoginFailure
+1/5/2024 5:41,An account failed to log on.,123.186.183.178,4625,vishal,LoginFailure
+1/5/2024 5:42,An account failed to log on.,138.072.031.078,4634,pratham,Logon
+1/5/2024 5:43,An account was successfully logged on.,058.164.194.041,4624,kirtan,LoginFailure
+1/5/2024 5:44,An account failed to log on.,233.089.252.202,4634,vishal,Logoff
+1/5/2024 5:45,An account was logged off.,237.069.238.253,4625,suresh,Logon
+1/5/2024 5:46,An account was successfully logged on.,059.187.043.152,4634,vishal,Logoff
+1/5/2024 5:47,An account was logged off.,060.149.166.132,4634,ramesh,Logoff
+1/5/2024 5:48,An account was logged off.,250.198.098.021,4625,ramesh,Logon
+1/5/2024 5:49,An account was successfully logged on.,120.189.222.152,4634,Priyansh,Logoff
+1/5/2024 5:50,An account was logged off.,138.074.180.131,4634,dinesh,LoginFailure
+1/5/2024 5:51,An account failed to log on.,081.177.208.225,4634,dinesh,Logoff
+1/5/2024 5:52,An account was logged off.,171.004.192.180,4634,pratham,Logoff
+1/5/2024 5:53,An account was logged off.,174.089.171.019,4634,ramesh,LoginFailure
+1/5/2024 5:54,An account failed to log on.,059.233.240.205,4634,ramesh,LoginFailure
+1/5/2024 5:55,An account failed to log on.,127.135.075.133,4624,suresh,Logoff
+1/5/2024 5:56,An account was logged off.,141.065.096.062,4624,Priyansh,Logon
+1/5/2024 5:57,An account was successfully logged on.,125.187.246.216,4624,pratham,Logon
+1/5/2024 5:58,An account was successfully logged on.,244.043.136.209,4634,ramesh,Logoff
+1/5/2024 5:59,An account was logged off.,002.107.184.029,4634,vishal,Logoff
+1/5/2024 6:00,An account was logged off.,014.101.073.117,4625,Priyansh,Logon
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

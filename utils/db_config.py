@@ -2,10 +2,10 @@
 import mysql.connector
 
 # ------------------------------- Connections ------------------------------------#
-HOST = 'localhost'
-USER = 'root'
-PASSWORD = 'root'
-DATABASE = 'anomaly_detection'
+HOST = "localhost"
+USER = "root"
+PASSWORD = "root"
+DATABASE = "anomaly_detection"
 
 
 # ------------------------------- Check already available ------------------------------------#
@@ -32,13 +32,15 @@ def is_table_empty(cursor, table_name):
 
 # ------------------------------- Create Database / Table ------------------------------------#
 
+
 def create_database(cursor, database_name):
     cursor.execute("CREATE DATABASE {}".format(database_name))
 
 
 def create_register_table(cursor):
     try:
-        cursor.execute("""
+        cursor.execute(
+            """
             CREATE TABLE `Register` (
                 `id` INT NOT NULL AUTO_INCREMENT,
                 `name` VARCHAR(45) NOT NULL,
@@ -48,14 +50,16 @@ def create_register_table(cursor):
                 UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE,
                 UNIQUE INDEX `email_UNIQUE` (`email` ASC) VISIBLE
             );
-        """)
+        """
+        )
     except Exception as e:
         print("Error:", e)
 
 
 def create_contactus_table(cursor):
     try:
-        cursor.execute(""" 
+        cursor.execute(
+            """ 
             CREATE TABLE `anomaly_detection`.`contact_us` (
                 `id` INT NOT NULL AUTO_INCREMENT,
                 `name` VARCHAR(45) NOT NULL,
@@ -64,35 +68,40 @@ def create_contactus_table(cursor):
                 `message` VARCHAR(45) NOT NULL,
                 PRIMARY KEY (`id`),
                 UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE);
-        """)
+        """
+        )
     except Exception as e:
         print("Error:", e)
 
 
 def create_newsletter_table(cursor):
     try:
-        cursor.execute(""" 
+        cursor.execute(
+            """ 
             CREATE TABLE `anomaly_detection`.`newsletter` (
                 `id` INT NOT NULL AUTO_INCREMENT,
                 `email` VARCHAR(45) NULL,
                 PRIMARY KEY (`id`),
                 UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE,
                 UNIQUE INDEX `email_UNIQUE` (`email` ASC) VISIBLE);
-        """)
+        """
+        )
     except Exception as e:
         print("Error:", e)
 
 
 def create_configml_table(cursor):
     try:
-        cursor.execute("""
+        cursor.execute(
+            """
             CREATE TABLE IF NOT EXISTS `anomaly_detection`.`config_ml` (
                 `id` INT NOT NULL AUTO_INCREMENT,
                 `category` VARCHAR(45) NOT NULL,
                 `name` VARCHAR(45) NOT NULL,
                 PRIMARY KEY (`id`)
             );
-        """)
+        """
+        )
         cursor.connection.commit()
     except Exception as e:
         print("Error:", e)
@@ -100,7 +109,8 @@ def create_configml_table(cursor):
 
 def create_userselection_table(cursor):
     try:
-        cursor.execute("""
+        cursor.execute(
+            """
             CREATE TABLE `anomaly_detection`.`user_selections`(
                 `id` INT AUTO_INCREMENT PRIMARY KEY,
                 `userid` INT NOT NULL,
@@ -113,8 +123,31 @@ def create_userselection_table(cursor):
                 `model_selection` VARCHAR(55) NOT NULL,
                 FOREIGN KEY (`userid`) REFERENCES `anomaly_detection`.`register` (`id`)
             );
-        """)
+        """
+        )
         cursor.connection.commit()
+    except Exception as e:
+        print("Error:", e)
+
+
+def create_labeled_table(cursor):
+    try:
+        # Construct the SQL queries
+        create_query = (
+            f"CREATE TABLE anomaly_detection.labeled LIKE anomaly_detection.windows"
+        )
+        insert_query = f"INSERT INTO anomaly_detection.labeled SELECT * FROM anomaly_detection.windows"
+        add_label = (
+            f"ALTER TABLE anomaly_detection.labeled ADD COLUMN label INT DEFAULT 0;"
+        )
+        add_id = f"ALTER TABLE anomaly_detection.labeled ADD COLUMN id INT AUTO_INCREMENT PRIMARY KEY FIRST;"
+
+        # Execute the queries
+        cursor.execute(create_query)
+        cursor.execute(insert_query)
+        cursor.execute(add_label)
+        cursor.execute(add_id)
+
     except Exception as e:
         print("Error:", e)
 
@@ -157,31 +190,21 @@ def insert_config(cursor):
 
 # ------------------------------- Get Connection ------------------------------------#
 def get_database_connection():
-    connection = mysql.connector.connect(
-        host=HOST,
-        user=USER,
-        password=PASSWORD,
-    )
-    cursor = connection.cursor()
-
-    if not database_exists(cursor, DATABASE):
-        create_database(cursor, DATABASE)
-    connection.close()
-
-    connection = mysql.connector.connect(
-        host=HOST,
-        user=USER,
-        password=PASSWORD,
-        database=DATABASE
-    )
-
-    cursor = connection.cursor()
-
+   
     try:
-        if not table_exists(cursor, 'register'):
+        connection = mysql.connector.connect(
+            host=HOST,
+            user=USER,
+            password=PASSWORD,
+        )
+        cursor = connection.cursor()
+    
+        if not database_exists(cursor, DATABASE):
+            create_database(cursor, DATABASE)
+        if not table_exists(cursor, "register"):
             create_register_table(cursor)
             connection.commit()
-        if not table_exists(cursor, 'config_ml'):
+        if not table_exists(cursor, "config_ml"):
             create_configml_table(cursor)
             insert_config(cursor)
             connection.commit()
@@ -191,7 +214,11 @@ def get_database_connection():
         if not table_exists(cursor, "newsletter"):
             create_newsletter_table(cursor)
             connection.commit()
-    except Exception as e:
+        if not table_exists(cursor, "labeled"):
+            create_labeled_table(cursor)
+            connection.commit()
+
+    except mysql.connector.Error as e:
         print("Error:", e)
 
     return connection

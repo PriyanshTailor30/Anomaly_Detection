@@ -15,20 +15,20 @@ def main():
 
     # Iterate over each row of the DataFrame
     for row in df.collect():
-        if row['task'] == 'LoginFailure':
-            if row['targetUserName'] not in user_counter:
-                user_counter[row['targetUserName']] = 0
+        if row['Task'] == 'LoginFailure':
+            if row['TargetUserName'] not in user_counter:
+                user_counter[row['TargetUserName']] = 0
 
-            user_counter[row['targetUserName']] += 1
+            user_counter[row['TargetUserName']] += 1
 
-            if user_counter[row['targetUserName']] >= 3:
+            if user_counter[row['TargetUserName']] >= 3:
                 query = f'UPDATE anomaly_detection.labeled SET label = "1" WHERE id = %s'
                 dbconfig.cursor.execute(query, (row['id'],))
                 dbconfig.connection.commit()
-        elif row['task'] == "LogOn":
-            user_counter[row['targetUserName']] = 0
+        elif row['Task'] == "LogOn":
+            user_counter[row['TargetUserName']] = 0
 
-        elif row['task'] == "LogOff":
+        elif row['Task'] == "LogOff":
             pass
 
     print(user_counter)

@@ -1,0 +1,1449 @@
+TimeStamp,Message,SourceIP,EventID,TargetUserName,Task
+1/4/2024 6:00,An account failed to log on,192.168.0.1,4625,RAHDELHI,LoginFailure
+1/4/2024 6:01,An account failed to log on,192.168.0.1,4625,RAHDELHI,LoginFailure
+1/4/2024 6:02,An account failed to log on,192.168.0.1,4625,RAHDELHI,LoginFailure
+1/4/2024 6:03,An account was successfully logged on.,127.041.131.029,4624,ram,LogOn
+1/4/2024 6:04,An account was logged off.,140.150.133.051,4634,SKY$,logOff
+1/4/2024 6:05,An account was logged off.,045.144.106.101,4634,SKY$,logOff
+1/4/2024 6:06,An account was successfully logged on.,113.215.021.231,4624,RAHDELHI,LogOn
+1/4/2024 6:07,An account was logged off.,094.172.024.049,4634,ram,logOff
+1/4/2024 6:08,An account failed to log on.,070.115.243.040,4625,RAHDELHI,LoginFailure
+1/4/2024 6:09,An account was logged off.,169.200.065.038,4634,nimmi.adp,logOff
+1/4/2024 6:10,An account was logged off.,154.020.040.051,4634,Ram,logOff
+1/4/2024 6:11,An account failed to log on.,212.098.158.235,4625,ram,LoginFailure
+1/4/2024 6:12,An account was logged off.,115.004.103.009,4634,arcsight,logOff
+1/4/2024 6:13,An account was logged off.,002.022.013.183,4634,rekha.y,logOff
+1/4/2024 6:14,Login failure,096.180.147.240,4625,rekha.y,LoginFailure
+1/4/2024 6:15,An account failed to log on,10.20.30.40,4625,arcsight,LoginFailure
+1/4/2024 6:16,An account failed to log on,10.20.30.40,4625,arcsight,LoginFailure
+1/4/2024 6:17,An account failed to log on,10.20.30.40,4625,arcsight,LoginFailure
+1/4/2024 6:18,An account was successfully logged on.,156.017.065.098,4634,arcsight,LogOn
+1/4/2024 6:19,An account was logged off.,199.020.070.086,4625,rekha.y,logOff
+1/4/2024 6:20,An account was logged off.,067.167.041.176,4634,RAHDELHI,logOff
+1/4/2024 6:21,An account was successfully logged on.,126.078.205.141,4624,RAHDELHI,LogOn
+1/4/2024 6:22,An account was logged off.,225.170.248.043,4634,RAHDELHI,logOff
+1/4/2024 6:23,An account failed to log on.,093.058.152.142,4634,rekha.y,LoginFailure
+1/4/2024 6:24,An account was logged off.,199.139.150.025,4625,arcsight,logOff
+1/4/2024 6:25,An account was logged off.,029.013.112.146,4634,nimmi.adp,logOff
+1/4/2024 6:26,An account failed to log on.,174.093.237.047,4625,rekha.y,LoginFailure
+1/4/2024 6:27,An account was logged off.,004.090.128.160,4624,arcsight,logOff
+1/4/2024 6:28,An account was logged off.,239.166.082.195,4634,nimmi.adp,logOff
+1/4/2024 6:29,An account failed to log on.,149.045.209.109,4625,rekha.y,LoginFailure
+1/4/2024 6:30,An account failed to log on,172.16.254.1,4625,SKY$,LoginFailure
+1/4/2024 6:31,An account failed to log on,172.16.254.1,4625,SKY$,LoginFailure
+1/4/2024 6:32,An account failed to log on,172.16.254.1,4625,SKY$,LoginFailure
+1/4/2024 6:33,An account was successfully logged on.,033.058.092.003,4625,ram,LogOn
+1/4/2024 6:34,An account was logged off.,227.145.095.115,4634,RAHDELHI,logOff
+1/4/2024 6:35,An account was logged off.,166.084.121.090,4624,ram,logOff
+1/4/2024 6:36,An account was successfully logged on.,217.049.083.232,4624,ram,LogOn
+1/4/2024 6:37,An account was logged off.,004.079.120.203,4624,nimmi.adp,logOff
+1/4/2024 6:38,An account failed to log on.,075.161.050.123,4634,Ram,LoginFailure
+1/4/2024 6:39,An account was logged off.,244.011.013.184,4624,ram,logOff
+1/4/2024 6:40,An account was logged off.,144.077.118.132,4625,rekha.y,logOff
+1/4/2024 6:41,An account failed to log on.,082.035.089.063,4625,rekha.y,LoginFailure
+1/4/2024 6:42,An account was logged off.,057.011.111.115,4634,arcsight,logOff
+1/4/2024 6:43,An account was logged off.,141.137.038.091,4634,SKY$,logOff
+1/4/2024 6:44,An account failed to log on.,104.140.170.157,4624,SKY$,LoginFailure
+1/4/2024 6:45,An account failed to log on.,022.129.247.254,4624,ram,LoginFailure
+1/4/2024 6:46,An account failed to log on.,162.207.199.227,4625,arcsight,LoginFailure
+1/4/2024 6:47,An account failed to log on,203.0.113.99,4625,nimmi.adp,LoginFailure
+1/4/2024 6:48,An account failed to log on,203.0.113.99,4625,nimmi.adp,LoginFailure
+1/4/2024 6:49,An account failed to log on,203.0.113.99,4625,nimmi.adp,LoginFailure
+1/4/2024 6:50,An account was successfully logged on.,002.055.178.133,4624,SKY$,LogOn
+1/4/2024 6:51,An account was logged off.,063.164.129.147,4625,Ram,logOff
+1/4/2024 6:52,An account was logged off.,158.190.008.099,4634,SKY$,logOff
+1/4/2024 6:53,An account was successfully logged on.,150.078.159.186,4625,nimmi.adp,LogOn
+1/4/2024 6:54,An account was logged off.,179.122.035.096,4634,RAHDELHI,logOff
+1/4/2024 6:55,An account failed to log on.,174.163.057.003,4634,rekha.y,LoginFailure
+1/4/2024 6:56,An account was logged off.,216.135.115.184,4624,rekha.y,logOff
+1/4/2024 6:57,An account was logged off.,025.147.018.187,4634,Ram,logOff
+1/4/2024 6:58,An account failed to log on.,151.136.218.114,4624,Ram,LoginFailure
+1/4/2024 6:59,An account was logged off.,131.194.226.005,4625,nimmi.adp,logOff
+1/4/2024 7:00,An account was logged off.,249.229.180.194,4634,arcsight,logOff
+1/4/2024 7:01,An account failed to log on.,161.185.102.047,4634,Ram,LoginFailure
+1/4/2024 7:02,An account failed to log on.,081.086.185.036,4634,arcsight,LoginFailure
+1/4/2024 7:03,An account failed to log on.,198.049.215.113,4625,arcsight,LoginFailure
+1/4/2024 7:04,An account failed to log on.,125.033.178.008,4634,nimmi.adp,LoginFailure
+1/4/2024 7:05,An account was logged off.,121.097.216.137,4634,Ram,logOff
+1/4/2024 7:06,An account failed to log on.,236.143.058.027,4624,RAHDELHI,LoginFailure
+1/4/2024 7:07,An account was logged off.,121.014.062.002,4634,rekha.y,logOff
+1/4/2024 7:08,An account was successfully logged on.,015.107.248.085,4625,Ram,LogOn
+1/4/2024 7:09,An account was logged off.,043.071.017.247,4624,arcsight,logOff
+1/4/2024 7:10,An account was logged off.,242.254.159.162,4624,ram,logOff
+1/4/2024 7:11,An account failed to log on.,162.049.155.104,4634,arcsight,LoginFailure
+1/4/2024 7:12,An account was logged off.,017.235.205.195,4634,arcsight,logOff
+1/4/2024 7:13,An account failed to log on.,208.243.072.125,4624,RAHDELHI,LoginFailure
+1/4/2024 7:14,An account was successfully logged on.,252.140.079.160,4634,arcsight,LogOn
+1/4/2024 7:15,An account was logged off.,117.042.202.221,4634,rekha.y,logOff
+1/4/2024 7:16,An account failed to log on.,110.027.169.107,4625,ram,LoginFailure
+1/4/2024 7:17,An account failed to log on.,185.151.116.096,4625,SKY$,LoginFailure
+1/4/2024 7:18,An account failed to log on.,107.032.157.009,4624,nimmi.adp,LoginFailure
+1/4/2024 7:19,An account failed to log on.,095.167.189.014,4624,SKY$,LoginFailure
+1/4/2024 7:20,An account failed to log on.,109.159.079.182,4625,Ram,LoginFailure
+1/4/2024 7:21,An account was logged off.,087.114.161.100,4634,SKY$,logOff
+1/4/2024 7:22,An account was successfully logged on.,218.001.154.229,4625,RAHDELHI,LogOn
+1/4/2024 7:23,An account was successfully logged on.,185.235.141.173,4634,ram,LogOn
+1/4/2024 7:24,An account was successfully logged on.,134.232.029.004,4625,rekha.y,LogOn
+1/4/2024 7:25,An account was logged off.,069.012.083.006,4625,rekha.y,logOff
+1/4/2024 7:26,An account was successfully logged on.,035.048.029.105,4624,rekha.y,LogOn
+1/4/2024 7:27,An account failed to log on.,254.216.116.177,4624,nimmi.adp,LoginFailure
+1/4/2024 7:28,An account failed to log on.,056.172.054.255,4624,nimmi.adp,LoginFailure
+1/4/2024 7:29,An account was logged off.,177.068.001.123,4634,SKY$,logOff
+1/4/2024 7:30,An account was logged off.,099.102.073.096,4625,nimmi.adp,logOff
+1/4/2024 7:31,An account was successfully logged on.,104.208.212.223,4634,RAHDELHI,LogOn
+1/4/2024 7:32,An account was successfully logged on.,033.061.035.219,4634,ram,LogOn
+1/4/2024 7:33,An account failed to log on.,155.036.132.143,4634,RAHDELHI,LoginFailure
+1/4/2024 7:34,An account failed to log on.,247.190.102.096,4624,ram,LoginFailure
+1/4/2024 7:35,An account failed to log on.,072.211.136.086,4625,rekha.y,LoginFailure
+1/4/2024 7:36,An account failed to log on.,187.172.070.130,4634,ram,LoginFailure
+1/4/2024 7:37,An account was successfully logged on.,069.255.041.097,4625,Ram,LogOn
+1/4/2024 7:38,An account failed to log on.,132.229.187.057,4624,SKY$,LoginFailure
+1/4/2024 7:39,An account was logged off.,168.091.000.146,4634,RAHDELHI,logOff
+1/4/2024 7:40,An account failed to log on.,079.255.142.141,4624,arcsight,LoginFailure
+1/4/2024 7:41,An account was logged off.,045.168.224.013,4634,arcsight,logOff
+1/4/2024 7:42,An account was logged off.,054.144.229.201,4634,nimmi.adp,logOff
+1/4/2024 7:43,An account was successfully logged on.,094.023.211.254,4634,ram,LogOn
+1/4/2024 7:44,An account was logged off.,249.065.057.215,4625,Ram,logOff
+1/4/2024 7:45,An account was successfully logged on.,094.225.126.066,4634,ram,LogOn
+1/4/2024 7:46,An account failed to log on.,062.048.033.013,4624,ram,LoginFailure
+1/4/2024 7:47,An account was logged off.,129.147.167.106,4624,nimmi.adp,logOff
+1/4/2024 7:48,An account was logged off.,010.235.207.169,4624,Ram,logOff
+1/4/2024 7:49,An account was logged off.,144.094.035.056,4634,SKY$,logOff
+1/4/2024 7:50,An account failed to log on.,131.038.080.026,4634,nimmi.adp,LoginFailure
+1/4/2024 7:51,An account was logged off.,155.054.181.192,4634,ram,logOff
+1/4/2024 7:52,An account was logged off.,086.066.135.151,4625,Ram,logOff
+1/4/2024 7:53,An account was successfully logged on.,224.094.197.225,4625,Ram,LogOn
+1/4/2024 7:54,An account was logged off.,183.044.197.110,4624,arcsight,logOff
+1/4/2024 7:55,An account failed to log on.,248.057.248.144,4634,nimmi.adp,LoginFailure
+1/4/2024 7:56,An account was successfully logged on.,218.060.201.004,4634,Ram,LogOn
+1/4/2024 7:57,An account was successfully logged on.,053.007.156.207,4624,Ram,LogOn
+1/4/2024 7:58,An account was logged off.,109.104.235.023,4624,rekha.y,logOff
+1/4/2024 7:59,An account was logged off.,034.024.079.140,4634,Ram,logOff
+1/4/2024 8:00,An account was successfully logged on.,210.168.209.077,4624,Ram,LogOn
+1/4/2024 8:01,An account was logged off.,112.160.016.070,4634,Ram,logOff
+1/4/2024 8:02,An account was logged off.,193.141.035.220,4625,nimmi.adp,logOff
+1/4/2024 8:03,An account failed to log on.,106.121.236.098,4625,Ram,LoginFailure
+1/4/2024 8:04,An account failed to log on.,009.015.254.060,4624,Ram,LoginFailure
+1/4/2024 8:05,An account was successfully logged on.,127.180.086.241,4624,RAHDELHI,LogOn
+1/4/2024 8:06,An account was successfully logged on.,063.079.008.001,4625,rekha.y,LogOn
+1/4/2024 8:07,An account failed to log on.,121.026.038.112,4634,SKY$,LoginFailure
+1/4/2024 8:08,An account was logged off.,219.069.197.194,4634,nimmi.adp,logOff
+1/4/2024 8:09,An account failed to log on.,045.041.252.076,4625,SKY$,LoginFailure
+1/4/2024 8:10,An account was logged off.,051.206.239.248,4624,RAHDELHI,logOff
+1/4/2024 8:11,An account failed to log on.,101.188.006.113,4625,RAHDELHI,LoginFailure
+1/4/2024 8:12,An account failed to log on.,106.130.037.174,4625,RAHDELHI,LoginFailure
+1/4/2024 8:13,An account was successfully logged on.,109.141.085.094,4625,rekha.y,LogOn
+1/4/2024 8:14,An account was successfully logged on.,082.055.238.011,4625,RAHDELHI,LogOn
+1/4/2024 8:15,An account was successfully logged on.,142.191.106.055,4634,SKY$,LogOn
+1/4/2024 8:16,An account was logged off.,022.156.134.180,4625,rekha.y,logOff
+1/4/2024 8:17,An account failed to log on.,057.116.024.226,4624,rekha.y,LoginFailure
+1/4/2024 8:18,An account was logged off.,049.027.031.183,4624,rekha.y,logOff
+1/4/2024 8:19,An account was logged off.,105.084.100.156,4625,SKY$,logOff
+1/4/2024 8:20,An account was logged off.,105.036.117.146,4625,RAHDELHI,logOff
+1/4/2024 8:21,An account was successfully logged on.,199.205.153.053,4634,SKY$,LogOn
+1/4/2024 8:22,An account failed to log on.,215.231.235.171,4625,nimmi.adp,LoginFailure
+1/4/2024 8:23,An account was logged off.,110.062.214.066,4634,ram,logOff
+1/4/2024 8:24,An account failed to log on.,115.151.125.234,4624,RAHDELHI,LoginFailure
+1/4/2024 8:25,An account was successfully logged on.,126.201.129.067,4624,Ram,LogOn
+1/4/2024 8:26,An account was logged off.,151.140.229.244,4634,nimmi.adp,logOff
+1/4/2024 8:27,An account was successfully logged on.,045.169.187.143,4625,arcsight,LogOn
+1/4/2024 8:28,An account was logged off.,226.105.037.028,4625,Ram,logOff
+1/4/2024 8:29,An account was logged off.,238.057.126.041,4624,RAHDELHI,logOff
+1/4/2024 8:30,An account was logged off.,061.063.130.217,4624,nimmi.adp,logOff
+1/4/2024 8:31,An account failed to log on.,151.201.223.209,4634,RAHDELHI,LoginFailure
+1/4/2024 8:32,An account was logged off.,143.070.254.149,4624,rekha.y,logOff
+1/4/2024 8:33,An account was successfully logged on.,249.051.078.164,4625,ram,LogOn
+1/4/2024 8:34,An account was successfully logged on.,197.240.102.189,4624,SKY$,LogOn
+1/4/2024 8:35,An account was successfully logged on.,104.232.092.162,4624,arcsight,LogOn
+1/4/2024 8:36,An account was logged off.,253.148.017.106,4625,ram,logOff
+1/4/2024 8:37,An account was logged off.,032.189.241.103,4624,nimmi.adp,logOff
+1/4/2024 8:38,An account was logged off.,230.104.159.124,4634,ram,logOff
+1/4/2024 8:39,An account failed to log on.,230.222.015.087,4625,rekha.y,LoginFailure
+1/4/2024 8:40,An account failed to log on.,211.063.122.235,4634,SKY$,LoginFailure
+1/4/2024 8:41,An account was successfully logged on.,040.049.152.022,4634,ram,LogOn
+1/4/2024 8:42,An account was logged off.,135.038.204.157,4624,ram,logOff
+1/4/2024 8:43,An account was logged off.,233.161.220.183,4624,nimmi.adp,logOff
+1/4/2024 8:44,An account was successfully logged on.,211.089.152.135,4624,ram,LogOn
+1/4/2024 8:45,An account was successfully logged on.,053.215.004.220,4624,ram,LogOn
+1/4/2024 8:46,An account was logged off.,220.099.247.166,4634,ram,logOff
+1/4/2024 8:47,An account was successfully logged on.,094.181.151.105,4634,SKY$,LogOn
+1/4/2024 8:48,An account was logged off.,163.087.080.198,4624,arcsight,logOff
+1/4/2024 8:49,An account failed to log on.,104.171.105.136,4625,arcsight,LoginFailure
+1/4/2024 8:50,An account failed to log on.,034.201.195.102,4625,rekha.y,LoginFailure
+1/4/2024 8:51,An account was successfully logged on.,255.089.169.125,4634,rekha.y,LogOn
+1/4/2024 8:52,An account was successfully logged on.,142.012.088.119,4634,SKY$,LogOn
+1/4/2024 8:53,An account failed to log on.,164.123.127.205,4625,Ram,LoginFailure
+1/4/2024 8:54,An account was logged off.,164.127.199.214,4624,RAHDELHI,logOff
+1/4/2024 8:55,An account was logged off.,195.075.055.132,4634,SKY$,logOff
+1/4/2024 8:56,An account failed to log on.,138.240.252.023,4625,Ram,LoginFailure
+1/4/2024 8:57,An account was successfully logged on.,184.166.007.097,4634,SKY$,LogOn
+1/4/2024 8:58,An account failed to log on.,127.247.123.118,4634,rekha.y,LoginFailure
+1/4/2024 8:59,An account failed to log on.,229.117.062.184,4634,arcsight,LoginFailure
+1/4/2024 9:00,An account failed to log on.,008.064.226.067,4624,nimmi.adp,LoginFailure
+1/4/2024 9:01,An account failed to log on.,047.018.015.226,4625,ram,LoginFailure
+1/4/2024 9:02,An account was logged off.,247.136.076.053,4634,rekha.y,logOff
+1/4/2024 9:03,An account failed to log on.,038.219.218.146,4625,ram,LoginFailure
+1/4/2024 9:04,An account was successfully logged on.,100.122.066.253,4634,rekha.y,LogOn
+1/4/2024 9:05,An account was successfully logged on.,190.028.032.239,4634,RAHDELHI,LogOn
+1/4/2024 9:06,An account failed to log on.,218.206.038.245,4624,arcsight,LoginFailure
+1/4/2024 9:07,An account failed to log on.,077.158.087.179,4624,nimmi.adp,LoginFailure
+1/4/2024 9:08,An account was logged off.,008.206.106.214,4634,nimmi.adp,logOff
+1/4/2024 9:09,An account failed to log on.,048.159.211.052,4624,SKY$,LoginFailure
+1/4/2024 9:10,An account was logged off.,236.237.071.013,4634,arcsight,logOff
+1/4/2024 9:11,An account was successfully logged on.,232.093.084.083,4625,rekha.y,LogOn
+1/4/2024 9:12,An account was successfully logged on.,016.128.224.112,4634,RAHDELHI,LogOn
+1/4/2024 9:13,An account was logged off.,114.101.164.144,4625,arcsight,logOff
+1/4/2024 9:14,An account failed to log on.,227.234.199.225,4634,RAHDELHI,LoginFailure
+1/4/2024 9:15,An account failed to log on.,152.057.073.158,4634,Ram,LoginFailure
+1/4/2024 9:16,An account was successfully logged on.,235.074.007.211,4625,arcsight,LogOn
+1/4/2024 9:17,An account was successfully logged on.,148.055.080.136,4625,nimmi.adp,LogOn
+1/4/2024 9:18,An account was logged off.,080.192.100.201,4624,RAHDELHI,logOff
+1/4/2024 9:19,An account was successfully logged on.,016.121.232.189,4625,nimmi.adp,LogOn
+1/4/2024 9:20,An account failed to log on.,082.091.036.196,4625,arcsight,LoginFailure
+1/4/2024 9:21,An account was successfully logged on.,009.242.214.052,4634,Ram,LogOn
+1/4/2024 9:22,An account was successfully logged on.,147.150.016.000,4625,RAHDELHI,LogOn
+1/4/2024 9:23,An account failed to log on.,097.025.233.164,4634,SKY$,LoginFailure
+1/4/2024 9:24,An account was successfully logged on.,220.240.094.179,4624,arcsight,LogOn
+1/4/2024 9:25,An account was logged off.,167.199.034.081,4634,RAHDELHI,logOff
+1/4/2024 9:26,An account failed to log on.,147.233.162.026,4634,rekha.y,LoginFailure
+1/4/2024 9:27,An account was logged off.,112.112.001.108,4634,Ram,logOff
+1/4/2024 9:28,An account was logged off.,055.154.056.106,4624,arcsight,logOff
+1/4/2024 9:29,An account was successfully logged on.,058.010.189.122,4624,SKY$,LogOn
+1/4/2024 9:30,An account was successfully logged on.,009.107.221.046,4634,RAHDELHI,LogOn
+1/4/2024 9:31,An account was successfully logged on.,036.108.194.045,4634,RAHDELHI,LogOn
+1/4/2024 9:32,An account was successfully logged on.,007.115.069.109,4625,SKY$,LogOn
+1/4/2024 9:33,An account was logged off.,247.153.026.254,4624,RAHDELHI,logOff
+1/4/2024 9:34,An account was logged off.,090.091.253.039,4625,RAHDELHI,logOff
+1/4/2024 9:35,An account was successfully logged on.,220.135.147.115,4634,SKY$,LogOn
+1/4/2024 9:36,An account failed to log on.,111.226.137.130,4625,Ram,LoginFailure
+1/4/2024 9:37,An account failed to log on.,248.219.238.249,4634,rekha.y,LoginFailure
+1/4/2024 9:38,An account was logged off.,231.088.111.143,4634,arcsight,logOff
+1/4/2024 9:39,An account was logged off.,223.036.117.034,4634,ram,logOff
+1/4/2024 9:40,An account failed to log on.,036.142.052.221,4634,SKY$,LoginFailure
+1/4/2024 9:41,An account was successfully logged on.,060.247.195.216,4625,RAHDELHI,LogOn
+1/4/2024 9:42,An account was logged off.,030.218.231.022,4624,Ram,logOff
+1/4/2024 9:43,An account failed to log on.,088.174.052.142,4634,rekha.y,LoginFailure
+1/4/2024 9:44,An account was logged off.,180.231.204.017,4625,RAHDELHI,logOff
+1/4/2024 9:45,An account was logged off.,221.205.242.208,4634,ram,logOff
+1/4/2024 9:46,An account was logged off.,082.114.097.125,4634,nimmi.adp,logOff
+1/4/2024 9:47,An account was successfully logged on.,200.084.054.210,4634,nimmi.adp,LogOn
+1/4/2024 9:48,An account failed to log on.,095.136.169.246,4634,nimmi.adp,LoginFailure
+1/4/2024 9:49,An account was logged off.,076.172.232.185,4634,ram,logOff
+1/4/2024 9:50,An account failed to log on.,003.094.013.019,4625,ram,LoginFailure
+1/4/2024 9:51,An account was logged off.,219.026.005.075,4625,RAHDELHI,logOff
+1/4/2024 9:52,An account was logged off.,080.111.096.221,4634,arcsight,logOff
+1/4/2024 9:53,An account was successfully logged on.,187.242.253.182,4624,Ram,LogOn
+1/4/2024 9:54,An account was successfully logged on.,077.010.132.118,4624,Ram,LogOn
+1/4/2024 9:55,An account was logged off.,132.158.195.229,4634,Ram,logOff
+1/4/2024 9:56,An account was successfully logged on.,060.187.150.065,4634,RAHDELHI,LogOn
+1/4/2024 9:57,An account was logged off.,144.000.222.158,4634,nimmi.adp,logOff
+1/4/2024 9:58,An account failed to log on.,199.127.137.039,4625,arcsight,LoginFailure
+1/4/2024 9:59,An account was logged off.,150.147.164.004,4634,arcsight,logOff
+1/4/2024 10:00,An account failed to log on.,229.083.041.095,4634,RAHDELHI,LoginFailure
+1/4/2024 10:01,An account was logged off.,147.017.223.165,4625,rekha.y,logOff
+1/4/2024 10:02,An account was logged off.,205.011.063.159,4634,ram,logOff
+1/4/2024 10:03,An account failed to log on.,229.164.240.251,4624,arcsight,LoginFailure
+1/4/2024 10:04,An account failed to log on.,100.116.153.244,4634,rekha.y,LoginFailure
+1/4/2024 10:05,An account was successfully logged on.,037.006.100.082,4634,ram,LogOn
+1/4/2024 10:06,An account failed to log on.,061.239.237.225,4624,RAHDELHI,LoginFailure
+1/4/2024 10:07,An account failed to log on.,249.248.080.017,4624,ram,LoginFailure
+1/4/2024 10:08,An account was logged off.,054.174.094.201,4634,rekha.y,logOff
+1/4/2024 10:09,An account failed to log on.,033.201.160.118,4634,nimmi.adp,LoginFailure
+1/4/2024 10:10,An account was logged off.,094.006.149.152,4624,RAHDELHI,logOff
+1/4/2024 10:11,An account was successfully logged on.,164.029.017.136,4634,SKY$,LogOn
+1/4/2024 10:12,An account was logged off.,178.222.034.143,4634,rekha.y,logOff
+1/4/2024 10:13,An account was logged off.,177.177.056.095,4625,arcsight,logOff
+1/4/2024 10:14,An account was logged off.,000.247.056.187,4624,SKY$,logOff
+1/4/2024 10:15,An account was successfully logged on.,062.247.046.124,4625,rekha.y,LogOn
+1/4/2024 10:16,An account was successfully logged on.,173.043.011.005,4634,arcsight,LogOn
+1/4/2024 10:17,An account was logged off.,231.122.136.179,4624,RAHDELHI,logOff
+1/4/2024 10:18,An account was logged off.,170.051.097.228,4625,nimmi.adp,logOff
+1/4/2024 10:19,An account failed to log on.,250.011.243.176,4634,Ram,LoginFailure
+1/4/2024 10:20,An account was successfully logged on.,101.082.223.008,4634,arcsight,LogOn
+1/4/2024 10:21,An account failed to log on.,237.151.114.154,4634,SKY$,LoginFailure
+1/4/2024 10:22,An account was logged off.,157.025.206.181,4634,nimmi.adp,logOff
+1/4/2024 10:23,An account failed to log on.,107.189.060.061,4624,ram,LoginFailure
+1/4/2024 10:24,An account was logged off.,119.006.147.033,4634,Ram,logOff
+1/4/2024 10:25,An account was logged off.,163.219.015.034,4625,RAHDELHI,logOff
+1/4/2024 10:26,An account was logged off.,153.080.015.127,4634,rekha.y,logOff
+1/4/2024 10:27,An account was logged off.,238.102.133.004,4625,nimmi.adp,logOff
+1/4/2024 10:28,An account failed to log on.,035.158.000.081,4634,SKY$,LoginFailure
+1/4/2024 10:29,An account was successfully logged on.,147.200.028.144,4634,Ram,LogOn
+1/4/2024 10:30,An account was logged off.,083.126.071.149,4634,RAHDELHI,logOff
+1/4/2024 10:31,An account failed to log on.,120.047.035.197,4625,ram,LoginFailure
+1/4/2024 10:32,An account was logged off.,006.102.187.129,4634,SKY$,logOff
+1/4/2024 10:33,An account was logged off.,137.185.141.089,4625,nimmi.adp,logOff
+1/4/2024 10:34,An account was logged off.,200.237.183.165,4634,arcsight,logOff
+1/4/2024 10:35,An account was logged off.,135.013.163.117,4624,SKY$,logOff
+1/4/2024 10:36,An account was logged off.,189.120.233.104,4625,SKY$,logOff
+1/4/2024 10:37,An account failed to log on.,237.010.182.232,4634,ram,LoginFailure
+1/4/2024 10:38,An account failed to log on.,159.237.190.175,4625,SKY$,LoginFailure
+1/4/2024 10:39,An account was logged off.,067.197.059.210,4624,SKY$,logOff
+1/4/2024 10:40,An account was successfully logged on.,141.233.188.118,4624,nimmi.adp,LogOn
+1/4/2024 10:41,An account was successfully logged on.,143.083.137.079,4634,RAHDELHI,LogOn
+1/4/2024 10:42,An account was logged off.,113.137.144.132,4624,ram,logOff
+1/4/2024 10:43,An account was logged off.,169.004.166.095,4634,RAHDELHI,logOff
+1/4/2024 10:44,An account was logged off.,156.055.215.121,4625,SKY$,logOff
+1/4/2024 10:45,An account failed to log on.,119.098.137.016,4634,arcsight,LoginFailure
+1/4/2024 10:46,An account was logged off.,168.197.081.030,4625,Ram,logOff
+1/4/2024 10:47,An account was logged off.,015.251.000.041,4634,arcsight,logOff
+1/4/2024 10:48,An account failed to log on.,087.054.034.231,4625,rekha.y,LoginFailure
+1/4/2024 10:49,An account was logged off.,084.239.058.162,4625,rekha.y,logOff
+1/4/2024 10:50,An account was successfully logged on.,137.000.091.043,4634,RAHDELHI,LogOn
+1/4/2024 10:51,An account was logged off.,122.247.242.048,4634,SKY$,logOff
+1/4/2024 10:52,An account was logged off.,089.097.197.190,4624,Ram,logOff
+1/4/2024 10:53,An account was successfully logged on.,124.000.093.037,4624,nimmi.adp,LogOn
+1/4/2024 10:54,An account was successfully logged on.,164.250.200.237,4625,nimmi.adp,LogOn
+1/4/2024 10:55,An account was logged off.,171.056.212.203,4624,Ram,logOff
+1/4/2024 10:56,An account was logged off.,037.066.051.237,4634,rekha.y,logOff
+1/4/2024 10:57,An account was successfully logged on.,131.177.172.230,4634,arcsight,LogOn
+1/4/2024 10:58,An account was logged off.,204.031.206.087,4624,ram,logOff
+1/4/2024 10:59,An account was logged off.,136.152.148.172,4634,SKY$,logOff
+1/4/2024 11:00,An account failed to log on.,082.136.248.117,4625,ram,LoginFailure
+1/4/2024 11:01,An account was successfully logged on.,061.080.179.097,4625,arcsight,LogOn
+1/4/2024 11:02,An account failed to log on.,216.031.024.004,4634,ram,LoginFailure
+1/4/2024 11:03,An account was logged off.,155.063.100.222,4634,ram,logOff
+1/4/2024 11:04,An account was successfully logged on.,108.079.094.024,4634,ram,LogOn
+1/4/2024 11:05,An account failed to log on.,090.082.106.130,4625,SKY$,LoginFailure
+1/4/2024 11:06,An account was logged off.,089.234.020.156,4634,arcsight,logOff
+1/4/2024 11:07,An account was logged off.,104.205.213.149,4634,nimmi.adp,logOff
+1/4/2024 11:08,An account was logged off.,045.130.086.083,4634,ram,logOff
+1/4/2024 11:09,An account was logged off.,128.144.153.052,4634,nimmi.adp,logOff
+1/4/2024 11:10,An account was successfully logged on.,104.010.194.110,4634,Ram,LogOn
+1/4/2024 11:11,An account was logged off.,199.209.152.018,4624,rekha.y,logOff
+1/4/2024 11:12,An account failed to log on.,014.235.211.176,4634,SKY$,LoginFailure
+1/4/2024 11:13,An account was logged off.,130.118.029.250,4625,rekha.y,logOff
+1/4/2024 11:14,An account failed to log on.,231.177.102.015,4625,ram,LoginFailure
+1/4/2024 11:15,An account was logged off.,232.008.100.253,4634,ram,logOff
+1/4/2024 11:16,An account was logged off.,071.244.112.185,4625,SKY$,logOff
+1/4/2024 11:17,An account was logged off.,230.085.155.071,4634,rekha.y,logOff
+1/4/2024 11:18,An account failed to log on.,107.013.090.118,4625,SKY$,LoginFailure
+1/4/2024 11:19,An account was logged off.,219.147.040.048,4625,SKY$,logOff
+1/4/2024 11:20,An account failed to log on.,246.160.205.159,4634,RAHDELHI,LoginFailure
+1/4/2024 11:21,An account was logged off.,186.193.017.021,4625,ram,logOff
+1/4/2024 11:22,An account was successfully logged on.,097.184.160.134,4625,Ram,LogOn
+1/4/2024 11:23,An account failed to log on.,112.065.083.151,4634,SKY$,LoginFailure
+1/4/2024 11:24,An account was logged off.,206.125.211.123,4634,arcsight,logOff
+1/4/2024 11:25,An account failed to log on.,056.149.075.249,4634,arcsight,LoginFailure
+1/4/2024 11:26,An account was successfully logged on.,169.061.113.180,4625,SKY$,LogOn
+1/4/2024 11:27,An account was successfully logged on.,076.111.128.208,4625,Ram,LogOn
+1/4/2024 11:28,An account was logged off.,203.089.215.070,4624,SKY$,logOff
+1/4/2024 11:29,An account was successfully logged on.,123.197.171.034,4624,Ram,LogOn
+1/4/2024 11:30,An account was logged off.,048.198.128.204,4634,ram,logOff
+1/4/2024 11:31,An account failed to log on.,137.212.175.126,4624,arcsight,LoginFailure
+1/4/2024 11:32,An account was logged off.,235.059.176.116,4625,RAHDELHI,logOff
+1/4/2024 11:33,An account failed to log on.,145.130.155.171,4634,Ram,LoginFailure
+1/4/2024 11:34,An account was logged off.,231.175.043.220,4625,SKY$,logOff
+1/4/2024 11:35,An account failed to log on.,043.023.182.023,4625,nimmi.adp,LoginFailure
+1/4/2024 11:36,An account failed to log on.,032.124.040.136,4625,ram,LoginFailure
+1/4/2024 11:37,An account was logged off.,063.201.195.009,4624,Ram,logOff
+1/4/2024 11:38,An account was logged off.,075.223.078.004,4634,rekha.y,logOff
+1/4/2024 11:39,An account was successfully logged on.,194.021.014.125,4624,nimmi.adp,LogOn
+1/4/2024 11:40,An account was successfully logged on.,156.070.245.033,4634,Ram,LogOn
+1/4/2024 11:41,An account failed to log on.,020.073.239.110,4634,Ram,LoginFailure
+1/4/2024 11:42,An account was successfully logged on.,080.226.017.254,4625,rekha.y,LogOn
+1/4/2024 11:43,An account was logged off.,116.040.024.129,4625,ram,logOff
+1/4/2024 11:44,An account was logged off.,030.181.191.035,4624,nimmi.adp,logOff
+1/4/2024 11:45,An account was successfully logged on.,207.181.090.065,4634,ram,LogOn
+1/4/2024 11:46,An account was logged off.,091.049.124.017,4625,nimmi.adp,logOff
+1/4/2024 11:47,An account failed to log on.,096.206.205.010,4634,RAHDELHI,LoginFailure
+1/4/2024 11:48,An account failed to log on.,131.233.093.074,4625,ram,LoginFailure
+1/4/2024 11:49,An account was logged off.,231.076.029.007,4634,nimmi.adp,logOff
+1/4/2024 11:50,An account was logged off.,017.250.057.066,4625,RAHDELHI,logOff
+1/4/2024 11:51,An account was logged off.,054.193.046.061,4634,SKY$,logOff
+1/4/2024 11:52,An account failed to log on.,032.101.241.237,4634,nimmi.adp,LoginFailure
+1/4/2024 11:53,An account was logged off.,242.076.080.126,4625,ram,logOff
+1/4/2024 11:54,An account was logged off.,096.159.076.251,4634,arcsight,logOff
+1/4/2024 11:55,An account was logged off.,229.169.143.105,4634,RAHDELHI,logOff
+1/4/2024 11:56,An account was logged off.,241.011.255.025,4625,RAHDELHI,logOff
+1/4/2024 11:57,An account was logged off.,197.187.070.209,4625,ram,logOff
+1/4/2024 11:58,An account was successfully logged on.,185.208.157.153,4634,Ram,LogOn
+1/4/2024 11:59,An account was logged off.,037.180.004.022,4625,Ram,logOff
+1/4/2024 12:00,An account failed to log on.,073.245.211.124,4634,SKY$,LoginFailure
+1/4/2024 12:01,An account failed to log on.,239.046.219.115,4634,SKY$,LoginFailure
+1/4/2024 12:02,An account was logged off.,016.120.042.178,4625,RAHDELHI,logOff
+1/4/2024 12:03,An account failed to log on.,176.027.206.161,4625,rekha.y,LoginFailure
+1/4/2024 12:04,An account was logged off.,015.068.025.223,4634,ram,logOff
+1/4/2024 12:05,An account failed to log on.,026.110.021.050,4634,rekha.y,LoginFailure
+1/4/2024 12:06,An account failed to log on.,147.144.079.051,4625,rekha.y,LoginFailure
+1/4/2024 12:07,An account was logged off.,188.021.132.034,4624,rekha.y,logOff
+1/4/2024 12:08,An account failed to log on.,147.123.025.020,4634,ram,LoginFailure
+1/4/2024 12:09,An account failed to log on.,031.000.074.154,4634,RAHDELHI,LoginFailure
+1/4/2024 12:10,An account was logged off.,049.189.021.175,4634,rekha.y,logOff
+1/4/2024 12:11,An account was logged off.,034.206.036.104,4625,ram,logOff
+1/4/2024 12:12,An account was logged off.,170.060.100.130,4634,Ram,logOff
+1/4/2024 12:13,An account failed to log on.,182.249.113.093,4624,Ram,LoginFailure
+1/4/2024 12:14,An account failed to log on.,089.077.044.186,4624,Ram,LoginFailure
+1/4/2024 12:15,An account was successfully logged on.,045.115.010.148,4634,rekha.y,LogOn
+1/4/2024 12:16,An account was successfully logged on.,010.029.236.210,4625,nimmi.adp,LogOn
+1/4/2024 12:17,An account was logged off.,074.240.041.089,4634,rekha.y,logOff
+1/4/2024 12:18,An account was successfully logged on.,060.053.253.193,4625,nimmi.adp,LogOn
+1/4/2024 12:19,An account failed to log on.,081.216.102.130,4625,rekha.y,LoginFailure
+1/4/2024 12:20,An account was logged off.,225.151.030.146,4634,rekha.y,logOff
+1/4/2024 12:21,An account failed to log on.,218.085.132.229,4625,arcsight,LoginFailure
+1/4/2024 12:22,An account failed to log on.,230.233.027.199,4625,Ram,LoginFailure
+1/4/2024 12:23,An account failed to log on.,036.080.069.100,4634,nimmi.adp,LoginFailure
+1/4/2024 12:24,An account was successfully logged on.,006.085.129.100,4624,Ram,LogOn
+1/4/2024 12:25,An account was logged off.,119.013.011.209,4625,rekha.y,logOff
+1/4/2024 12:26,An account was successfully logged on.,006.112.131.162,4625,SKY$,LogOn
+1/4/2024 12:27,An account was logged off.,029.237.137.167,4634,ram,logOff
+1/4/2024 12:28,An account was logged off.,007.201.142.192,4634,nimmi.adp,logOff
+1/4/2024 12:29,An account failed to log on.,074.024.079.006,4634,Ram,LoginFailure
+1/4/2024 12:30,An account failed to log on.,092.107.011.140,4634,SKY$,LoginFailure
+1/4/2024 12:31,An account was successfully logged on.,139.232.010.250,4625,RAHDELHI,LogOn
+1/4/2024 12:32,An account was logged off.,017.092.094.049,4625,SKY$,logOff
+1/4/2024 12:33,An account failed to log on.,157.069.123.171,4625,arcsight,LoginFailure
+1/4/2024 12:34,An account was logged off.,178.049.155.189,4634,Ram,logOff
+1/4/2024 12:35,An account failed to log on.,248.073.115.025,4634,RAHDELHI,LoginFailure
+1/4/2024 12:36,An account was logged off.,110.090.086.078,4634,RAHDELHI,logOff
+1/4/2024 12:37,An account failed to log on.,116.209.028.152,4634,rekha.y,LoginFailure
+1/4/2024 12:38,An account was logged off.,158.249.221.065,4625,RAHDELHI,logOff
+1/4/2024 12:39,An account was logged off.,071.059.184.075,4634,Ram,logOff
+1/4/2024 12:40,An account failed to log on.,103.214.203.118,4634,Ram,LoginFailure
+1/4/2024 12:41,An account was logged off.,252.124.235.121,4625,SKY$,logOff
+1/4/2024 12:42,An account was logged off.,025.052.060.128,4634,RAHDELHI,logOff
+1/4/2024 12:43,An account failed to log on.,092.233.204.168,4624,rekha.y,LoginFailure
+1/4/2024 12:44,An account failed to log on.,078.036.128.224,4634,nimmi.adp,LoginFailure
+1/4/2024 12:45,An account was logged off.,009.078.094.145,4625,Ram,logOff
+1/4/2024 12:46,An account failed to log on.,129.105.027.252,4625,arcsight,LoginFailure
+1/4/2024 12:47,An account was logged off.,215.195.163.045,4634,arcsight,logOff
+1/4/2024 12:48,An account was logged off.,203.249.068.063,4634,rekha.y,logOff
+1/4/2024 12:49,An account failed to log on.,249.075.089.240,4634,Ram,LoginFailure
+1/4/2024 12:50,An account failed to log on.,068.240.185.064,4634,RAHDELHI,LoginFailure
+1/4/2024 12:51,An account was logged off.,196.223.049.119,4625,SKY$,logOff
+1/4/2024 12:52,An account was logged off.,087.036.156.084,4625,arcsight,logOff
+1/4/2024 12:53,An account failed to log on.,221.213.114.049,4625,SKY$,LoginFailure
+1/4/2024 12:54,An account was successfully logged on.,146.253.161.080,4634,nimmi.adp,LogOn
+1/4/2024 12:55,An account was logged off.,077.055.195.207,4634,RAHDELHI,logOff
+1/4/2024 12:56,An account was logged off.,246.195.191.178,4634,SKY$,logOff
+1/4/2024 12:57,An account was logged off.,156.126.079.091,4625,arcsight,logOff
+1/4/2024 12:58,An account failed to log on.,068.122.038.025,4634,Ram,LoginFailure
+1/4/2024 12:59,An account was logged off.,019.002.172.061,4634,Ram,logOff
+1/4/2024 13:00,An account was successfully logged on.,146.217.236.038,4625,arcsight,LogOn
+1/4/2024 13:01,An account was successfully logged on.,251.169.083.108,4625,SKY$,LogOn
+1/4/2024 13:02,An account was logged off.,168.144.159.255,4634,nimmi.adp,logOff
+1/4/2024 13:03,An account failed to log on.,111.063.135.038,4634,arcsight,LoginFailure
+1/4/2024 13:04,An account was logged off.,006.030.165.110,4634,Ram,logOff
+1/4/2024 13:05,An account failed to log on.,102.048.177.001,4625,arcsight,LoginFailure
+1/4/2024 13:06,An account failed to log on.,246.086.093.089,4634,Ram,LoginFailure
+1/4/2024 13:07,An account was logged off.,103.077.190.253,4634,Ram,logOff
+1/4/2024 13:08,An account failed to log on.,028.132.039.039,4625,RAHDELHI,LoginFailure
+1/4/2024 13:09,An account failed to log on.,089.243.150.110,4634,Ram,LoginFailure
+1/4/2024 13:10,An account was logged off.,224.045.046.072,4634,nimmi.adp,logOff
+1/4/2024 13:11,An account was successfully logged on.,003.214.099.063,4625,ram,LogOn
+1/4/2024 13:12,An account failed to log on.,022.022.014.010,4634,Ram,LoginFailure
+1/4/2024 13:13,An account failed to log on.,079.109.239.029,4634,arcsight,LoginFailure
+1/4/2024 13:14,An account was logged off.,205.182.025.000,4624,rekha.y,logOff
+1/4/2024 13:15,An account was logged off.,133.214.000.044,4625,Ram,logOff
+1/4/2024 13:16,An account was logged off.,190.113.130.173,4624,SKY$,logOff
+1/4/2024 13:17,An account was logged off.,120.080.001.118,4625,arcsight,logOff
+1/4/2024 13:18,An account failed to log on.,142.137.114.136,4625,nimmi.adp,LoginFailure
+1/4/2024 13:19,An account failed to log on.,147.129.138.202,4625,rekha.y,LoginFailure
+1/4/2024 13:20,An account failed to log on.,220.031.128.171,4625,RAHDELHI,LoginFailure
+1/4/2024 13:21,An account was logged off.,115.014.116.061,4625,Ram,logOff
+1/4/2024 13:22,An account was logged off.,173.192.019.093,4634,RAHDELHI,logOff
+1/4/2024 13:23,An account was logged off.,142.155.187.137,4624,rekha.y,logOff
+1/4/2024 13:24,An account was logged off.,033.102.123.094,4624,SKY$,logOff
+1/4/2024 13:25,An account failed to log on.,003.219.008.247,4624,RAHDELHI,LoginFailure
+1/4/2024 13:26,An account was logged off.,124.109.198.048,4624,Ram,logOff
+1/4/2024 13:27,An account was logged off.,129.041.024.050,4625,ram,logOff
+1/4/2024 13:28,An account failed to log on.,191.159.212.190,4625,Ram,LoginFailure
+1/4/2024 13:29,An account was logged off.,098.085.145.019,4625,RAHDELHI,logOff
+1/4/2024 13:30,An account was successfully logged on.,134.072.164.247,4634,ram,LogOn
+1/4/2024 13:31,An account was logged off.,077.181.211.055,4634,ram,logOff
+1/4/2024 13:32,An account failed to log on.,195.182.081.030,4634,ram,LoginFailure
+1/4/2024 13:33,An account failed to log on.,133.222.030.067,4634,nimmi.adp,LoginFailure
+1/4/2024 13:34,An account was logged off.,149.196.176.118,4624,arcsight,logOff
+1/4/2024 13:35,An account was logged off.,115.015.010.115,4625,RAHDELHI,logOff
+1/4/2024 13:36,An account was logged off.,077.204.017.193,4634,arcsight,logOff
+1/4/2024 13:37,An account was logged off.,092.064.180.226,4625,ram,logOff
+1/4/2024 13:38,An account failed to log on.,014.037.231.199,4625,arcsight,LoginFailure
+1/4/2024 13:39,An account failed to log on.,235.189.153.145,4624,SKY$,LoginFailure
+1/4/2024 13:40,An account failed to log on.,079.175.205.192,4634,ram,LoginFailure
+1/4/2024 13:41,An account was logged off.,014.136.086.238,4625,rekha.y,logOff
+1/4/2024 13:42,An account was logged off.,136.121.251.251,4625,nimmi.adp,logOff
+1/4/2024 13:43,An account was logged off.,085.208.126.241,4625,rekha.y,logOff
+1/4/2024 13:44,An account failed to log on.,193.072.148.027,4634,RAHDELHI,LoginFailure
+1/4/2024 13:45,An account was logged off.,217.198.067.229,4625,rekha.y,logOff
+1/4/2024 13:46,An account was logged off.,001.032.027.224,4624,SKY$,logOff
+1/4/2024 13:47,An account failed to log on.,240.049.092.146,4634,SKY$,LoginFailure
+1/4/2024 13:48,An account failed to log on.,062.146.210.096,4634,rekha.y,LoginFailure
+1/4/2024 13:49,An account was logged off.,050.013.015.217,4634,arcsight,logOff
+1/4/2024 13:50,An account was logged off.,226.088.114.049,4624,nimmi.adp,logOff
+1/4/2024 13:51,An account was logged off.,011.202.086.250,4625,SKY$,logOff
+1/4/2024 13:52,An account failed to log on.,144.024.218.231,4634,rekha.y,LoginFailure
+1/4/2024 13:53,An account was logged off.,054.012.104.229,4634,Ram,logOff
+1/4/2024 13:54,An account was logged off.,111.174.018.234,4634,arcsight,logOff
+1/4/2024 13:55,An account failed to log on.,203.014.210.014,4634,rekha.y,LoginFailure
+1/4/2024 13:56,An account was logged off.,023.067.154.221,4634,SKY$,logOff
+1/4/2024 13:57,An account was logged off.,229.202.227.083,4624,Ram,logOff
+1/4/2024 13:58,An account failed to log on.,234.013.058.223,4634,arcsight,LoginFailure
+1/4/2024 13:59,An account was logged off.,239.146.170.206,4634,arcsight,logOff
+1/4/2024 14:00,An account was logged off.,141.196.198.120,4624,rekha.y,logOff
+1/4/2024 14:01,An account was successfully logged on.,062.152.104.191,4625,nimmi.adp,LogOn
+1/4/2024 14:02,An account failed to log on.,134.211.219.110,4624,SKY$,LoginFailure
+1/4/2024 14:03,An account was successfully logged on.,211.095.172.048,4634,ram,LogOn
+1/4/2024 14:04,An account failed to log on.,098.016.190.135,4634,rekha.y,LoginFailure
+1/4/2024 14:05,An account failed to log on.,032.101.017.236,4634,rekha.y,LoginFailure
+1/4/2024 14:06,An account failed to log on.,049.228.112.229,4634,arcsight,LoginFailure
+1/4/2024 14:07,An account failed to log on.,154.122.137.012,4624,RAHDELHI,LoginFailure
+1/4/2024 14:08,An account failed to log on.,210.100.079.022,4634,arcsight,LoginFailure
+1/4/2024 14:09,An account was logged off.,235.220.195.184,4634,ram,logOff
+1/4/2024 14:10,An account was successfully logged on.,066.098.250.174,4625,SKY$,LogOn
+1/4/2024 14:11,An account was successfully logged on.,152.138.250.013,4625,Ram,LogOn
+1/4/2024 14:12,An account was successfully logged on.,202.037.050.087,4625,rekha.y,LogOn
+1/4/2024 14:13,An account was successfully logged on.,156.125.228.206,4634,nimmi.adp,LogOn
+1/4/2024 14:14,An account failed to log on.,212.007.137.242,4634,SKY$,LoginFailure
+1/4/2024 14:15,An account failed to log on.,127.035.096.055,4625,arcsight,LoginFailure
+1/4/2024 14:16,An account failed to log on.,226.187.059.186,4634,ram,LoginFailure
+1/4/2024 14:17,An account was logged off.,246.232.062.251,4625,rekha.y,logOff
+1/4/2024 14:18,An account was logged off.,192.010.078.079,4634,ram,logOff
+1/4/2024 14:19,An account was logged off.,246.164.116.248,4634,Ram,logOff
+1/4/2024 14:20,An account was logged off.,212.021.127.023,4634,RAHDELHI,logOff
+1/4/2024 14:21,An account was successfully logged on.,236.023.181.049,4634,ram,LogOn
+1/4/2024 14:22,An account failed to log on.,114.060.036.182,4625,SKY$,LoginFailure
+1/4/2024 14:23,An account was logged off.,211.114.071.180,4634,rekha.y,logOff
+1/4/2024 14:24,An account failed to log on.,208.094.154.121,4625,RAHDELHI,LoginFailure
+1/4/2024 14:25,An account failed to log on.,027.013.079.224,4625,RAHDELHI,LoginFailure
+1/4/2024 14:26,An account was successfully logged on.,126.131.229.103,4625,rekha.y,LogOn
+1/4/2024 14:27,An account was logged off.,217.131.139.002,4634,ram,logOff
+1/4/2024 14:28,An account failed to log on.,216.221.200.192,4625,RAHDELHI,LoginFailure
+1/4/2024 14:29,An account failed to log on.,027.010.091.060,4634,RAHDELHI,LoginFailure
+1/4/2024 14:30,An account failed to log on.,225.143.138.009,4634,ram,LoginFailure
+1/4/2024 14:31,An account was logged off.,149.216.040.117,4634,RAHDELHI,logOff
+1/4/2024 14:32,An account failed to log on.,136.081.036.163,4625,nimmi.adp,LoginFailure
+1/4/2024 14:33,An account was successfully logged on.,255.211.192.166,4624,ram,LogOn
+1/4/2024 14:34,An account was logged off.,136.067.169.231,4625,rekha.y,logOff
+1/4/2024 14:35,An account was logged off.,180.230.021.106,4625,ram,logOff
+1/4/2024 14:36,An account was logged off.,014.123.162.054,4625,arcsight,logOff
+1/4/2024 14:37,An account was successfully logged on.,055.196.017.202,4634,RAHDELHI,LogOn
+1/4/2024 14:38,An account failed to log on.,070.143.010.008,4625,Ram,LoginFailure
+1/4/2024 14:39,An account was logged off.,129.100.008.210,4634,SKY$,logOff
+1/4/2024 14:40,An account was logged off.,160.151.049.028,4634,arcsight,logOff
+1/4/2024 14:41,An account was logged off.,074.192.147.102,4634,Ram,logOff
+1/4/2024 14:42,An account was logged off.,160.232.175.221,4634,SKY$,logOff
+1/4/2024 14:43,An account was logged off.,123.125.167.185,4634,Ram,logOff
+1/4/2024 14:44,An account was successfully logged on.,065.202.222.176,4625,ram,LogOn
+1/4/2024 14:45,An account was logged off.,191.082.161.093,4625,RAHDELHI,logOff
+1/4/2024 14:46,An account was logged off.,050.239.173.124,4634,ram,logOff
+1/4/2024 14:47,An account was successfully logged on.,238.186.248.151,4624,arcsight,LogOn
+1/4/2024 14:48,An account failed to log on.,178.022.010.164,4634,Ram,LoginFailure
+1/4/2024 14:49,An account was successfully logged on.,049.098.211.169,4634,nimmi.adp,LogOn
+1/4/2024 14:50,An account was logged off.,200.179.073.152,4634,SKY$,logOff
+1/4/2024 14:51,An account was logged off.,099.122.027.035,4625,nimmi.adp,logOff
+1/4/2024 14:52,An account was logged off.,160.235.144.110,4625,SKY$,logOff
+1/4/2024 14:53,An account was logged off.,141.237.201.123,4634,RAHDELHI,logOff
+1/4/2024 14:54,An account was successfully logged on.,182.036.219.180,4625,RAHDELHI,LogOn
+1/4/2024 14:55,An account was logged off.,097.044.121.013,4634,ram,logOff
+1/4/2024 14:56,An account was logged off.,136.225.189.217,4624,arcsight,logOff
+1/4/2024 14:57,An account failed to log on.,149.148.129.224,4625,RAHDELHI,LoginFailure
+1/4/2024 14:58,An account failed to log on.,148.149.242.243,4634,SKY$,LoginFailure
+1/4/2024 14:59,An account failed to log on.,117.006.202.000,4624,nimmi.adp,LoginFailure
+1/4/2024 15:00,An account was logged off.,240.208.192.084,4634,SKY$,logOff
+1/4/2024 15:01,An account was logged off.,083.144.176.022,4625,RAHDELHI,logOff
+1/4/2024 15:02,An account failed to log on.,010.117.168.143,4625,SKY$,LoginFailure
+1/4/2024 15:03,An account was logged off.,208.136.160.226,4634,RAHDELHI,logOff
+1/4/2024 15:04,An account failed to log on.,068.157.084.094,4634,RAHDELHI,LoginFailure
+1/4/2024 15:05,An account was logged off.,223.020.101.209,4624,ram,logOff
+1/4/2024 15:06,An account was logged off.,214.192.086.014,4625,ram,logOff
+1/4/2024 15:07,An account was logged off.,143.225.171.160,4634,nimmi.adp,logOff
+1/4/2024 15:08,An account was logged off.,213.051.189.050,4634,nimmi.adp,logOff
+1/4/2024 15:09,An account failed to log on.,152.102.216.043,4634,arcsight,LoginFailure
+1/4/2024 15:10,An account was logged off.,102.107.128.060,4625,SKY$,logOff
+1/4/2024 15:11,An account failed to log on.,144.077.175.253,4634,SKY$,LoginFailure
+1/4/2024 15:12,An account failed to log on.,099.054.049.236,4634,arcsight,LoginFailure
+1/4/2024 15:13,An account failed to log on.,086.189.205.067,4634,rekha.y,LoginFailure
+1/4/2024 15:14,An account was logged off.,187.149.248.074,4625,arcsight,logOff
+1/4/2024 15:15,An account failed to log on.,204.139.078.197,4624,RAHDELHI,LoginFailure
+1/4/2024 15:16,An account was logged off.,071.023.136.184,4624,SKY$,logOff
+1/4/2024 15:17,An account was logged off.,044.032.051.111,4634,arcsight,logOff
+1/4/2024 15:18,An account was logged off.,151.138.168.047,4624,SKY$,logOff
+1/4/2024 15:19,An account failed to log on.,091.254.126.046,4634,ram,LoginFailure
+1/4/2024 15:20,An account was successfully logged on.,238.068.235.196,4625,Ram,LogOn
+1/4/2024 15:21,An account failed to log on.,119.054.247.027,4625,arcsight,LoginFailure
+1/4/2024 15:22,An account failed to log on.,088.067.067.154,4624,nimmi.adp,LoginFailure
+1/4/2024 15:23,An account failed to log on.,158.127.253.056,4634,Ram,LoginFailure
+1/4/2024 15:24,An account was logged off.,011.185.129.150,4625,arcsight,logOff
+1/4/2024 15:25,An account failed to log on.,071.106.211.127,4634,nimmi.adp,LoginFailure
+1/4/2024 15:26,An account was logged off.,249.218.169.246,4624,SKY$,logOff
+1/4/2024 15:27,An account was logged off.,141.223.136.166,4625,Ram,logOff
+1/4/2024 15:28,An account was logged off.,243.154.071.146,4634,Ram,logOff
+1/4/2024 15:29,An account was logged off.,045.186.010.250,4625,Ram,logOff
+1/4/2024 15:30,An account was logged off.,046.200.093.246,4634,arcsight,logOff
+1/4/2024 15:31,An account failed to log on.,175.114.021.212,4625,RAHDELHI,LoginFailure
+1/4/2024 15:32,An account failed to log on.,126.167.152.056,4624,rekha.y,LoginFailure
+1/4/2024 15:33,An account was logged off.,206.239.049.221,4634,nimmi.adp,logOff
+1/4/2024 15:34,An account was successfully logged on.,151.185.093.007,4624,rekha.y,LogOn
+1/4/2024 15:35,An account was logged off.,029.135.202.132,4625,RAHDELHI,logOff
+1/4/2024 15:36,An account was logged off.,154.003.044.052,4625,RAHDELHI,logOff
+1/4/2024 15:37,An account was logged off.,098.109.057.106,4625,rekha.y,logOff
+1/4/2024 15:38,An account failed to log on.,178.017.160.093,4624,RAHDELHI,LoginFailure
+1/4/2024 15:39,An account failed to log on.,094.155.098.232,4634,ram,LoginFailure
+1/4/2024 15:40,An account was logged off.,160.019.084.141,4634,RAHDELHI,logOff
+1/4/2024 15:41,An account failed to log on.,090.121.038.069,4625,Ram,LoginFailure
+1/4/2024 15:42,An account was logged off.,076.138.224.113,4624,ram,logOff
+1/4/2024 15:43,An account was successfully logged on.,050.072.121.049,4624,ram,LogOn
+1/4/2024 15:44,An account failed to log on.,087.157.073.010,4624,rekha.y,LoginFailure
+1/4/2024 15:45,An account was logged off.,234.238.225.055,4634,Ram,logOff
+1/4/2024 15:46,An account was successfully logged on.,223.218.028.063,4625,arcsight,LogOn
+1/4/2024 15:47,An account was logged off.,218.228.183.025,4625,arcsight,logOff
+1/4/2024 15:48,An account failed to log on.,168.034.215.194,4634,SKY$,LoginFailure
+1/4/2024 15:49,An account failed to log on.,230.197.148.097,4625,Ram,LoginFailure
+1/4/2024 15:50,An account was logged off.,117.153.074.149,4625,Ram,logOff
+1/4/2024 15:51,An account was logged off.,224.049.223.125,4625,rekha.y,logOff
+1/4/2024 15:52,An account was successfully logged on.,171.078.130.091,4625,Ram,LogOn
+1/4/2024 15:53,An account failed to log on.,161.009.164.030,4634,RAHDELHI,LoginFailure
+1/4/2024 15:54,An account was logged off.,213.227.006.097,4634,rekha.y,logOff
+1/4/2024 15:55,An account was logged off.,083.199.133.217,4634,arcsight,logOff
+1/4/2024 15:56,An account was logged off.,011.125.193.079,4634,Ram,logOff
+1/4/2024 15:57,An account failed to log on.,237.121.051.205,4634,ram,LoginFailure
+1/4/2024 15:58,An account was logged off.,140.061.050.071,4624,nimmi.adp,logOff
+1/4/2024 15:59,An account was logged off.,049.042.153.062,4634,Ram,logOff
+1/4/2024 16:00,An account was logged off.,138.044.219.055,4624,Ram,logOff
+1/4/2024 16:01,An account failed to log on.,004.029.102.079,4634,rekha.y,LoginFailure
+1/4/2024 16:02,An account was successfully logged on.,183.169.142.058,4634,nimmi.adp,LogOn
+1/4/2024 16:03,An account was successfully logged on.,205.190.007.176,4625,RAHDELHI,LogOn
+1/4/2024 16:04,An account was logged off.,175.117.074.144,4634,Ram,logOff
+1/4/2024 16:05,An account was successfully logged on.,084.253.010.239,4625,nimmi.adp,LogOn
+1/4/2024 16:06,An account was logged off.,164.071.081.148,4624,SKY$,logOff
+1/4/2024 16:07,An account failed to log on.,109.138.224.131,4625,ram,LoginFailure
+1/4/2024 16:08,An account failed to log on.,092.084.247.130,4625,rekha.y,LoginFailure
+1/4/2024 16:09,An account was successfully logged on.,222.003.204.096,4625,ram,LogOn
+1/4/2024 16:10,An account was logged off.,041.170.216.211,4624,Ram,logOff
+1/4/2024 16:11,An account failed to log on.,143.120.193.204,4625,arcsight,LoginFailure
+1/4/2024 16:12,An account was logged off.,096.125.242.014,4624,rekha.y,logOff
+1/4/2024 16:13,An account was successfully logged on.,030.204.042.155,4634,Ram,LogOn
+1/4/2024 16:14,An account failed to log on.,250.213.064.135,4625,rekha.y,LoginFailure
+1/4/2024 16:15,An account was logged off.,226.225.032.109,4634,ram,logOff
+1/4/2024 16:16,An account failed to log on.,068.026.082.042,4624,ram,LoginFailure
+1/4/2024 16:17,An account was logged off.,060.165.171.117,4625,Ram,logOff
+1/4/2024 16:18,An account failed to log on.,213.212.174.246,4624,Ram,LoginFailure
+1/4/2024 16:19,An account was successfully logged on.,097.026.024.158,4625,RAHDELHI,LogOn
+1/4/2024 16:20,An account was logged off.,251.194.206.091,4625,SKY$,logOff
+1/4/2024 16:21,An account was successfully logged on.,162.114.067.055,4624,ram,LogOn
+1/4/2024 16:22,An account failed to log on.,206.198.106.048,4634,SKY$,LoginFailure
+1/4/2024 16:23,An account failed to log on.,246.236.002.135,4625,rekha.y,LoginFailure
+1/4/2024 16:24,An account failed to log on.,031.180.077.076,4634,Ram,LoginFailure
+1/4/2024 16:25,An account was successfully logged on.,067.142.014.058,4624,Ram,LogOn
+1/4/2024 16:26,An account was logged off.,052.066.023.010,4625,RAHDELHI,logOff
+1/4/2024 16:27,An account was logged off.,225.137.163.166,4634,rekha.y,logOff
+1/4/2024 16:28,An account failed to log on.,050.029.022.187,4634,arcsight,LoginFailure
+1/4/2024 16:29,An account was successfully logged on.,192.206.192.126,4625,nimmi.adp,LogOn
+1/4/2024 16:30,An account was successfully logged on.,170.191.201.089,4634,rekha.y,LogOn
+1/4/2024 16:31,An account was successfully logged on.,007.253.132.255,4625,ram,LogOn
+1/4/2024 16:32,An account was logged off.,145.165.177.253,4625,SKY$,logOff
+1/4/2024 16:33,An account failed to log on.,150.006.230.032,4625,ram,LoginFailure
+1/4/2024 16:34,An account failed to log on.,066.229.012.155,4634,arcsight,LoginFailure
+1/4/2024 16:35,An account was logged off.,115.179.189.020,4624,rekha.y,logOff
+1/4/2024 16:36,An account failed to log on.,118.103.137.045,4624,Ram,LoginFailure
+1/4/2024 16:37,An account failed to log on.,072.035.175.141,4624,SKY$,LoginFailure
+1/4/2024 16:38,An account failed to log on.,167.030.231.252,4625,ram,LoginFailure
+1/4/2024 16:39,An account failed to log on.,087.071.249.193,4625,Ram,LoginFailure
+1/4/2024 16:40,An account was logged off.,251.138.018.225,4625,nimmi.adp,logOff
+1/4/2024 16:41,An account was logged off.,254.173.000.153,4624,ram,logOff
+1/4/2024 16:42,An account was logged off.,201.094.066.001,4634,ram,logOff
+1/4/2024 16:43,An account was logged off.,177.042.245.010,4625,arcsight,logOff
+1/4/2024 16:44,An account was logged off.,104.184.032.234,4625,rekha.y,logOff
+1/4/2024 16:45,An account was successfully logged on.,018.244.026.022,4625,RAHDELHI,LogOn
+1/4/2024 16:46,An account was logged off.,019.223.141.095,4625,nimmi.adp,logOff
+1/4/2024 16:47,An account was successfully logged on.,021.159.098.021,4624,rekha.y,LogOn
+1/4/2024 16:48,An account was logged off.,008.118.174.188,4625,rekha.y,logOff
+1/4/2024 16:49,An account was logged off.,024.040.226.220,4625,ram,logOff
+1/4/2024 16:50,An account failed to log on.,251.200.190.163,4634,RAHDELHI,LoginFailure
+1/4/2024 16:51,An account was logged off.,224.230.132.152,4625,ram,logOff
+1/4/2024 16:52,An account failed to log on.,246.062.196.111,4624,arcsight,LoginFailure
+1/4/2024 16:53,An account was successfully logged on.,191.031.006.045,4625,nimmi.adp,LogOn
+1/4/2024 16:54,An account failed to log on.,099.051.142.211,4624,RAHDELHI,LoginFailure
+1/4/2024 16:55,An account failed to log on.,161.195.048.187,4634,Ram,LoginFailure
+1/4/2024 16:56,An account failed to log on.,047.138.115.155,4634,arcsight,LoginFailure
+1/4/2024 16:57,An account was successfully logged on.,214.231.026.103,4624,Ram,LogOn
+1/4/2024 16:58,An account failed to log on.,088.168.100.038,4625,RAHDELHI,LoginFailure
+1/4/2024 16:59,An account was successfully logged on.,069.049.074.115,4625,Ram,LogOn
+1/4/2024 17:00,An account was logged off.,024.178.139.088,4634,nimmi.adp,logOff
+1/4/2024 17:01,An account failed to log on.,074.083.233.175,4634,Ram,LoginFailure
+1/4/2024 17:02,An account was logged off.,222.120.251.194,4634,RAHDELHI,logOff
+1/4/2024 17:03,An account was successfully logged on.,185.082.138.064,4624,rekha.y,LogOn
+1/4/2024 17:04,An account failed to log on.,052.028.109.028,4634,RAHDELHI,LoginFailure
+1/4/2024 17:05,An account was successfully logged on.,225.145.229.114,4625,SKY$,LogOn
+1/4/2024 17:06,An account failed to log on.,226.144.105.004,4625,rekha.y,LoginFailure
+1/4/2024 17:07,An account failed to log on.,192.051.083.212,4625,RAHDELHI,LoginFailure
+1/4/2024 17:08,An account was successfully logged on.,083.141.011.182,4634,SKY$,LogOn
+1/4/2024 17:09,An account was logged off.,017.035.159.191,4625,arcsight,logOff
+1/4/2024 17:10,An account failed to log on.,191.242.234.206,4624,nimmi.adp,LoginFailure
+1/4/2024 17:11,An account was logged off.,004.016.113.043,4625,rekha.y,logOff
+1/4/2024 17:12,An account was successfully logged on.,023.081.124.038,4634,ram,LogOn
+1/4/2024 17:13,An account failed to log on.,166.253.114.220,4625,SKY$,LoginFailure
+1/4/2024 17:14,An account was logged off.,229.188.221.203,4634,nimmi.adp,logOff
+1/4/2024 17:15,An account was logged off.,017.004.125.156,4625,RAHDELHI,logOff
+1/4/2024 17:16,An account failed to log on.,204.070.097.234,4625,RAHDELHI,LoginFailure
+1/4/2024 17:17,An account was logged off.,152.011.175.111,4624,nimmi.adp,logOff
+1/4/2024 17:18,An account failed to log on.,073.102.026.005,4634,arcsight,LoginFailure
+1/4/2024 17:19,An account failed to log on.,255.065.035.204,4625,nimmi.adp,LoginFailure
+1/4/2024 17:20,An account failed to log on.,003.183.068.117,4634,Ram,LoginFailure
+1/4/2024 17:21,An account was logged off.,175.077.051.038,4625,RAHDELHI,logOff
+1/4/2024 17:22,An account was successfully logged on.,092.170.177.210,4624,ram,LogOn
+1/4/2024 17:23,An account was successfully logged on.,119.119.036.118,4634,arcsight,LogOn
+1/4/2024 17:24,An account was successfully logged on.,225.098.251.105,4634,ram,LogOn
+1/4/2024 17:25,An account failed to log on.,122.022.104.105,4625,RAHDELHI,LoginFailure
+1/4/2024 17:26,An account failed to log on.,159.006.168.002,4625,SKY$,LoginFailure
+1/4/2024 17:27,An account failed to log on.,232.200.199.018,4624,SKY$,LoginFailure
+1/4/2024 17:28,An account was successfully logged on.,179.090.148.158,4625,Ram,LogOn
+1/4/2024 17:29,An account was logged off.,140.236.149.247,4634,SKY$,logOff
+1/4/2024 17:30,An account failed to log on.,031.034.177.206,4634,ram,LoginFailure
+1/4/2024 17:31,An account failed to log on.,140.156.121.027,4625,ram,LoginFailure
+1/4/2024 17:32,An account failed to log on.,004.219.149.219,4625,nimmi.adp,LoginFailure
+1/4/2024 17:33,An account failed to log on.,196.158.199.039,4634,ram,LoginFailure
+1/4/2024 17:34,An account was successfully logged on.,196.066.179.176,4634,Ram,LogOn
+1/4/2024 17:35,An account failed to log on.,022.202.187.149,4625,ram,LoginFailure
+1/4/2024 17:36,An account failed to log on.,006.103.048.054,4634,RAHDELHI,LoginFailure
+1/4/2024 17:37,An account was logged off.,198.247.217.148,4625,arcsight,logOff
+1/4/2024 17:38,An account failed to log on.,245.167.224.203,4634,RAHDELHI,LoginFailure
+1/4/2024 17:39,An account was successfully logged on.,214.241.087.033,4634,Ram,LogOn
+1/4/2024 17:40,An account failed to log on.,083.074.216.236,4634,rekha.y,LoginFailure
+1/4/2024 17:41,An account was successfully logged on.,185.220.217.080,4624,RAHDELHI,LogOn
+1/4/2024 17:42,An account was logged off.,007.034.150.138,4634,Ram,logOff
+1/4/2024 17:43,An account was logged off.,190.050.027.006,4625,ram,logOff
+1/4/2024 17:44,An account was successfully logged on.,159.223.248.136,4624,arcsight,LogOn
+1/4/2024 17:45,An account failed to log on.,043.061.049.199,4634,SKY$,LoginFailure
+1/4/2024 17:46,An account failed to log on.,192.111.250.116,4634,SKY$,LoginFailure
+1/4/2024 17:47,An account was logged off.,124.245.034.147,4625,SKY$,logOff
+1/4/2024 17:48,An account was logged off.,110.077.217.009,4624,ram,logOff
+1/4/2024 17:49,An account was logged off.,013.114.163.244,4634,Ram,logOff
+1/4/2024 17:50,An account was successfully logged on.,064.131.241.125,4634,arcsight,LogOn
+1/4/2024 17:51,An account was logged off.,001.182.145.009,4634,RAHDELHI,logOff
+1/4/2024 17:52,An account failed to log on.,221.175.118.103,4625,rekha.y,LoginFailure
+1/4/2024 17:53,An account failed to log on.,248.250.134.187,4625,nimmi.adp,LoginFailure
+1/4/2024 17:54,An account failed to log on.,093.043.122.130,4624,nimmi.adp,LoginFailure
+1/4/2024 17:55,An account was logged off.,000.189.136.191,4634,nimmi.adp,logOff
+1/4/2024 17:56,An account failed to log on.,240.070.058.021,4634,nimmi.adp,LoginFailure
+1/4/2024 17:57,An account was successfully logged on.,014.129.234.070,4634,rekha.y,LogOn
+1/4/2024 17:58,An account failed to log on.,110.117.135.173,4624,nimmi.adp,LoginFailure
+1/4/2024 17:59,An account was logged off.,023.078.161.223,4634,Ram,logOff
+1/4/2024 18:00,An account failed to log on.,067.244.165.193,4624,nimmi.adp,LoginFailure
+1/4/2024 18:01,An account was logged off.,218.077.158.104,4634,RAHDELHI,logOff
+1/4/2024 18:02,An account failed to log on.,249.116.053.114,4634,rekha.y,LoginFailure
+1/4/2024 18:03,An account failed to log on.,154.165.238.028,4634,ram,LoginFailure
+1/4/2024 18:04,An account was successfully logged on.,060.197.190.144,4624,ram,LogOn
+1/4/2024 18:05,An account was logged off.,165.110.208.188,4624,rekha.y,logOff
+1/4/2024 18:06,An account failed to log on.,255.187.243.149,4634,RAHDELHI,LoginFailure
+1/4/2024 18:07,An account was logged off.,095.239.202.178,4625,nimmi.adp,logOff
+1/4/2024 18:08,An account failed to log on.,144.086.049.155,4634,nimmi.adp,LoginFailure
+1/4/2024 18:09,An account was successfully logged on.,237.060.225.081,4634,RAHDELHI,LogOn
+1/4/2024 18:10,An account was logged off.,044.201.085.115,4634,nimmi.adp,logOff
+1/4/2024 18:11,An account was logged off.,252.008.202.179,4634,SKY$,logOff
+1/4/2024 18:12,An account failed to log on.,133.029.019.207,4634,arcsight,LoginFailure
+1/4/2024 18:13,An account failed to log on.,222.099.074.020,4625,SKY$,LoginFailure
+1/4/2024 18:14,An account was successfully logged on.,158.045.061.198,4625,nimmi.adp,LogOn
+1/4/2024 18:15,An account failed to log on.,169.105.223.050,4625,SKY$,LoginFailure
+1/4/2024 18:16,An account was logged off.,246.056.089.020,4625,RAHDELHI,logOff
+1/4/2024 18:17,An account was logged off.,013.194.122.241,4634,RAHDELHI,logOff
+1/4/2024 18:18,An account failed to log on.,251.110.092.013,4624,arcsight,LoginFailure
+1/4/2024 18:19,An account failed to log on.,107.004.156.131,4634,arcsight,LoginFailure
+1/4/2024 18:20,An account was logged off.,117.051.237.068,4625,rekha.y,logOff
+1/4/2024 18:21,An account was logged off.,094.113.173.224,4624,rekha.y,logOff
+1/4/2024 18:22,An account failed to log on.,228.122.205.155,4634,Ram,LoginFailure
+1/4/2024 18:23,An account was logged off.,063.071.214.169,4634,SKY$,logOff
+1/4/2024 18:24,An account failed to log on.,118.119.223.205,4625,Ram,LoginFailure
+1/4/2024 18:25,An account was logged off.,064.099.202.248,4624,arcsight,logOff
+1/4/2024 18:26,An account was logged off.,117.248.003.081,4634,nimmi.adp,logOff
+1/4/2024 18:27,An account was logged off.,069.115.057.246,4634,Ram,logOff
+1/4/2024 18:28,An account was successfully logged on.,126.106.220.093,4625,arcsight,LogOn
+1/4/2024 18:29,An account was logged off.,008.179.180.089,4634,Ram,logOff
+1/4/2024 18:30,An account failed to log on.,220.127.152.000,4624,RAHDELHI,LoginFailure
+1/4/2024 18:31,An account was successfully logged on.,241.036.142.121,4634,SKY$,LogOn
+1/4/2024 18:32,An account was logged off.,158.049.233.177,4625,arcsight,logOff
+1/4/2024 18:33,An account was logged off.,117.130.054.248,4634,Ram,logOff
+1/4/2024 18:34,An account failed to log on.,081.127.067.002,4625,SKY$,LoginFailure
+1/4/2024 18:35,An account was successfully logged on.,025.174.216.010,4624,ram,LogOn
+1/4/2024 18:36,An account was logged off.,034.003.183.170,4634,arcsight,logOff
+1/4/2024 18:37,An account was logged off.,167.199.044.124,4634,rekha.y,logOff
+1/4/2024 18:38,An account was logged off.,226.030.092.102,4634,Ram,logOff
+1/4/2024 18:39,An account failed to log on.,162.064.112.143,4625,SKY$,LoginFailure
+1/4/2024 18:40,An account failed to log on.,185.022.110.179,4634,RAHDELHI,LoginFailure
+1/4/2024 18:41,An account was successfully logged on.,091.050.104.222,4624,rekha.y,LogOn
+1/4/2024 18:42,An account was logged off.,084.020.244.113,4634,SKY$,logOff
+1/4/2024 18:43,An account was logged off.,210.200.253.010,4624,nimmi.adp,logOff
+1/4/2024 18:44,An account was logged off.,050.050.083.075,4625,Ram,logOff
+1/4/2024 18:45,An account was successfully logged on.,177.173.064.026,4634,nimmi.adp,LogOn
+1/4/2024 18:46,An account was logged off.,167.016.159.044,4625,nimmi.adp,logOff
+1/4/2024 18:47,An account was successfully logged on.,156.253.061.250,4625,ram,LogOn
+1/4/2024 18:48,An account was logged off.,020.057.052.061,4634,Ram,logOff
+1/4/2024 18:49,An account was logged off.,215.218.099.236,4634,arcsight,logOff
+1/4/2024 18:50,An account was logged off.,181.089.143.153,4625,Ram,logOff
+1/4/2024 18:51,An account was successfully logged on.,127.103.106.006,4634,RAHDELHI,LogOn
+1/4/2024 18:52,An account was successfully logged on.,199.210.162.137,4634,RAHDELHI,LogOn
+1/4/2024 18:53,An account was logged off.,056.140.215.026,4634,RAHDELHI,logOff
+1/4/2024 18:54,An account failed to log on.,119.240.238.162,4625,ram,LoginFailure
+1/4/2024 18:55,An account was logged off.,049.127.164.123,4634,rekha.y,logOff
+1/4/2024 18:56,An account was logged off.,011.193.083.196,4624,ram,logOff
+1/4/2024 18:57,An account was logged off.,231.021.252.166,4634,RAHDELHI,logOff
+1/4/2024 18:58,An account was logged off.,034.229.050.241,4625,ram,logOff
+1/4/2024 18:59,An account was logged off.,047.051.095.021,4625,Ram,logOff
+1/4/2024 19:00,An account failed to log on.,144.098.067.227,4634,RAHDELHI,LoginFailure
+1/4/2024 19:01,An account failed to log on.,150.255.071.166,4634,ram,LoginFailure
+1/4/2024 19:02,An account failed to log on.,135.091.127.024,4634,rekha.y,LoginFailure
+1/4/2024 19:03,An account failed to log on.,047.217.168.241,4624,ram,LoginFailure
+1/4/2024 19:04,An account was logged off.,145.164.087.064,4624,RAHDELHI,logOff
+1/4/2024 19:05,An account was successfully logged on.,135.014.209.036,4634,arcsight,LogOn
+1/4/2024 19:06,An account was logged off.,165.141.013.221,4634,RAHDELHI,logOff
+1/4/2024 19:07,An account failed to log on.,131.111.244.101,4634,nimmi.adp,LoginFailure
+1/4/2024 19:08,An account was successfully logged on.,001.203.136.147,4624,ram,LogOn
+1/4/2024 19:09,An account was logged off.,153.081.140.239,4624,arcsight,logOff
+1/4/2024 19:10,An account was logged off.,056.094.100.088,4634,Ram,logOff
+1/4/2024 19:11,An account failed to log on.,150.196.129.178,4624,RAHDELHI,LoginFailure
+1/4/2024 19:12,An account was successfully logged on.,137.124.116.019,4624,Ram,LogOn
+1/4/2024 19:13,An account was logged off.,017.244.117.227,4624,SKY$,logOff
+1/4/2024 19:14,An account was logged off.,094.011.002.236,4634,Ram,logOff
+1/4/2024 19:15,An account failed to log on.,227.010.061.030,4624,ram,LoginFailure
+1/4/2024 19:16,An account was logged off.,098.154.214.242,4625,rekha.y,logOff
+1/4/2024 19:17,An account was successfully logged on.,109.189.133.145,4634,rekha.y,LogOn
+1/4/2024 19:18,An account was logged off.,074.112.149.090,4625,ram,logOff
+1/4/2024 19:19,An account failed to log on.,071.170.107.085,4625,SKY$,LoginFailure
+1/4/2024 19:20,An account was logged off.,050.013.152.032,4624,RAHDELHI,logOff
+1/4/2024 19:21,An account failed to log on.,015.052.159.184,4624,RAHDELHI,LoginFailure
+1/4/2024 19:22,An account was successfully logged on.,134.010.156.041,4625,SKY$,LogOn
+1/4/2024 19:23,An account was logged off.,008.045.237.026,4625,arcsight,logOff
+1/4/2024 19:24,An account was logged off.,197.102.061.002,4625,arcsight,logOff
+1/4/2024 19:25,An account was logged off.,024.058.138.031,4634,ram,logOff
+1/4/2024 19:26,An account failed to log on.,180.020.066.134,4624,Ram,LoginFailure
+1/4/2024 19:27,An account was logged off.,025.168.119.016,4634,RAHDELHI,logOff
+1/4/2024 19:28,An account was successfully logged on.,007.146.141.059,4634,ram,LogOn
+1/4/2024 19:29,An account was logged off.,104.076.016.062,4634,arcsight,logOff
+1/4/2024 19:30,An account was successfully logged on.,241.100.135.207,4634,RAHDELHI,LogOn
+1/4/2024 19:31,An account failed to log on.,031.061.099.200,4625,Ram,LoginFailure
+1/4/2024 19:32,An account was logged off.,044.095.184.126,4624,nimmi.adp,logOff
+1/4/2024 19:33,An account failed to log on.,196.036.242.056,4625,SKY$,LoginFailure
+1/4/2024 19:34,An account failed to log on.,247.083.125.192,4634,ram,LoginFailure
+1/4/2024 19:35,An account was logged off.,204.151.092.072,4625,RAHDELHI,logOff
+1/4/2024 19:36,An account was logged off.,235.052.107.061,4634,ram,logOff
+1/4/2024 19:37,An account failed to log on.,104.224.132.181,4634,SKY$,LoginFailure
+1/4/2024 19:38,An account was logged off.,053.091.193.000,4624,SKY$,logOff
+1/4/2024 19:39,An account was logged off.,176.038.107.127,4625,ram,logOff
+1/4/2024 19:40,An account was logged off.,235.168.088.159,4624,SKY$,logOff
+1/4/2024 19:41,An account failed to log on.,016.021.105.179,4624,nimmi.adp,LoginFailure
+1/4/2024 19:42,An account was logged off.,047.181.210.132,4634,nimmi.adp,logOff
+1/4/2024 19:43,An account was successfully logged on.,009.216.155.255,4634,RAHDELHI,LogOn
+1/4/2024 19:44,An account was logged off.,237.094.213.172,4625,arcsight,logOff
+1/4/2024 19:45,An account failed to log on.,250.154.057.068,4634,SKY$,LoginFailure
+1/4/2024 19:46,An account failed to log on.,239.128.049.138,4624,SKY$,LoginFailure
+1/4/2024 19:47,An account was logged off.,234.242.193.153,4634,Ram,logOff
+1/4/2024 19:48,An account was logged off.,251.250.072.116,4625,SKY$,logOff
+1/4/2024 19:49,An account was logged off.,195.135.179.087,4625,rekha.y,logOff
+1/4/2024 19:50,An account was successfully logged on.,090.239.220.219,4625,ram,LogOn
+1/4/2024 19:51,An account was successfully logged on.,217.053.177.140,4625,ram,LogOn
+1/4/2024 19:52,An account was logged off.,036.091.020.030,4634,ram,logOff
+1/4/2024 19:53,An account was logged off.,074.182.037.060,4625,ram,logOff
+1/4/2024 19:54,An account was logged off.,194.066.206.101,4624,Ram,logOff
+1/4/2024 19:55,An account was successfully logged on.,145.196.087.207,4625,rekha.y,LogOn
+1/4/2024 19:56,An account was successfully logged on.,166.118.095.000,4634,SKY$,LogOn
+1/4/2024 19:57,An account was logged off.,174.192.196.084,4625,SKY$,logOff
+1/4/2024 19:58,An account was successfully logged on.,215.236.070.234,4625,RAHDELHI,LogOn
+1/4/2024 19:59,An account was successfully logged on.,094.217.068.170,4625,rekha.y,LogOn
+1/4/2024 20:00,An account was successfully logged on.,040.050.070.024,4634,arcsight,LogOn
+1/4/2024 20:01,An account was logged off.,053.145.135.007,4634,SKY$,logOff
+1/4/2024 20:02,An account was successfully logged on.,030.197.095.240,4634,RAHDELHI,LogOn
+1/4/2024 20:03,An account failed to log on.,031.077.223.098,4634,arcsight,LoginFailure
+1/4/2024 20:04,An account was logged off.,243.210.043.066,4625,Ram,logOff
+1/4/2024 20:05,An account failed to log on.,206.009.186.036,4625,Ram,LoginFailure
+1/4/2024 20:06,An account failed to log on.,134.246.208.180,4624,ram,LoginFailure
+1/4/2024 20:07,An account was successfully logged on.,187.125.151.122,4634,Ram,LogOn
+1/4/2024 20:08,An account was successfully logged on.,056.192.177.186,4634,nimmi.adp,LogOn
+1/4/2024 20:09,An account failed to log on.,254.157.147.249,4634,rekha.y,LoginFailure
+1/4/2024 20:10,An account failed to log on.,054.045.192.108,4624,SKY$,LoginFailure
+1/4/2024 20:11,An account failed to log on.,121.186.151.152,4634,ram,LoginFailure
+1/4/2024 20:12,An account was logged off.,080.185.131.253,4625,rekha.y,logOff
+1/4/2024 20:13,An account was successfully logged on.,018.070.015.110,4625,Ram,LogOn
+1/4/2024 20:14,An account was logged off.,135.174.019.093,4625,RAHDELHI,logOff
+1/4/2024 20:15,An account was logged off.,168.078.186.054,4634,ram,logOff
+1/4/2024 20:16,An account was logged off.,218.029.000.059,4634,Ram,logOff
+1/4/2024 20:17,An account was logged off.,100.234.123.072,4624,Ram,logOff
+1/4/2024 20:18,An account failed to log on.,034.080.026.157,4634,rekha.y,LoginFailure
+1/4/2024 20:19,An account was successfully logged on.,072.004.047.188,4625,SKY$,LogOn
+1/4/2024 20:20,An account failed to log on.,242.071.191.051,4634,rekha.y,LoginFailure
+1/4/2024 20:21,An account was logged off.,136.246.199.183,4624,ram,logOff
+1/4/2024 20:22,An account failed to log on.,136.249.245.147,4634,nimmi.adp,LoginFailure
+1/4/2024 20:23,An account was logged off.,195.062.248.171,4634,nimmi.adp,logOff
+1/4/2024 20:24,An account was logged off.,052.215.228.246,4634,RAHDELHI,logOff
+1/4/2024 20:25,An account was successfully logged on.,227.223.216.042,4625,arcsight,LogOn
+1/4/2024 20:26,An account failed to log on.,128.039.106.101,4634,RAHDELHI,LoginFailure
+1/4/2024 20:27,An account was successfully logged on.,016.231.040.043,4634,ram,LogOn
+1/4/2024 20:28,An account was successfully logged on.,161.091.135.209,4625,arcsight,LogOn
+1/4/2024 20:29,An account was logged off.,053.120.186.182,4634,RAHDELHI,logOff
+1/4/2024 20:30,An account was logged off.,044.196.046.035,4634,rekha.y,logOff
+1/4/2024 20:31,An account failed to log on.,000.212.214.218,4625,arcsight,LoginFailure
+1/4/2024 20:32,An account was logged off.,227.003.132.164,4625,rekha.y,logOff
+1/4/2024 20:33,An account was successfully logged on.,066.225.019.231,4625,RAHDELHI,LogOn
+1/4/2024 20:34,An account was logged off.,094.027.210.212,4625,Ram,logOff
+1/4/2024 20:35,An account failed to log on.,220.080.221.131,4625,ram,LoginFailure
+1/4/2024 20:36,An account failed to log on.,124.118.243.215,4634,arcsight,LoginFailure
+1/4/2024 20:37,An account failed to log on.,032.228.210.224,4634,ram,LoginFailure
+1/4/2024 20:38,An account failed to log on.,029.176.041.025,4624,RAHDELHI,LoginFailure
+1/4/2024 20:39,An account was logged off.,249.247.145.229,4634,Ram,logOff
+1/4/2024 20:40,An account failed to log on.,199.207.081.053,4634,nimmi.adp,LoginFailure
+1/4/2024 20:41,An account was successfully logged on.,025.253.171.110,4634,rekha.y,LogOn
+1/4/2024 20:42,An account failed to log on.,177.084.107.120,4634,SKY$,LoginFailure
+1/4/2024 20:43,An account was logged off.,034.065.116.074,4634,Ram,logOff
+1/4/2024 20:44,An account failed to log on.,044.142.017.167,4625,arcsight,LoginFailure
+1/4/2024 20:45,An account failed to log on.,102.072.085.229,4634,SKY$,LoginFailure
+1/4/2024 20:46,An account failed to log on.,118.119.033.238,4634,rekha.y,LoginFailure
+1/4/2024 20:47,An account was logged off.,094.028.204.196,4625,nimmi.adp,logOff
+1/4/2024 20:48,An account was logged off.,121.056.125.222,4634,rekha.y,logOff
+1/4/2024 20:49,An account was logged off.,209.190.131.029,4624,SKY$,logOff
+1/4/2024 20:50,An account was logged off.,092.253.185.234,4634,RAHDELHI,logOff
+1/4/2024 20:51,An account failed to log on.,174.077.251.243,4625,RAHDELHI,LoginFailure
+1/4/2024 20:52,An account failed to log on.,191.186.083.064,4634,RAHDELHI,LoginFailure
+1/4/2024 20:53,An account was successfully logged on.,087.209.163.010,4624,rekha.y,LogOn
+1/4/2024 20:54,An account was logged off.,233.010.076.186,4634,rekha.y,logOff
+1/4/2024 20:55,An account was logged off.,184.125.216.086,4624,Ram,logOff
+1/4/2024 20:56,An account was logged off.,136.223.152.160,4624,RAHDELHI,logOff
+1/4/2024 20:57,An account was successfully logged on.,081.157.195.035,4625,arcsight,LogOn
+1/4/2024 20:58,An account was logged off.,011.166.157.205,4625,ram,logOff
+1/4/2024 20:59,An account failed to log on.,100.123.052.188,4625,rekha.y,LoginFailure
+1/4/2024 21:00,An account failed to log on.,120.223.002.214,4634,arcsight,LoginFailure
+1/4/2024 21:01,An account failed to log on.,149.239.097.108,4634,nimmi.adp,LoginFailure
+1/4/2024 21:02,An account was logged off.,181.136.025.074,4625,RAHDELHI,logOff
+1/4/2024 21:03,An account was logged off.,041.080.073.169,4624,ram,logOff
+1/4/2024 21:04,An account was successfully logged on.,020.027.164.185,4625,Ram,LogOn
+1/4/2024 21:05,An account was logged off.,054.217.001.030,4624,ram,logOff
+1/4/2024 21:06,An account failed to log on.,217.251.189.041,4625,nimmi.adp,LoginFailure
+1/4/2024 21:07,An account was logged off.,192.132.052.127,4624,Ram,logOff
+1/4/2024 21:08,An account was successfully logged on.,205.129.089.182,4625,RAHDELHI,LogOn
+1/4/2024 21:09,An account was logged off.,157.101.038.059,4625,ram,logOff
+1/4/2024 21:10,An account was logged off.,101.177.059.204,4625,nimmi.adp,logOff
+1/4/2024 21:11,An account was logged off.,078.247.019.230,4625,Ram,logOff
+1/4/2024 21:12,An account failed to log on.,190.188.210.114,4625,nimmi.adp,LoginFailure
+1/4/2024 21:13,An account was logged off.,030.055.179.054,4624,rekha.y,logOff
+1/4/2024 21:14,An account was logged off.,135.118.129.052,4625,arcsight,logOff
+1/4/2024 21:15,An account failed to log on.,255.042.120.120,4634,SKY$,LoginFailure
+1/4/2024 21:16,An account was logged off.,109.130.185.087,4634,SKY$,logOff
+1/4/2024 21:17,An account was logged off.,045.249.076.056,4625,rekha.y,logOff
+1/4/2024 21:18,An account failed to log on.,001.214.039.254,4634,rekha.y,LoginFailure
+1/4/2024 21:19,An account failed to log on.,093.253.034.088,4625,Ram,LoginFailure
+1/4/2024 21:20,An account failed to log on.,063.048.035.156,4624,Ram,LoginFailure
+1/4/2024 21:21,An account failed to log on.,042.002.014.155,4625,nimmi.adp,LoginFailure
+1/4/2024 21:22,An account failed to log on.,169.192.108.027,4634,rekha.y,LoginFailure
+1/4/2024 21:23,An account was logged off.,194.091.093.128,4634,Ram,logOff
+1/4/2024 21:24,An account was logged off.,028.094.102.063,4625,SKY$,logOff
+1/4/2024 21:25,An account was successfully logged on.,037.051.079.064,4624,rekha.y,LogOn
+1/4/2024 21:26,An account was logged off.,099.208.104.027,4625,rekha.y,logOff
+1/4/2024 21:27,An account was logged off.,111.216.142.065,4625,arcsight,logOff
+1/4/2024 21:28,An account was logged off.,130.189.044.237,4625,SKY$,logOff
+1/4/2024 21:29,An account was logged off.,249.059.113.124,4624,arcsight,logOff
+1/4/2024 21:30,An account was logged off.,003.174.137.122,4634,Ram,logOff
+1/4/2024 21:31,An account failed to log on.,054.215.130.235,4634,nimmi.adp,LoginFailure
+1/4/2024 21:32,An account was logged off.,111.193.068.009,4625,rekha.y,logOff
+1/4/2024 21:33,An account was logged off.,174.177.007.177,4634,arcsight,logOff
+1/4/2024 21:34,An account failed to log on.,251.251.240.179,4634,RAHDELHI,LoginFailure
+1/4/2024 21:35,An account was logged off.,055.146.116.218,4624,nimmi.adp,logOff
+1/4/2024 21:36,An account was successfully logged on.,181.040.048.001,4624,rekha.y,LogOn
+1/4/2024 21:37,An account was logged off.,017.067.041.133,4625,arcsight,logOff
+1/4/2024 21:38,An account failed to log on.,028.186.055.253,4625,Ram,LoginFailure
+1/4/2024 21:39,An account was logged off.,078.045.231.222,4634,rekha.y,logOff
+1/4/2024 21:40,An account was successfully logged on.,142.040.171.169,4625,nimmi.adp,LogOn
+1/4/2024 21:41,An account was logged off.,149.001.069.060,4624,Ram,logOff
+1/4/2024 21:42,An account was successfully logged on.,050.116.069.078,4634,nimmi.adp,LogOn
+1/4/2024 21:43,An account was successfully logged on.,118.074.128.003,4634,Ram,LogOn
+1/4/2024 21:44,An account failed to log on.,116.221.121.044,4634,Ram,LoginFailure
+1/4/2024 21:45,An account failed to log on.,210.215.032.150,4625,ram,LoginFailure
+1/4/2024 21:46,An account failed to log on.,179.235.013.019,4634,RAHDELHI,LoginFailure
+1/4/2024 21:47,An account was logged off.,080.099.009.069,4625,arcsight,logOff
+1/4/2024 21:48,An account was logged off.,069.193.204.220,4634,nimmi.adp,logOff
+1/4/2024 21:49,An account failed to log on.,129.105.122.022,4624,rekha.y,LoginFailure
+1/4/2024 21:50,An account was successfully logged on.,154.159.162.054,4634,Ram,LogOn
+1/4/2024 21:51,An account failed to log on.,199.058.246.152,4625,nimmi.adp,LoginFailure
+1/4/2024 21:52,An account was successfully logged on.,121.077.214.203,4625,SKY$,LogOn
+1/4/2024 21:53,An account failed to log on.,064.093.224.177,4634,Ram,LoginFailure
+1/4/2024 21:54,An account was successfully logged on.,077.173.169.215,4624,SKY$,LogOn
+1/4/2024 21:55,An account failed to log on.,202.178.071.211,4625,rekha.y,LoginFailure
+1/4/2024 21:56,An account failed to log on.,195.015.082.163,4634,Ram,LoginFailure
+1/4/2024 21:57,An account failed to log on.,125.039.008.212,4634,SKY$,LoginFailure
+1/4/2024 21:58,An account failed to log on.,039.195.012.054,4634,SKY$,LoginFailure
+1/4/2024 21:59,An account failed to log on.,201.160.204.132,4624,rekha.y,LoginFailure
+1/4/2024 22:00,An account was successfully logged on.,217.197.146.137,4634,RAHDELHI,LogOn
+1/4/2024 22:01,An account failed to log on.,142.153.122.061,4625,rekha.y,LoginFailure
+1/4/2024 22:02,An account was logged off.,008.096.190.240,4624,Ram,logOff
+1/4/2024 22:03,An account was logged off.,188.117.214.239,4625,Ram,logOff
+1/4/2024 22:04,An account failed to log on.,040.142.211.244,4624,Ram,LoginFailure
+1/4/2024 22:05,An account was logged off.,085.107.192.191,4625,SKY$,logOff
+1/4/2024 22:06,An account failed to log on.,080.247.035.201,4625,nimmi.adp,LoginFailure
+1/4/2024 22:07,An account was successfully logged on.,128.090.177.189,4625,nimmi.adp,LogOn
+1/4/2024 22:08,An account failed to log on.,247.224.250.195,4625,nimmi.adp,LoginFailure
+1/4/2024 22:09,An account was logged off.,000.131.144.204,4634,SKY$,logOff
+1/4/2024 22:10,An account was logged off.,213.065.241.140,4624,RAHDELHI,logOff
+1/4/2024 22:11,An account failed to log on.,226.127.057.093,4634,SKY$,LoginFailure
+1/4/2024 22:12,An account was successfully logged on.,127.032.021.079,4634,arcsight,LogOn
+1/4/2024 22:13,An account failed to log on.,123.009.203.170,4625,ram,LoginFailure
+1/4/2024 22:14,An account failed to log on.,050.082.209.107,4634,rekha.y,LoginFailure
+1/4/2024 22:15,An account failed to log on.,249.154.001.101,4634,RAHDELHI,LoginFailure
+1/4/2024 22:16,An account was successfully logged on.,022.234.141.114,4625,rekha.y,LogOn
+1/4/2024 22:17,An account was logged off.,148.043.026.248,4624,nimmi.adp,logOff
+1/4/2024 22:18,An account was logged off.,046.253.247.188,4625,arcsight,logOff
+1/4/2024 22:19,An account failed to log on.,141.168.048.070,4634,arcsight,LoginFailure
+1/4/2024 22:20,An account was logged off.,096.088.137.224,4634,rekha.y,logOff
+1/4/2024 22:21,An account was logged off.,080.039.167.016,4624,nimmi.adp,logOff
+1/4/2024 22:22,An account was successfully logged on.,143.008.120.081,4624,arcsight,LogOn
+1/4/2024 22:23,An account was successfully logged on.,211.254.082.226,4634,RAHDELHI,LogOn
+1/4/2024 22:24,An account failed to log on.,063.046.064.038,4634,arcsight,LoginFailure
+1/4/2024 22:25,An account failed to log on.,243.048.170.226,4625,arcsight,LoginFailure
+1/4/2024 22:26,An account was logged off.,253.212.192.230,4624,rekha.y,logOff
+1/4/2024 22:27,An account failed to log on.,131.169.215.230,4625,ram,LoginFailure
+1/4/2024 22:28,An account was successfully logged on.,208.159.047.032,4634,Ram,LogOn
+1/4/2024 22:29,An account was logged off.,207.013.219.072,4634,RAHDELHI,logOff
+1/4/2024 22:30,An account was logged off.,068.074.235.081,4624,RAHDELHI,logOff
+1/4/2024 22:31,An account was logged off.,152.087.239.043,4625,SKY$,logOff
+1/4/2024 22:32,An account failed to log on.,102.090.040.154,4625,Ram,LoginFailure
+1/4/2024 22:33,An account was logged off.,144.155.155.174,4625,ram,logOff
+1/4/2024 22:34,An account failed to log on.,101.241.003.196,4634,arcsight,LoginFailure
+1/4/2024 22:35,An account was logged off.,068.104.251.219,4634,Ram,logOff
+1/4/2024 22:36,An account was successfully logged on.,165.178.100.042,4634,Ram,LogOn
+1/4/2024 22:37,An account was logged off.,100.082.203.120,4634,arcsight,logOff
+1/4/2024 22:38,An account failed to log on.,108.125.202.109,4634,RAHDELHI,LoginFailure
+1/4/2024 22:39,An account failed to log on.,154.097.113.241,4634,Ram,LoginFailure
+1/4/2024 22:40,An account was logged off.,000.231.004.140,4624,rekha.y,logOff
+1/4/2024 22:41,An account was successfully logged on.,050.211.056.035,4634,SKY$,LogOn
+1/4/2024 22:42,An account failed to log on.,203.015.098.132,4625,arcsight,LoginFailure
+1/4/2024 22:43,An account was logged off.,225.007.152.035,4625,rekha.y,logOff
+1/4/2024 22:44,An account was logged off.,172.046.238.115,4624,nimmi.adp,logOff
+1/4/2024 22:45,An account was logged off.,192.131.168.177,4624,rekha.y,logOff
+1/4/2024 22:46,An account was successfully logged on.,051.251.180.063,4625,nimmi.adp,LogOn
+1/4/2024 22:47,An account was logged off.,172.152.250.152,4625,RAHDELHI,logOff
+1/4/2024 22:48,An account failed to log on.,018.063.139.092,4634,SKY$,LoginFailure
+1/4/2024 22:49,An account was successfully logged on.,178.197.099.119,4634,SKY$,LogOn
+1/4/2024 22:50,An account failed to log on.,061.066.194.251,4624,arcsight,LoginFailure
+1/4/2024 22:51,An account was successfully logged on.,059.055.120.237,4634,Ram,LogOn
+1/4/2024 22:52,An account failed to log on.,002.078.000.158,4634,SKY$,LoginFailure
+1/4/2024 22:53,An account failed to log on.,191.023.012.129,4634,RAHDELHI,LoginFailure
+1/4/2024 22:54,An account failed to log on.,139.175.046.084,4624,nimmi.adp,LoginFailure
+1/4/2024 22:55,An account failed to log on.,042.046.232.172,4625,nimmi.adp,LoginFailure
+1/4/2024 22:56,An account was logged off.,028.207.116.068,4634,arcsight,logOff
+1/4/2024 22:57,An account was successfully logged on.,245.135.164.224,4634,arcsight,LogOn
+1/4/2024 22:58,An account was logged off.,149.126.204.040,4625,nimmi.adp,logOff
+1/4/2024 22:59,An account was logged off.,182.018.234.031,4634,rekha.y,logOff
+1/4/2024 23:00,An account failed to log on.,114.113.169.237,4634,SKY$,LoginFailure
+1/4/2024 23:01,An account was logged off.,119.130.106.178,4634,ram,logOff
+1/4/2024 23:02,An account was logged off.,013.121.065.047,4634,nimmi.adp,logOff
+1/4/2024 23:03,An account failed to log on.,197.107.202.250,4634,rekha.y,LoginFailure
+1/4/2024 23:04,An account was successfully logged on.,088.194.062.160,4625,RAHDELHI,LogOn
+1/4/2024 23:05,An account failed to log on.,199.052.108.120,4634,nimmi.adp,LoginFailure
+1/4/2024 23:06,An account was logged off.,055.217.158.198,4624,ram,logOff
+1/4/2024 23:07,An account was logged off.,037.096.030.155,4634,arcsight,logOff
+1/4/2024 23:08,An account was successfully logged on.,229.092.146.235,4624,ram,LogOn
+1/4/2024 23:09,An account was successfully logged on.,069.089.000.114,4625,Ram,LogOn
+1/4/2024 23:10,An account was logged off.,141.245.113.072,4634,nimmi.adp,logOff
+1/4/2024 23:11,An account was logged off.,096.157.020.180,4634,arcsight,logOff
+1/4/2024 23:12,An account failed to log on.,254.020.196.093,4625,arcsight,LoginFailure
+1/4/2024 23:13,An account was successfully logged on.,082.220.091.060,4634,nimmi.adp,LogOn
+1/4/2024 23:14,An account failed to log on.,204.165.017.027,4634,arcsight,LoginFailure
+1/4/2024 23:15,An account was logged off.,147.003.205.213,4624,Ram,logOff
+1/4/2024 23:16,An account was logged off.,217.105.123.212,4634,RAHDELHI,logOff
+1/4/2024 23:17,An account was successfully logged on.,164.213.131.112,4625,nimmi.adp,LogOn
+1/4/2024 23:18,An account failed to log on.,036.220.098.231,4634,Ram,LoginFailure
+1/4/2024 23:19,An account failed to log on.,118.223.042.121,4634,RAHDELHI,LoginFailure
+1/4/2024 23:20,An account failed to log on.,130.216.137.095,4625,Ram,LoginFailure
+1/4/2024 23:21,An account was logged off.,228.182.152.177,4624,ram,logOff
+1/4/2024 23:22,An account was logged off.,196.060.145.225,4625,SKY$,logOff
+1/4/2024 23:23,An account was logged off.,235.078.086.248,4625,RAHDELHI,logOff
+1/4/2024 23:24,An account was logged off.,085.236.205.159,4634,arcsight,logOff
+1/4/2024 23:25,An account was logged off.,032.082.244.019,4634,RAHDELHI,logOff
+1/4/2024 23:26,An account was logged off.,181.217.203.207,4625,ram,logOff
+1/4/2024 23:27,An account was successfully logged on.,204.022.147.178,4625,nimmi.adp,LogOn
+1/4/2024 23:28,An account was logged off.,175.008.222.186,4634,arcsight,logOff
+1/4/2024 23:29,An account failed to log on.,003.114.092.021,4634,nimmi.adp,LoginFailure
+1/4/2024 23:30,An account failed to log on.,244.225.067.044,4624,Ram,LoginFailure
+1/4/2024 23:31,An account was successfully logged on.,017.234.166.166,4624,ram,LogOn
+1/4/2024 23:32,An account was successfully logged on.,015.008.098.122,4624,ram,LogOn
+1/4/2024 23:33,An account failed to log on.,053.039.086.116,4625,rekha.y,LoginFailure
+1/4/2024 23:34,An account failed to log on.,026.147.139.001,4624,Ram,LoginFailure
+1/4/2024 23:35,An account was logged off.,144.026.071.031,4634,RAHDELHI,logOff
+1/4/2024 23:36,An account was logged off.,250.217.234.091,4634,arcsight,logOff
+1/4/2024 23:37,An account was successfully logged on.,011.092.210.233,4625,nimmi.adp,LogOn
+1/4/2024 23:38,An account was logged off.,057.048.210.038,4624,RAHDELHI,logOff
+1/4/2024 23:39,An account was logged off.,196.242.120.160,4634,RAHDELHI,logOff
+1/4/2024 23:40,An account was logged off.,013.161.063.068,4625,rekha.y,logOff
+1/4/2024 23:41,An account was successfully logged on.,179.227.242.100,4625,rekha.y,LogOn
+1/4/2024 23:42,An account failed to log on.,105.167.026.061,4625,RAHDELHI,LoginFailure
+1/4/2024 23:43,An account was logged off.,108.069.022.248,4625,SKY$,logOff
+1/4/2024 23:44,An account was logged off.,207.001.039.186,4634,rekha.y,logOff
+1/4/2024 23:45,An account failed to log on.,002.118.123.211,4625,nimmi.adp,LoginFailure
+1/4/2024 23:46,An account was logged off.,158.025.121.220,4625,ram,logOff
+1/4/2024 23:47,An account was logged off.,105.229.038.231,4625,Ram,logOff
+1/4/2024 23:48,An account was logged off.,181.061.148.083,4625,nimmi.adp,logOff
+1/4/2024 23:49,An account was logged off.,140.152.174.198,4624,Ram,logOff
+1/4/2024 23:50,An account was logged off.,121.089.197.228,4625,SKY$,logOff
+1/4/2024 23:51,An account failed to log on.,166.039.068.107,4625,Ram,LoginFailure
+1/4/2024 23:52,An account was logged off.,066.216.002.119,4634,ram,logOff
+1/4/2024 23:53,An account was successfully logged on.,088.044.153.130,4634,ram,LogOn
+1/4/2024 23:54,An account was logged off.,181.210.069.200,4624,SKY$,logOff
+1/4/2024 23:55,An account was successfully logged on.,121.245.137.066,4634,rekha.y,LogOn
+1/4/2024 23:56,An account failed to log on.,163.142.144.082,4634,SKY$,LoginFailure
+1/4/2024 23:57,An account was logged off.,010.166.013.002,4625,rekha.y,logOff
+1/4/2024 23:58,An account was logged off.,122.233.015.098,4624,arcsight,logOff
+1/4/2024 23:59,An account failed to log on.,133.248.029.080,4634,nimmi.adp,LoginFailure
+1/5/2024 0:00,An account was logged off.,204.193.167.193,4625,SKY$,logOff
+1/5/2024 0:01,An account was logged off.,064.213.006.083,4634,SKY$,logOff
+1/5/2024 0:02,An account was successfully logged on.,175.024.178.252,4625,Ram,LogOn
+1/5/2024 0:03,An account was logged off.,121.104.157.224,4624,rekha.y,logOff
+1/5/2024 0:04,An account failed to log on.,182.245.083.240,4625,RAHDELHI,LoginFailure
+1/5/2024 0:05,An account was logged off.,188.084.024.255,4634,ram,logOff
+1/5/2024 0:06,An account was logged off.,058.084.214.053,4634,RAHDELHI,logOff
+1/5/2024 0:07,An account failed to log on.,209.240.161.011,4634,RAHDELHI,LoginFailure
+1/5/2024 0:08,An account was successfully logged on.,092.003.214.101,4634,SKY$,LogOn
+1/5/2024 0:09,An account failed to log on.,224.014.102.154,4625,nimmi.adp,LoginFailure
+1/5/2024 0:10,An account failed to log on.,177.116.139.071,4625,nimmi.adp,LoginFailure
+1/5/2024 0:11,An account was logged off.,095.056.131.089,4634,nimmi.adp,logOff
+1/5/2024 0:12,An account was logged off.,231.008.138.208,4624,ram,logOff
+1/5/2024 0:13,An account failed to log on.,082.218.096.196,4634,RAHDELHI,LoginFailure
+1/5/2024 0:14,An account failed to log on.,160.141.240.060,4634,rekha.y,LoginFailure
+1/5/2024 0:15,An account was logged off.,098.178.033.110,4624,ram,logOff
+1/5/2024 0:16,An account was logged off.,150.248.028.234,4625,arcsight,logOff
+1/5/2024 0:17,An account was successfully logged on.,207.176.219.008,4634,Ram,LogOn
+1/5/2024 0:18,An account was successfully logged on.,024.178.084.177,4634,rekha.y,LogOn
+1/5/2024 0:19,An account was successfully logged on.,094.156.194.205,4624,Ram,LogOn
+1/5/2024 0:20,An account failed to log on.,126.174.038.222,4624,nimmi.adp,LoginFailure
+1/5/2024 0:21,An account was successfully logged on.,023.236.025.251,4634,rekha.y,LogOn
+1/5/2024 0:22,An account was logged off.,254.110.116.079,4634,nimmi.adp,logOff
+1/5/2024 0:23,An account was logged off.,172.040.199.152,4634,Ram,logOff
+1/5/2024 0:24,An account failed to log on.,125.066.131.122,4634,arcsight,LoginFailure
+1/5/2024 0:25,An account was successfully logged on.,060.121.077.037,4625,arcsight,LogOn
+1/5/2024 0:26,An account was logged off.,130.097.013.085,4625,RAHDELHI,logOff
+1/5/2024 0:27,An account failed to log on.,245.005.019.211,4634,RAHDELHI,LoginFailure
+1/5/2024 0:28,An account failed to log on.,245.246.079.066,4634,arcsight,LoginFailure
+1/5/2024 0:29,An account failed to log on.,094.007.129.072,4634,SKY$,LoginFailure
+1/5/2024 0:30,An account failed to log on.,191.139.123.215,4624,rekha.y,LoginFailure
+1/5/2024 0:31,An account was logged off.,067.175.151.003,4625,nimmi.adp,logOff
+1/5/2024 0:32,An account failed to log on.,255.058.041.056,4625,SKY$,LoginFailure
+1/5/2024 0:33,An account failed to log on.,210.208.223.092,4634,SKY$,LoginFailure
+1/5/2024 0:34,An account failed to log on.,057.040.089.152,4625,SKY$,LoginFailure
+1/5/2024 0:35,An account failed to log on.,085.247.135.100,4625,ram,LoginFailure
+1/5/2024 0:36,An account was successfully logged on.,057.110.219.161,4625,arcsight,LogOn
+1/5/2024 0:37,An account failed to log on.,141.188.077.246,4624,nimmi.adp,LoginFailure
+1/5/2024 0:38,An account failed to log on.,127.243.153.097,4625,nimmi.adp,LoginFailure
+1/5/2024 0:39,An account was logged off.,085.238.090.113,4634,RAHDELHI,logOff
+1/5/2024 0:40,An account was logged off.,204.157.086.157,4625,RAHDELHI,logOff
+1/5/2024 0:41,An account was successfully logged on.,143.057.026.155,4625,ram,LogOn
+1/5/2024 0:42,An account was logged off.,029.172.169.074,4634,SKY$,logOff
+1/5/2024 0:43,An account was logged off.,011.129.139.228,4624,arcsight,logOff
+1/5/2024 0:44,An account failed to log on.,219.055.121.056,4625,ram,LoginFailure
+1/5/2024 0:45,An account was successfully logged on.,231.216.006.169,4634,rekha.y,LogOn
+1/5/2024 0:46,An account was logged off.,026.132.059.031,4634,SKY$,logOff
+1/5/2024 0:47,An account failed to log on.,137.247.237.170,4624,rekha.y,LoginFailure
+1/5/2024 0:48,An account was logged off.,048.040.225.172,4634,rekha.y,logOff
+1/5/2024 0:49,An account failed to log on.,216.122.077.104,4625,rekha.y,LoginFailure
+1/5/2024 0:50,An account was successfully logged on.,039.252.140.160,4634,ram,LogOn
+1/5/2024 0:51,An account failed to log on.,083.059.104.004,4625,nimmi.adp,LoginFailure
+1/5/2024 0:52,An account was logged off.,083.009.060.139,4624,ram,logOff
+1/5/2024 0:53,An account was logged off.,140.025.088.244,4624,RAHDELHI,logOff
+1/5/2024 0:54,An account was logged off.,251.021.237.134,4625,rekha.y,logOff
+1/5/2024 0:55,An account was logged off.,143.162.199.164,4624,nimmi.adp,logOff
+1/5/2024 0:56,An account failed to log on.,047.129.220.028,4625,rekha.y,LoginFailure
+1/5/2024 0:57,An account failed to log on.,084.052.173.212,4634,SKY$,LoginFailure
+1/5/2024 0:58,An account was logged off.,026.146.181.027,4634,RAHDELHI,logOff
+1/5/2024 0:59,An account was successfully logged on.,011.144.046.002,4625,arcsight,LogOn
+1/5/2024 1:00,An account was logged off.,002.068.160.091,4634,rekha.y,logOff
+1/5/2024 1:01,An account was logged off.,187.169.100.004,4624,arcsight,logOff
+1/5/2024 1:02,An account was successfully logged on.,088.190.226.108,4625,rekha.y,LogOn
+1/5/2024 1:03,An account failed to log on.,108.148.223.094,4634,RAHDELHI,LoginFailure
+1/5/2024 1:04,An account was logged off.,072.175.228.057,4625,ram,logOff
+1/5/2024 1:05,An account was logged off.,211.183.064.050,4624,rekha.y,logOff
+1/5/2024 1:06,An account was successfully logged on.,162.207.210.247,4634,arcsight,LogOn
+1/5/2024 1:07,An account was successfully logged on.,212.237.232.244,4625,ram,LogOn
+1/5/2024 1:08,An account was logged off.,166.109.164.209,4624,arcsight,logOff
+1/5/2024 1:09,An account was logged off.,109.123.241.160,4625,RAHDELHI,logOff
+1/5/2024 1:10,An account was logged off.,102.252.034.052,4625,ram,logOff
+1/5/2024 1:11,An account was logged off.,175.017.020.074,4624,RAHDELHI,logOff
+1/5/2024 1:12,An account failed to log on.,070.207.109.064,4625,ram,LoginFailure
+1/5/2024 1:13,An account failed to log on.,008.075.121.235,4634,RAHDELHI,LoginFailure
+1/5/2024 1:14,An account was logged off.,030.023.018.253,4625,nimmi.adp,logOff
+1/5/2024 1:15,An account was logged off.,110.130.233.172,4624,SKY$,logOff
+1/5/2024 1:16,An account was logged off.,223.176.025.242,4625,rekha.y,logOff
+1/5/2024 1:17,An account was successfully logged on.,102.066.037.239,4634,arcsight,LogOn
+1/5/2024 1:18,An account failed to log on.,163.063.146.060,4624,nimmi.adp,LoginFailure
+1/5/2024 1:19,An account failed to log on.,244.192.134.000,4625,Ram,LoginFailure
+1/5/2024 1:20,An account was logged off.,162.253.055.238,4625,arcsight,logOff
+1/5/2024 1:21,An account failed to log on.,112.015.147.214,4625,arcsight,LoginFailure
+1/5/2024 1:22,An account failed to log on.,042.172.200.075,4634,Ram,LoginFailure
+1/5/2024 1:23,An account failed to log on.,102.080.076.053,4634,SKY$,LoginFailure
+1/5/2024 1:24,An account was successfully logged on.,057.128.251.180,4625,SKY$,LogOn
+1/5/2024 1:25,An account failed to log on.,210.035.144.190,4634,Ram,LoginFailure
+1/5/2024 1:26,An account was logged off.,069.083.040.126,4634,RAHDELHI,logOff
+1/5/2024 1:27,An account failed to log on.,162.029.104.087,4625,Ram,LoginFailure
+1/5/2024 1:28,An account failed to log on.,133.126.070.137,4625,arcsight,LoginFailure
+1/5/2024 1:29,An account was logged off.,003.056.209.101,4624,Ram,logOff
+1/5/2024 1:30,An account was successfully logged on.,186.087.155.170,4634,nimmi.adp,LogOn
+1/5/2024 1:31,An account failed to log on.,093.235.040.074,4634,SKY$,LoginFailure
+1/5/2024 1:32,An account was logged off.,148.232.084.162,4634,rekha.y,logOff
+1/5/2024 1:33,An account was logged off.,105.212.007.003,4625,Ram,logOff
+1/5/2024 1:34,An account was successfully logged on.,094.216.015.003,4624,SKY$,LogOn
+1/5/2024 1:35,An account was logged off.,044.181.245.102,4634,nimmi.adp,logOff
+1/5/2024 1:36,An account failed to log on.,129.063.089.172,4625,RAHDELHI,LoginFailure
+1/5/2024 1:37,An account was logged off.,124.110.230.217,4634,nimmi.adp,logOff
+1/5/2024 1:38,An account failed to log on.,254.138.182.241,4625,Ram,LoginFailure
+1/5/2024 1:39,An account was successfully logged on.,144.016.070.050,4624,rekha.y,LogOn
+1/5/2024 1:40,An account was successfully logged on.,097.242.009.240,4634,nimmi.adp,LogOn
+1/5/2024 1:41,An account failed to log on.,243.075.165.071,4624,SKY$,LoginFailure
+1/5/2024 1:42,An account was successfully logged on.,241.212.217.038,4624,arcsight,LogOn
+1/5/2024 1:43,An account failed to log on.,083.250.129.127,4634,Ram,LoginFailure
+1/5/2024 1:44,An account was logged off.,030.066.209.181,4625,RAHDELHI,logOff
+1/5/2024 1:45,An account was logged off.,046.239.017.169,4634,Ram,logOff
+1/5/2024 1:46,An account failed to log on.,104.035.047.069,4625,arcsight,LoginFailure
+1/5/2024 1:47,An account was logged off.,064.110.216.233,4624,rekha.y,logOff
+1/5/2024 1:48,An account was successfully logged on.,062.057.159.060,4634,arcsight,LogOn
+1/5/2024 1:49,An account failed to log on.,102.064.056.085,4625,nimmi.adp,LoginFailure
+1/5/2024 1:50,An account was logged off.,083.034.120.220,4634,Ram,logOff
+1/5/2024 1:51,An account failed to log on.,086.153.206.034,4624,nimmi.adp,LoginFailure
+1/5/2024 1:52,An account was successfully logged on.,060.245.254.123,4634,SKY$,LogOn
+1/5/2024 1:53,An account was logged off.,150.132.065.247,4625,nimmi.adp,logOff
+1/5/2024 1:54,An account failed to log on.,177.179.026.014,4634,RAHDELHI,LoginFailure
+1/5/2024 1:55,An account was successfully logged on.,208.031.246.102,4624,arcsight,LogOn
+1/5/2024 1:56,An account failed to log on.,222.115.124.116,4625,SKY$,LoginFailure
+1/5/2024 1:57,An account failed to log on.,156.091.216.123,4634,ram,LoginFailure
+1/5/2024 1:58,An account was successfully logged on.,026.007.156.214,4624,Ram,LogOn
+1/5/2024 1:59,An account failed to log on.,148.022.234.153,4634,arcsight,LoginFailure
+1/5/2024 2:00,An account was logged off.,074.202.007.095,4625,ram,logOff
+1/5/2024 2:01,An account failed to log on.,230.072.034.121,4624,rekha.y,LoginFailure
+1/5/2024 2:02,An account was successfully logged on.,088.004.000.216,4634,RAHDELHI,LogOn
+1/5/2024 2:03,An account failed to log on.,109.148.023.096,4625,RAHDELHI,LoginFailure
+1/5/2024 2:04,An account was logged off.,017.106.078.033,4625,arcsight,logOff
+1/5/2024 2:05,An account was successfully logged on.,194.162.213.136,4624,ram,LogOn
+1/5/2024 2:06,An account failed to log on.,192.210.085.106,4625,ram,LoginFailure
+1/5/2024 2:07,An account failed to log on.,205.157.221.177,4634,RAHDELHI,LoginFailure
+1/5/2024 2:08,An account failed to log on.,186.198.037.032,4634,SKY$,LoginFailure
+1/5/2024 2:09,An account was logged off.,125.083.156.006,4624,arcsight,logOff
+1/5/2024 2:10,An account was logged off.,022.230.044.100,4634,SKY$,logOff
+1/5/2024 2:11,An account failed to log on.,160.139.068.206,4634,RAHDELHI,LoginFailure
+1/5/2024 2:12,An account was logged off.,157.224.171.129,4624,nimmi.adp,logOff
+1/5/2024 2:13,An account was logged off.,116.055.167.051,4634,ram,logOff
+1/5/2024 2:14,An account failed to log on.,202.227.153.073,4624,ram,LoginFailure
+1/5/2024 2:15,An account failed to log on.,244.245.251.206,4634,rekha.y,LoginFailure
+1/5/2024 2:16,An account was successfully logged on.,082.159.101.064,4634,Ram,LogOn
+1/5/2024 2:17,An account was logged off.,158.022.032.150,4625,nimmi.adp,logOff
+1/5/2024 2:18,An account was logged off.,063.049.131.251,4625,rekha.y,logOff
+1/5/2024 2:19,An account was logged off.,140.234.070.140,4634,nimmi.adp,logOff
+1/5/2024 2:20,An account failed to log on.,022.205.144.082,4634,nimmi.adp,LoginFailure
+1/5/2024 2:21,An account was successfully logged on.,113.110.040.208,4634,ram,LogOn
+1/5/2024 2:22,An account was logged off.,195.119.162.085,4624,SKY$,logOff
+1/5/2024 2:23,An account failed to log on.,120.007.072.069,4634,Ram,LoginFailure
+1/5/2024 2:24,An account was logged off.,007.092.109.033,4634,Ram,logOff
+1/5/2024 2:25,An account failed to log on.,247.105.194.099,4625,SKY$,LoginFailure
+1/5/2024 2:26,An account was successfully logged on.,026.007.155.095,4634,nimmi.adp,LogOn
+1/5/2024 2:27,An account was logged off.,096.028.014.030,4625,Ram,logOff
+1/5/2024 2:28,An account was successfully logged on.,077.222.007.150,4624,ram,LogOn
+1/5/2024 2:29,An account was successfully logged on.,003.166.215.005,4625,rekha.y,LogOn
+1/5/2024 2:30,An account was logged off.,032.011.002.050,4624,arcsight,logOff
+1/5/2024 2:31,An account failed to log on.,124.179.167.178,4624,SKY$,LoginFailure
+1/5/2024 2:32,An account was logged off.,109.068.121.060,4634,arcsight,logOff
+1/5/2024 2:33,An account failed to log on.,115.197.156.068,4625,ram,LoginFailure
+1/5/2024 2:34,An account was successfully logged on.,179.225.102.205,4634,SKY$,LogOn
+1/5/2024 2:35,An account was logged off.,059.033.183.244,4625,arcsight,logOff
+1/5/2024 2:36,An account failed to log on.,218.218.016.038,4634,nimmi.adp,LoginFailure
+1/5/2024 2:37,An account was logged off.,239.091.223.192,4625,ram,logOff
+1/5/2024 2:38,An account was successfully logged on.,093.244.118.164,4634,ram,LogOn
+1/5/2024 2:39,An account was logged off.,172.038.193.018,4624,RAHDELHI,logOff
+1/5/2024 2:40,An account failed to log on.,248.210.136.131,4624,arcsight,LoginFailure
+1/5/2024 2:41,An account was logged off.,192.028.168.143,4634,arcsight,logOff
+1/5/2024 2:42,An account was successfully logged on.,224.012.253.026,4634,RAHDELHI,LogOn
+1/5/2024 2:43,An account failed to log on.,105.068.218.225,4625,arcsight,LoginFailure
+1/5/2024 2:44,An account was logged off.,214.021.110.087,4625,rekha.y,logOff
+1/5/2024 2:45,An account was successfully logged on.,233.148.199.243,4624,Ram,LogOn
+1/5/2024 2:46,An account was logged off.,044.026.135.143,4625,SKY$,logOff
+1/5/2024 2:47,An account failed to log on.,028.220.169.218,4625,ram,LoginFailure
+1/5/2024 2:48,An account was successfully logged on.,020.086.001.136,4624,rekha.y,LogOn
+1/5/2024 2:49,An account was logged off.,111.122.037.074,4625,arcsight,logOff
+1/5/2024 2:50,An account failed to log on.,228.095.187.029,4624,RAHDELHI,LoginFailure
+1/5/2024 2:51,An account failed to log on.,120.134.071.132,4634,rekha.y,LoginFailure
+1/5/2024 2:52,An account was successfully logged on.,238.166.054.011,4625,ram,LogOn
+1/5/2024 2:53,An account failed to log on.,181.030.037.007,4634,Ram,LoginFailure
+1/5/2024 2:54,An account was logged off.,120.064.240.055,4625,nimmi.adp,logOff
+1/5/2024 2:55,An account was logged off.,134.176.250.134,4634,arcsight,logOff
+1/5/2024 2:56,An account was successfully logged on.,209.255.237.027,4634,nimmi.adp,LogOn
+1/5/2024 2:57,An account was logged off.,193.034.076.194,4625,SKY$,logOff
+1/5/2024 2:58,An account was logged off.,221.102.130.155,4625,Ram,logOff
+1/5/2024 2:59,An account was successfully logged on.,026.119.236.130,4634,arcsight,LogOn
+1/5/2024 3:00,An account was logged off.,137.062.119.097,4625,rekha.y,logOff
+1/5/2024 3:01,An account was successfully logged on.,043.180.246.246,4624,ram,LogOn
+1/5/2024 3:02,An account was logged off.,044.100.110.018,4625,Ram,logOff
+1/5/2024 3:03,An account was logged off.,154.224.094.006,4625,nimmi.adp,logOff
+1/5/2024 3:04,An account failed to log on.,219.206.113.146,4634,ram,LoginFailure
+1/5/2024 3:05,An account failed to log on.,232.106.067.091,4634,Ram,LoginFailure
+1/5/2024 3:06,An account was logged off.,042.002.172.077,4624,RAHDELHI,logOff
+1/5/2024 3:07,An account was logged off.,163.012.022.137,4634,ram,logOff
+1/5/2024 3:08,An account was logged off.,015.243.082.109,4625,Ram,logOff
+1/5/2024 3:09,An account was successfully logged on.,009.163.136.061,4634,arcsight,LogOn
+1/5/2024 3:10,An account was logged off.,178.040.209.017,4624,RAHDELHI,logOff
+1/5/2024 3:11,An account was logged off.,216.132.177.069,4634,rekha.y,logOff
+1/5/2024 3:12,An account failed to log on.,000.119.018.066,4624,Ram,LoginFailure
+1/5/2024 3:13,An account was logged off.,063.015.009.184,4625,arcsight,logOff
+1/5/2024 3:14,An account failed to log on.,105.206.092.102,4634,arcsight,LoginFailure
+1/5/2024 3:15,An account was successfully logged on.,179.196.183.035,4625,Ram,LogOn
+1/5/2024 3:16,An account failed to log on.,034.095.004.017,4634,arcsight,LoginFailure
+1/5/2024 3:17,An account was successfully logged on.,167.222.047.096,4634,arcsight,LogOn
+1/5/2024 3:18,An account was successfully logged on.,012.105.035.083,4625,SKY$,LogOn
+1/5/2024 3:19,An account was logged off.,183.222.210.219,4624,RAHDELHI,logOff
+1/5/2024 3:20,An account failed to log on.,232.142.079.024,4624,rekha.y,LoginFailure
+1/5/2024 3:21,An account was logged off.,088.207.063.067,4625,arcsight,logOff
+1/5/2024 3:22,An account failed to log on.,237.176.224.197,4634,arcsight,LoginFailure
+1/5/2024 3:23,An account was logged off.,215.198.191.135,4634,Ram,logOff
+1/5/2024 3:24,An account failed to log on.,052.204.049.079,4625,RAHDELHI,LoginFailure
+1/5/2024 3:25,An account was logged off.,051.140.137.163,4634,nimmi.adp,logOff
+1/5/2024 3:26,An account was successfully logged on.,081.107.089.010,4634,arcsight,LogOn
+1/5/2024 3:27,An account was successfully logged on.,087.222.211.069,4625,nimmi.adp,LogOn
+1/5/2024 3:28,An account was logged off.,023.153.220.008,4624,ram,logOff
+1/5/2024 3:29,An account was logged off.,171.027.144.233,4634,nimmi.adp,logOff
+1/5/2024 3:30,An account failed to log on.,225.242.093.131,4634,RAHDELHI,LoginFailure
+1/5/2024 3:31,An account failed to log on.,187.223.032.148,4634,arcsight,LoginFailure
+1/5/2024 3:32,An account was successfully logged on.,110.010.201.014,4625,nimmi.adp,LogOn
+1/5/2024 3:33,An account failed to log on.,227.195.110.178,4625,SKY$,LoginFailure
+1/5/2024 3:34,An account failed to log on.,077.135.003.244,4624,rekha.y,LoginFailure
+1/5/2024 3:35,An account was successfully logged on.,031.117.229.059,4634,ram,LogOn
+1/5/2024 3:36,An account failed to log on.,175.047.135.211,4624,ram,LoginFailure
+1/5/2024 3:37,An account was successfully logged on.,033.022.070.223,4625,RAHDELHI,LogOn
+1/5/2024 3:38,An account was logged off.,195.223.074.008,4624,SKY$,logOff
+1/5/2024 3:39,An account failed to log on.,154.153.043.142,4625,rekha.y,LoginFailure
+1/5/2024 3:40,An account was logged off.,016.068.055.023,4625,rekha.y,logOff
+1/5/2024 3:41,An account failed to log on.,116.046.031.023,4634,SKY$,LoginFailure
+1/5/2024 3:42,An account was logged off.,228.126.033.154,4625,ram,logOff
+1/5/2024 3:43,An account was logged off.,044.247.120.062,4634,RAHDELHI,logOff
+1/5/2024 3:44,An account failed to log on.,033.124.052.159,4624,ram,LoginFailure
+1/5/2024 3:45,An account failed to log on.,014.166.037.218,4634,RAHDELHI,LoginFailure
+1/5/2024 3:46,An account was logged off.,230.050.245.144,4634,rekha.y,logOff
+1/5/2024 3:47,An account failed to log on.,090.114.083.173,4625,RAHDELHI,LoginFailure
+1/5/2024 3:48,An account was successfully logged on.,240.105.091.155,4634,nimmi.adp,LogOn
+1/5/2024 3:49,An account failed to log on.,178.224.176.221,4634,SKY$,LoginFailure
+1/5/2024 3:50,An account failed to log on.,113.030.100.093,4634,SKY$,LoginFailure
+1/5/2024 3:51,An account was logged off.,203.068.183.250,4625,ram,logOff
+1/5/2024 3:52,An account was logged off.,248.120.200.064,4634,arcsight,logOff
+1/5/2024 3:53,An account was successfully logged on.,129.036.122.058,4625,arcsight,LogOn
+1/5/2024 3:54,An account was logged off.,135.054.097.161,4634,nimmi.adp,logOff
+1/5/2024 3:55,An account failed to log on.,051.064.054.045,4625,RAHDELHI,LoginFailure
+1/5/2024 3:56,An account was logged off.,039.201.165.075,4634,rekha.y,logOff
+1/5/2024 3:57,An account was successfully logged on.,031.218.111.056,4625,SKY$,LogOn
+1/5/2024 3:58,An account was logged off.,141.020.011.001,4634,rekha.y,logOff
+1/5/2024 3:59,An account was successfully logged on.,121.244.100.201,4634,SKY$,LogOn
+1/5/2024 4:00,An account failed to log on.,005.109.051.058,4624,RAHDELHI,LoginFailure
+1/5/2024 4:01,An account was logged off.,243.093.200.015,4634,SKY$,logOff
+1/5/2024 4:02,An account failed to log on.,064.199.030.254,4624,nimmi.adp,LoginFailure
+1/5/2024 4:03,An account was logged off.,029.242.024.108,4634,RAHDELHI,logOff
+1/5/2024 4:04,An account was logged off.,233.171.216.190,4624,SKY$,logOff
+1/5/2024 4:05,An account failed to log on.,198.146.233.060,4625,arcsight,LoginFailure
+1/5/2024 4:06,An account was successfully logged on.,070.068.006.144,4625,RAHDELHI,LogOn
+1/5/2024 4:07,An account was successfully logged on.,130.004.164.016,4625,Ram,LogOn
+1/5/2024 4:08,An account failed to log on.,063.187.214.152,4634,nimmi.adp,LoginFailure
+1/5/2024 4:09,An account was logged off.,233.116.156.054,4634,SKY$,logOff
+1/5/2024 4:10,An account was logged off.,199.242.190.094,4634,ram,logOff
+1/5/2024 4:11,An account failed to log on.,216.015.004.210,4625,SKY$,LoginFailure
+1/5/2024 4:12,An account was logged off.,004.095.070.111,4634,ram,logOff
+1/5/2024 4:13,An account was logged off.,057.152.106.172,4634,nimmi.adp,logOff
+1/5/2024 4:14,An account failed to log on.,038.079.044.225,4634,ram,LoginFailure
+1/5/2024 4:15,An account was successfully logged on.,220.013.200.072,4625,rekha.y,LogOn
+1/5/2024 4:16,An account was logged off.,032.046.122.245,4634,SKY$,logOff
+1/5/2024 4:17,An account was logged off.,049.197.195.095,4634,SKY$,logOff
+1/5/2024 4:18,An account was logged off.,204.116.252.181,4634,RAHDELHI,logOff
+1/5/2024 4:19,An account failed to log on.,105.219.110.050,4625,nimmi.adp,LoginFailure
+1/5/2024 4:20,An account failed to log on.,191.060.224.175,4625,ram,LoginFailure
+1/5/2024 4:21,An account was successfully logged on.,029.134.086.200,4625,ram,LogOn
+1/5/2024 4:22,An account was logged off.,119.031.107.244,4634,RAHDELHI,logOff
+1/5/2024 4:23,An account was successfully logged on.,058.010.050.210,4634,nimmi.adp,LogOn
+1/5/2024 4:24,An account failed to log on.,218.031.022.170,4624,nimmi.adp,LoginFailure
+1/5/2024 4:25,An account was successfully logged on.,140.096.204.044,4634,ram,LogOn
+1/5/2024 4:26,An account failed to log on.,028.069.151.134,4634,rekha.y,LoginFailure
+1/5/2024 4:27,An account failed to log on.,059.234.165.139,4634,RAHDELHI,LoginFailure
+1/5/2024 4:28,An account was logged off.,035.160.174.218,4624,Ram,logOff
+1/5/2024 4:29,An account failed to log on.,199.224.230.151,4625,RAHDELHI,LoginFailure
+1/5/2024 4:30,An account was logged off.,112.090.117.079,4625,ram,logOff
+1/5/2024 4:31,An account was successfully logged on.,160.179.201.121,4634,Ram,LogOn
+1/5/2024 4:32,An account was logged off.,195.107.136.142,4624,ram,logOff
+1/5/2024 4:33,An account was logged off.,237.202.158.197,4634,arcsight,logOff
+1/5/2024 4:34,An account failed to log on.,220.178.182.001,4625,RAHDELHI,LoginFailure
+1/5/2024 4:35,An account was logged off.,193.044.164.243,4624,rekha.y,logOff
+1/5/2024 4:36,An account was logged off.,099.042.025.112,4624,RAHDELHI,logOff
+1/5/2024 4:37,An account was logged off.,197.016.041.169,4625,SKY$,logOff
+1/5/2024 4:38,An account failed to log on.,179.045.089.040,4634,nimmi.adp,LoginFailure
+1/5/2024 4:39,An account was logged off.,087.078.041.092,4624,arcsight,logOff
+1/5/2024 4:40,An account failed to log on.,191.166.047.001,4625,rekha.y,LoginFailure
+1/5/2024 4:41,An account was logged off.,081.114.144.056,4624,arcsight,logOff
+1/5/2024 4:42,An account failed to log on.,011.176.023.051,4625,RAHDELHI,LoginFailure
+1/5/2024 4:43,An account was logged off.,198.246.040.144,4634,Ram,logOff
+1/5/2024 4:44,An account failed to log on.,185.012.211.165,4625,Ram,LoginFailure
+1/5/2024 4:45,An account was logged off.,250.200.241.083,4634,SKY$,logOff
+1/5/2024 4:46,An account was logged off.,196.094.148.143,4634,arcsight,logOff
+1/5/2024 4:47,An account was successfully logged on.,064.056.166.226,4624,ram,LogOn
+1/5/2024 4:48,An account was logged off.,033.003.135.031,4634,rekha.y,logOff
+1/5/2024 4:49,An account was successfully logged on.,216.238.080.235,4624,rekha.y,LogOn
+1/5/2024 4:50,An account was logged off.,231.128.190.148,4625,ram,logOff
+1/5/2024 4:51,An account was successfully logged on.,076.096.125.050,4634,SKY$,LogOn
+1/5/2024 4:52,An account failed to log on.,017.255.207.131,4634,rekha.y,LoginFailure
+1/5/2024 4:53,An account failed to log on.,130.026.087.158,4634,arcsight,LoginFailure
+1/5/2024 4:54,An account failed to log on.,135.179.229.134,4634,nimmi.adp,LoginFailure
+1/5/2024 4:55,An account was logged off.,249.188.042.131,4634,arcsight,logOff
+1/5/2024 4:56,An account was logged off.,036.075.097.230,4624,nimmi.adp,logOff
+1/5/2024 4:57,An account was logged off.,249.240.042.087,4625,Ram,logOff
+1/5/2024 4:58,An account failed to log on.,005.163.005.129,4625,ram,LoginFailure
+1/5/2024 4:59,An account was logged off.,149.051.210.039,4634,Ram,logOff
+1/5/2024 5:00,An account was logged off.,253.118.197.147,4625,nimmi.adp,logOff
+1/5/2024 5:01,An account was logged off.,235.086.230.024,4634,Ram,logOff
+1/5/2024 5:02,An account failed to log on.,110.159.052.044,4625,nimmi.adp,LoginFailure
+1/5/2024 5:03,An account was logged off.,043.041.070.049,4634,Ram,logOff
+1/5/2024 5:04,An account was logged off.,184.148.246.040,4634,rekha.y,logOff
+1/5/2024 5:05,An account was logged off.,172.119.106.009,4625,nimmi.adp,logOff
+1/5/2024 5:06,An account failed to log on.,237.150.164.207,4634,SKY$,LoginFailure
+1/5/2024 5:07,An account failed to log on.,103.064.146.227,4625,RAHDELHI,LoginFailure
+1/5/2024 5:08,An account failed to log on.,057.214.188.045,4624,ram,LoginFailure
+1/5/2024 5:09,An account was logged off.,057.169.111.251,4624,arcsight,logOff
+1/5/2024 5:10,An account was logged off.,133.240.198.176,4634,rekha.y,logOff
+1/5/2024 5:11,An account was successfully logged on.,009.070.105.055,4625,arcsight,LogOn
+1/5/2024 5:12,An account was logged off.,207.142.017.000,4634,SKY$,logOff
+1/5/2024 5:13,An account was logged off.,061.003.129.150,4634,nimmi.adp,logOff
+1/5/2024 5:14,An account was logged off.,006.029.148.251,4624,arcsight,logOff
+1/5/2024 5:15,An account was successfully logged on.,040.158.127.230,4625,SKY$,LogOn
+1/5/2024 5:16,An account failed to log on.,206.182.064.182,4634,rekha.y,LoginFailure
+1/5/2024 5:17,An account failed to log on.,094.141.023.159,4625,SKY$,LoginFailure
+1/5/2024 5:18,An account was logged off.,220.221.177.075,4634,rekha.y,logOff
+1/5/2024 5:19,An account was successfully logged on.,222.026.169.057,4624,rekha.y,LogOn
+1/5/2024 5:20,An account was logged off.,200.036.022.046,4634,SKY$,logOff
+1/5/2024 5:21,An account failed to log on.,003.167.126.141,4625,nimmi.adp,LoginFailure
+1/5/2024 5:22,An account was successfully logged on.,008.204.223.027,4634,RAHDELHI,LogOn
+1/5/2024 5:23,An account was successfully logged on.,175.069.050.113,4625,ram,LogOn
+1/5/2024 5:24,An account failed to log on.,083.100.001.108,4625,rekha.y,LoginFailure
+1/5/2024 5:25,An account was logged off.,166.102.090.132,4634,arcsight,logOff
+1/5/2024 5:26,An account was successfully logged on.,141.137.216.026,4634,arcsight,LogOn
+1/5/2024 5:27,An account failed to log on.,254.119.064.051,4634,SKY$,LoginFailure
+1/5/2024 5:28,An account was successfully logged on.,022.011.156.033,4625,RAHDELHI,LogOn
+1/5/2024 5:29,An account failed to log on.,131.159.168.234,4625,ram,LoginFailure
+1/5/2024 5:30,An account was logged off.,100.045.136.179,4624,ram,logOff
+1/5/2024 5:31,An account failed to log on.,225.086.246.197,4634,rekha.y,LoginFailure
+1/5/2024 5:32,An account was logged off.,059.208.033.083,4625,SKY$,logOff
+1/5/2024 5:33,An account was logged off.,092.234.056.231,4625,RAHDELHI,logOff
+1/5/2024 5:34,An account was successfully logged on.,149.231.029.181,4625,ram,LogOn
+1/5/2024 5:35,An account was logged off.,246.070.155.247,4634,arcsight,logOff
+1/5/2024 5:36,An account was successfully logged on.,005.019.172.183,4625,ram,LogOn
+1/5/2024 5:37,An account failed to log on.,002.019.218.090,4634,rekha.y,LoginFailure
+1/5/2024 5:38,An account was logged off.,240.158.152.181,4624,SKY$,logOff
+1/5/2024 5:39,An account was logged off.,188.250.062.189,4624,RAHDELHI,logOff
+1/5/2024 5:40,An account was logged off.,211.144.192.198,4634,RAHDELHI,logOff
+1/5/2024 5:41,An account was logged off.,121.108.187.236,4624,arcsight,logOff
+1/5/2024 5:42,An account was logged off.,052.229.117.065,4625,ram,logOff
+1/5/2024 5:43,An account was successfully logged on.,018.155.168.004,4634,SKY$,LogOn
+1/5/2024 5:44,An account failed to log on.,126.159.063.100,4625,ram,LoginFailure
+1/5/2024 5:45,An account failed to log on.,254.168.066.115,4634,arcsight,LoginFailure
+1/5/2024 5:46,An account was logged off.,019.242.094.165,4625,Ram,logOff
+1/5/2024 5:47,An account failed to log on.,076.111.161.085,4634,ram,LoginFailure
+1/5/2024 5:48,An account was logged off.,223.103.241.239,4625,SKY$,logOff
+1/5/2024 5:49,An account failed to log on.,242.079.196.067,4634,SKY$,LoginFailure
+1/5/2024 5:50,An account was logged off.,073.084.073.124,4634,RAHDELHI,logOff
+1/5/2024 5:51,An account was logged off.,229.087.124.247,4625,SKY$,logOff
+1/5/2024 5:52,An account failed to log on.,034.175.204.104,4634,ram,LoginFailure
+1/5/2024 5:53,An account was logged off.,224.142.237.185,4625,rekha.y,logOff
+1/5/2024 5:54,An account failed to log on.,119.107.214.180,4624,ram,LoginFailure
+1/5/2024 5:55,An account was successfully logged on.,240.114.236.124,4625,ram,LogOn
+1/5/2024 5:56,An account was successfully logged on.,118.036.061.089,4634,nimmi.adp,LogOn
+1/5/2024 5:57,An account was logged off.,127.220.254.072,4634,SKY$,logOff
+1/5/2024 5:58,An account failed to log on.,128.053.165.208,4634,RAHDELHI,LoginFailure
+1/5/2024 5:59,An account was logged off.,199.052.013.081,4634,RAHDELHI,logOff
+1/5/2024 6:00,An account was logged off.,108.212.144.092,4634,SKY$,logOff
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

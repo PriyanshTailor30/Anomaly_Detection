@@ -94,12 +94,12 @@ def signup():
             # Store the user's ID in the session
             session["user_id"] = user_id[0]
             conn.close()
-            return jsonify(
-                {
-                    "success": True,
-                    "message": "Registration Successful! You are now logged in.",
-                }
-            )
+            # return jsonify(
+            #     {
+            #         "success": True,
+            #         "message": "Registration Successful! You are now logged in.",
+            #     }
+            # )
 
         conn.close()
 
@@ -217,7 +217,13 @@ def visualize():
     user_id = session.get("user_id")
     selection = None  # Initialize selection variable
     selection_column = None  # Initialize selection column variable
-
+    Events = 0
+    normal=0
+    anomaly=0
+    user_counter= {}
+    show_charts=False
+    usernames=[]
+    counts=[]
     if user_id:
         try:
             connection = get_database_connection()
@@ -227,14 +233,6 @@ def visualize():
             query="SELECT timestamp FROM anomaly_detection.user_selections where userid =%s"
             cursor.execute(query,(user_id,))
             options = cursor.fetchall()
-
-            query = "SELECT * FROM anomaly_detection.windows"
-            cursor.execute(query)
-            data = cursor.fetchall()
-            column_names = [i[0] for i in cursor.description]
-            connection.commit()
-
-
 
             if request.method == "POST":
 
@@ -259,33 +257,43 @@ def visualize():
                 print(feature_selection)
                 print(model_selection)
                 
-                # Call the corresponding PySpark methods based on selections
-                if database_selection:
-                    data = dbconfig.get_data("labeled")
-                    data.show(5)
-                    
-                    user_counter = {}
-                    # Iterate over each row of the DataFrame
-                    for row in data.collect():
-                        if row['task'] == 'LoginFailure':
-                            if row['targetUserName'] not in user_counter:
-                                user_counter[row['targetUserName']] = 0
+                data = dbconfig.get_data("labeled")
 
-                            user_counter[row['targetUserName']] += 1
+                dbconfig.cursor.execute("SELECT DISTINCT targetUserName FROM labeled",)
+                distinct_users = dbconfig.cursor.fetchall()
+                users_list = [user[0] for user in distinct_users]
+                print("List of Users:")
+                print(users_list)
 
-                            if user_counter[row['targetUserName']] >= 3:
-                                query = f'UPDATE anomaly_detection.labeled SET label = "1" WHERE id = %s'
-                                dbconfig.cursor.execute(query, (row['id'],))
-                                dbconfig.connection.commit()
-                        elif row['task'] == "LogOn":
-                            user_counter[row['targetUserName']] = 0
+                user_counter = {}
 
-                        elif row['task'] == "LogOff":
-                            pass
 
-                    print(user_counter)
+                # Iterate over each row of the DataFrame
+                for row in data.collect():
+                    if row['Task'] == 'LoginFailure':
+                        if row['TargetUserName'] not in user_counter:
+                            user_counter[row['TargetUserName']] = 0
+
+                        user_counter[row['TargetUserName']] += 1
+
+                        if user_counter[row['TargetUserName']] >= 3:
+                            query = f'UPDATE anomaly_detection.labeled SET label = "1" WHERE id = %s'
+                            dbconfig.cursor.execute(query, (row['id'],))
+                            dbconfig.connection.commit()
+                    elif row['Task'] == "LogOn":
+                        user_counter[row['TargetUserName']] = 0
+
+                    elif row['Task'] == "LogOff":
+                        pass
+
+                print(user_counter)
+
                 data.show(5, truncate=False)
                 display.display_information(data)
+
+                
+                data.show(truncate=False)
+                data.printSchema()
 
                 # if "Clean_data" in cleaning_selection:
                 #     data = cleaning.clean_data(data)
@@ -295,7 +303,7 @@ def visualize():
                 #     data = cleaning.outliers_handling(data)
                 # if "Balance_data" in cleaning_selection:
                 #     data = cleaning.balance_data(data)
-                data.show(5, truncate=False)
+                # data.show(5, truncate=False)
                 if formatting_selection == "Lebel_encoding":
                     data = format.label_encoding(data)
                     data = format.vector_assemble(data)
@@ -306,60 +314,80 @@ def visualize():
                     data = format.hashing_tf(data)
                     data = format.vector_assemble(data)
                 elif formatting_selection == "Hash_encoding":
-                    data = format.hash_encoding(data)
-                    data = format.vector_assemble(data)
+                    hash_df = format.hash_encoding(data)
+                    print("Formatting")
+                    hash_df.show(3, truncate=False)
+
+                    assembled_df = format.vector_assemble(hash_df, "label")
+                    print("Vector Assembler")
+                    assembled_df.show(3)
+                    assembled_df.groupby("label").count().show()
                 data.show(5, truncate=False)
+
                 if scaling_selection == "Standered_scaler":
-                    data = feature_scaling.standerd_scaler(data)
+                    data = feature_scaling.standerd_scaler(assembled_df)
                 elif scaling_selection == "Robust_scaler":
-                    data = feature_scaling.robustScaler(data)
+                    data = feature_scaling.robustScaler(assembled_df)
                 elif scaling_selection == "Minmax_scaler":
-                    data = feature_scaling.minMaxScaler(data)
+                    data = feature_scaling.minMaxScaler(assembled_df)
                 elif scaling_selection == "MinAbs_scaler":
-                    data = feature_scaling.minAbsScaler(data)
+                    data = feature_scaling.minAbsScaler(assembled_df)
                 elif scaling_selection == "Bucketizer":
-                    data = feature_scaling.bucketizer(data)
+                    data = feature_scaling.bucketizer(assembled_df)
                 data.show(5, truncate=False)
+                
                 if feature_selection == "Chisqselector":
                     data = feature_selections.chisqselector(data)
                 data.show(5, truncate=False)
+
                 if model_selection == "Random_forest":
-                    data = mlmodel.random_forest(data)
+                    data = mlmodel.random_forest(assembled_df, "label")
                 elif model_selection == "Linear_regression":
-                    data = mlmodel.linear_regression(data)
+                    data = mlmodel.linear_regression(assembled_df, "label")
                 elif model_selection == "Logistic_regression":
-                    data = mlmodel.logistic_regression(data)
+                    data = mlmodel.logistic_regression(assembled_df, "label")
                 elif model_selection == "Linear_SVM":
-                    data = mlmodel.train_linear_svm(data)
+                    data = mlmodel.train_linear_svm(assembled_df, "label")
                 data.show(5, truncate=False)
 
-                grouped_counts = data.groupby("prediction").count()
-                normal = grouped_counts.filter(grouped_counts["prediction"] == 0).select(F.col("count")).first()[0]
-                anomaly = grouped_counts.filter(grouped_counts["prediction"] == 1).select(F.col("count")).first()[0]
-            else:
-                query="SELECT label, COUNT(*) AS count FROM labeled GROUP BY label;"
-                dbconfig.cursor.execute(query)
-                # Fetch the results
-                results = dbconfig.cursor.fetchall()
-                
-                # Initialize counts
-                normal, anomaly = 0, 0
+                data.groupby("prediction").count().show()
 
-                # Iterate through results to extract counts
-                for row in results:
-                    if row[0] == 0:
-                        normal = row[1]
-                    elif row[0] == 1:
-                        anomaly = row[1]
+                Events= data.count()
+
+                prediction_counts = data.groupBy('prediction').count()
+
+                # Extract the counts for 0s and 1s
+                normal = prediction_counts.filter(F.col('prediction') == 0).select('count').first()[0]
+                anomaly = prediction_counts.filter(F.col('prediction') == 1).select('count').first()[0]
+
+                print("Normal count:", normal)
+                print("Anomaly count:", anomaly)
+
+                show_charts=True
+
+                # query = "SELECT TargetUserName FROM labeled WHERE label = 1"
+                # cursor.execute(query)
+                # usernames = cursor.fetchall()
+                # target_usernames = [username[0] for username in usernames]  # Extract first element (username) from each row
+
+                # distinct_username_counts = Counter(target_usernames)
+        
+                # Users_Count = list(distinct_username_counts.items())
+                # print(Users_Count)
+                # # Extract usernames and counts for the chart
+                # usernames = [username for username, count in Users_Count]
+                # counts = [count for username, count in Users_Count]
+                # print(usernames)
+                # print(counts)
+
         except Exception as e:
             print("Error:", e)
         finally:
+            cursor.close()
             connection.close()
 
     return render_template(
         "visualize.html",
-        data=data,
-        columns=column_names,
         anomaly=anomaly,
         normal=normal,
         options=options,
@@ -372,4 +400,9 @@ def visualize():
             "Feature Selection",
             "Selected Model",
         ],
+        Events= Events,
+        Users = len(user_counter),
+        Show_charts=show_charts,
+        # usernames=usernames,
+        # usercounts=counts,
     )

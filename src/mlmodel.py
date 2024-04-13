@@ -31,43 +31,46 @@ def logistic_regression(df, label_column="label"):
     from pyspark.ml import Pipeline
     from pyspark.ml.classification import LogisticRegression
 
-    # Split the data into training and testing sets
-    (trainingData, testData) = df.randomSplit([0.8, 0.2], seed=42)
-
     lr = LogisticRegression(featuresCol="features", labelCol=label_column)
 
     # Creating the pipeline
     pipeline = Pipeline(stages=[lr])
 
     # Train the model
-    model = pipeline.fit(trainingData)
+    model = pipeline.fit(df)
 
-    # # Make predictions on the test data
-    # sampledf = model.transform(trainingData)
+    # model_path = "./LogisticRegression"
+    # model.write().overwrite().save(model_path)
+  
+    # Drop the label column for predictions
+    df_for_predictions = df.drop(label_column)
 
-    predictions = model.transform(df)
+    # Generate predictions using the model
+    predictions = model.transform(df_for_predictions)
+       
+    # Evaluate.classification_evoluator(predictions,label_column)
 
     return predictions
 
 
+# ------------------------------Random Forest Model------------------------------------------------- #
 def random_forest(df, label_column="label"):
+    from pyspark.ml import Pipeline
     from pyspark.ml.classification import RandomForestClassifier
 
-    # ------------------------------Random Forest Model------------------------------------------------- #
-    # Split data into training and testing sets
-    train_data, test_data = df.randomSplit([0.8, 0.2], seed=42)
     # Random Forest Classifier
     rf = RandomForestClassifier(labelCol=label_column, featuresCol="features")
-    model = rf.fit(train_data)
+    
+    # Creating the pipeline
+    pipeline = Pipeline(stages=[rf])
+
+    # Train the model
+    model = pipeline.fit(df)
 
     # Make predictions
-    predictions = model.transform(test_data)
+    predictions = model.transform(df)
 
-    predictions.show(5, truncate=False)
-    df.groupBy("class").count().show()
-    predictions.groupBy("prediction").count().show()
-
-    Evaluate.classification_evoluator(predictions)
+    # Evaluate.classification_evoluator(predictions)
 
     model_path = "./RandomForest"
     model.write().overwrite().save(model_path)
@@ -88,23 +91,22 @@ def load_random_forest(df,label_column="label"):
     return df
 
 
-def train_linear_svm(df):
+def train_linear_svm(df, label_column="label"):
     from pyspark.ml.classification import LinearSVC
 
-    svc = LinearSVC(maxIter=100, regParam=0.0001, labelCol="class")
+    svc = LinearSVC(maxIter=100, regParam=0.0001, labelCol=label_column)
     model = svc.fit(df)
 
     predictions = model.transform(df)
 
-    predictions.show(5, truncate=False)
-    df.groupBy("class").count().show()
+    df.groupBy(label_column).count().show()
     predictions.groupBy("prediction").count().show()
 
     Evaluate.classification_evoluator(predictions)
 
-    model_path = "./SVMModel"
-    model.write().overwrite().save(model_path)
-
+    # model_path = "./SVMModel"
+    # model.write().overwrite().save(model_path)
+    
 
 def load_linear_svm(df,label_column="label"):
     from pyspark.ml.classification import LinearSVCModel

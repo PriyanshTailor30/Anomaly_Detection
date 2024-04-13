@@ -1,11 +1,14 @@
 import mysql.connector
 from pyspark.sql import SparkSession
-
+from utils.db_config import get_database_connection
 # Access environment variables
 # user = config('user_VARIABLE')
 # password = config('password_VARIABLE')
 # host = config('host_Variable')
 # schema = config('schema_variable')
+sql_connection = get_database_connection()
+
+sql_cursor = sql_connection.cursor()
 
 user = 'root'
 password = 'root'

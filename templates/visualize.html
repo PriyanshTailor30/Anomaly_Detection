@@ -54,7 +54,8 @@
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top header-inner-pages">
         <div class="container d-flex align-items-center">
-            <h1 class="logo me-auto"><a href="index.html">CyberEvolve</a></h1>
+            <!-- <h1 class="logo me-auto"><a href="index.html">CyberEvolve</a></h1> -->
+            <h1 class="logo me-auto"><a href="index.html">Socleus</a></h1>
 
             <nav id="navbar" class="navbar" style="background-color: rgba(0, 0, 0, 0)">
                 <ul>
@@ -63,6 +64,7 @@
                     <li><a class="nav-link scrollto" href="index.html">Services</a></li>
                     <li><a class="nav-link scrollto" href="index.html">Team</a></li>
                     <li><a class="nav-link scrollto" href="index.html">Contact</a></li>
+                    <!-- <li><a class="nav-link scrollto" href="dashboard.html">Configure</a></li> -->
                     {% if 'user_id' in session %}
                     <li>
                         <a class="getstarted scrollto" href="logout.html">Log out</a>
@@ -94,16 +96,17 @@
         <section class="inner-page">
             <div class="container">
                 <!-- ======= Anomaly Section ======= -->
-                <section id="visualize" class="visualize">
-                    <div class="container" data-aos="fade-up">
-                        <div class="section-title">
-                            <h2>Anomaly Detection Prediction</h2>
-                            <p>
+                <section id="visualize" class="visualize" style="padding-top: 0px !important;">
+                    <div class="container" data-aos="fade-up" style="padding-top: 0px !important;">
+                        <div class="section-title" style="padding-top: 0px !important;">
+                            <!-- <h2>Anomaly Detection Prediction</h2> -->
+                            <h2>User & Entity Behaviour Analytics</h2>
+                            <!-- <p>
                                 View the predictions of our anomaly detection machine learning
                                 model below. Gain insights into potential anomalies in your
                                 data and make informed decisions based on the predictions
                                 provided.
-                            </p>
+                            </p> -->
                         </div>
                         <div class="row">
                             <div class="col-lg-8 mt-5 mt-lg-0   mx-auto">
@@ -118,8 +121,15 @@
                                                 option[0].strftime('%Y-%m-%d %H:%M:%S') }}</option>
                                             {% endfor %}
                                         </select>
-                                        <button type="submit" class="btn btn-primary btn-block"
-                                            style="margin-left:10px; display: block !important">Submit</button>
+                                        <!-- <button id="yourButtonId" type="submit" class="btn btn-primary btn-block"
+                                            style="margin-left:10px; display: block !important">Submit</button> -->
+
+                                        <button id="submitButton" class="btn btn-primary btn-block" type="submit"
+                                            style="margin-left:10px; display: block !important">
+                                            <span id="spinner" class="spinner-border spinner-border-sm d-none"
+                                                role="status" aria-hidden="true"></span>
+                                            Submit
+                                        </button>
                                     </div>
                             </div>
 
@@ -127,26 +137,57 @@
                         </div>
                         <hr>
                     </div>
+
                     {% if selection %}
-                    <div class="row d-flex justify-content-center align-items-center">
-                        <div class="col-lg-8 mt-5 mt-lg-0">
-                            <form class="row row-cols-1 row-cols-md-2 g-3" method="post" action="dashboard.html">
-                                {% for idx in range(selection[0] | length) %}
-                                <div class="col">
-                                    <label class="visually-hidden">{{ selection_column[idx] }}</label>
-                                    <div class="input-group">
-                                        <span class="input-group-text">{{ selection_column[idx] }}</span>
-                                        <input class="form-control" type="text" value="{{ selection[0][idx] }}"
-                                            placeholder="Readonly input here…" readonly>
-                                    </div>
+                      <div class="row d-flex justify-content-center align-items-center">
+                          <div class="col-lg-8 mt-5 mt-lg-0">
+                              <form class="row row-cols-1 row-cols-md-2 g-3" method="post" action="visualize.html">
+                                  {% for idx in range(selection[0] | length) %}
+                                  <div class="col">
+                                      <label class="visually-hidden">{{ selection_column[idx] }}</label>
+                                      <div class="input-group">
+                                          <span class="input-group-text">{{ selection_column[idx] }}</span>
+                                          <input class="form-control" type="text" value="{{ selection[0][idx] }}"
+                                              placeholder="Readonly input here…" readonly>
+                                      </div>
+                                  </div>
+                                  {% endfor %}
+                              </form>
+                              <hr>
+                          </div>
+                      </div>
+                      {% endif %}  
+
+                    <div class="row justify-content-center">
+                        <div class="col-sm-3">
+                            <div class="card bg-primary text-center" style="color: white !important;">
+                                <div class="card-body" style="color: white !important;">
+                                    <h3 class="card-title" style="color: white !important;">{%if Events%} {{Events}}
+                                        {%else%}{{Events}} {% endif %}</h3>
+                                    <p class="card-text">Events</p>
                                 </div>
-                                {% endfor %}
-                            </form>
-                            <hr>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card bg-info text-center" style="color: white !important;">
+                                <div class="card-body" style="color: white !important;">
+                                    <h3 class="card-title" style="color: white !important;">{{Users}}</h3>
+                                    <p class="card-text">Users</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card bg-danger text-center" style="color: white !important;">
+                                <div class="card-body" style="color: white !important;">
+                                    <h3 class="card-title" style="color: white !important;">{{anomaly}}</h3>
+                                    <p class="card-text">Anomaly</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    {% endif %}
-                    <div class="row" style="margin-top: 40px;">
+
+                    <div class="row" {% if Show_charts==False %} style="margin-top: 40px; display: none;"
+                        {elif}style="margin-top: 40px; display: block;" {%endif%}>
                         <div class="container-fluid ">
                             <div class="row justify-content-center">
 
@@ -161,10 +202,10 @@
                                             <div class="footer">
                                                 <div class="legend">
                                                     <i class="fa fa-circle text-info"></i> Normal:{{normal}}
-                                                    <i class="fa fa-circle text-danger"></i> Threats:{{anomaly}}
+                                                    <i class="fa fa-circle text-danger"></i> Anomaly:{{anomaly}}
                                                 </div>
                                                 <div class="stats">
-                                                    <i class="fa fa-history"></i> Updated 3 minutes ago
+                                                    <!-- <i class="fa fa-history"></i> Updated 3 minutes ago -->
                                                 </div>
                                             </div>
                                         </div>
@@ -174,13 +215,70 @@
                                 <div class="col-md-8">
                                     <div class="card align-items-center">
                                         <div class="header">
-                                            <h4 class="title" style="margin-top: 10px;">Users Behavior</h4>
+                                            <h4 class="title" style="margin-top: 10px;">Top Notable User By Anomaly</h4>
                                         </div>
                                         <div class="content text-center">
                                             <hr>
-                                            <div id="chartHours" class="ct-chart"></div>
+                                            <!-- <div id="BarchartActivity" class="ct-chart"></div> -->
+                                            <div>
+                                                <canvas id="myChart"
+                                                    style="display: block; box-sizing: border-box; height: 290px; width: 580px;"></canvas>
+                                            </div>
+
+                                            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+                                            <!-- <script>
+                                                var normal = "{{ normal }}";
+                                                var anomaly = "{{ anomaly }}";
+
+                                                const ctxz = document.getElementById('myChart');
+
+                                                new Chart(ctxz, {
+                                                    type: 'bar',
+                                                    data: {
+                                                        labels: ["RAHDELHI", "arcsight", "rekha.y", "SKY$", "nimmi.adp", "Ram", "ram"],
+                                                        datasets: [{
+                                                            label: 'Users',
+                                                            data: [41, 23, 29, 39, 35, 23, 21],
+                                                            borderWidth: 1
+                                                        }]
+                                                    },
+                                                    options: {
+                                                        scales: {
+                                                            y: {
+                                                                beginAtZero: true
+                                                            }
+                                                        }
+                                                    }
+                                                });
+                                            </script> -->
+                                            <script>
+                                                var normal = "{{ normal }}";
+                                                var anomaly = "{{ anomaly }}";
+
+                                                const ctxz = document.getElementById('myChart');
+
+                                                new Chart(ctxz, {
+                                                    type: 'bar',
+                                                    data: {
+                                                        labels: ["Priyansh", "suresh", "dinesh", "ramesh", "nimmi.adp", "kirtan", "vishal","pratham"],
+                                                        datasets: [{
+                                                            label: 'Users',
+                                                            data: [69, 58, 59, 75, 1, 63, 66, 72],
+                                                            borderWidth: 1
+                                                        }]
+                                                    },
+                                                    options: {
+                                                        scales: {
+                                                            y: {
+                                                                beginAtZero: true
+                                                            }
+                                                        }
+                                                    }
+                                                });
+                                            </script>
                                             <div class="footer">
-                                                <div class="legend">
+                                                <!-- <div class="legend">
                                                     <i class="fa fa-circle text-info"></i> Open
                                                     <i class="fa fa-circle text-danger"></i> Click
                                                     <i class="fa fa-circle text-warning"></i> Click Second Time
@@ -188,7 +286,7 @@
 
                                                 <div class="stats">
                                                     <i class="fa fa-history"></i> Updated 3 minutes ago
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -196,55 +294,38 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="row">
-                        <div class="container-fluid ">
-                            <div class="row justify-content-center">
-                                <div class="col-md-8">
-                                    <div class="card align-items-center">
-                                        <div class="header">
-                                            <h4 class="title" style="margin-top: 10px;">Dataset Informaiton</h4>
-                                            <hr>
-                                        </div>
-                                        <div class="content text-center">
-                                            <div class="table-responsive">
-                                                <table class="table  table-hover">
-                                                    <head>
-                                                        <tr>
-                                                            {% for column in columns %}
-                                                            <th scope="col">{{ column }}</th>
-                                                            {% endfor %}
-                                                        </tr>
-                                                    </head>
-
-                                                    <body>
-                                                        {% for row in data[:10] %}
-                                                        <tr class="{% if 'label' in columns and row['label'] == 1 %}table-danger{% endif %}">
-                                                            {% for value in row %}
-                                                            <td>{{ value }}</td>
-                                                            {% endfor %}
-                                                        </tr>
-                                                        {% endfor %}
-                                                    </body>
-                                                </table>
-                                            </div>
-                                        </div>
-                                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <div class="card align-items-center">
+                                <div class="header">
+                                    <h5 class="title" style="margin-top: 10px;">Rule Wise Anomaly Count</h5>
+                                </div>
+                                <div class="">
+                                    <hr>
+                                    <ul class="list-group  list-group-flush">
+                                        <li class="list-group-item ">
+                                            Anomalous Login Failure Attempted
+                                            <span class="badge badge-primary badge-pill"
+                                                style="color: black !important;">{{anomaly}}</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            --
+                                            <span class="badge badge-primary badge-pill"
+                                                style="color: black !important;">--</span>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </section>
                 <!-- End Contact Section -->
             </div>
         </section>
     </main>
-    <!-- End #main -->
-    <!-- {% for row in data[:10] %}
-    <h1>{{ row }}</h1>
-    {% endfor %} -->
     <!-- ======= Footer ======= -->
-    <footer id="footer">
+    <!-- <footer id="footer">
         <div class="footer-top">
             <div class="container">
                 <div class="row">
@@ -324,10 +405,11 @@
                 &copy; Copyright <strong><span>CyberEvolve</span></strong>. All Rights Reserved
             </div>
         </div>
-    </footer>
+    </footer> -->
     <!-- End Footer -->
 
     <div id="preloader"></div>
+
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
 
@@ -355,9 +437,11 @@
         var normal = "{{ normal }}";
         var anomaly = "{{ anomaly }}";
 
+        var colors = ['#00ff00', '#ff0000'];
+
         // Extract data from Flask's template context
         var data = {
-            labels: ["Normal", "Threats"],
+            labels: ["Normal", "Anomaly"],
             series: [normal, anomaly],
         };
 
@@ -370,12 +454,60 @@
             // startAngle: 0,
             // total: 100,
             // showLabel: false,
-            // axisX: {showGrid: false,},
+            // axisX: {showGrid: false,},\
+            colors: colors,
         };
 
         // Create the pie chart
         new Chartist.Pie("#chart", data, options);
     </script>
+    <script>
+        const ctx = document.getElementById('myChart');
+
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                datasets: [{
+                    label: '# of Votes',
+                    data: [12, 19, 3, 5, 2, 3],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- <script>
+        // Wait for the DOM to be fully loaded
+        document.addEventListener("DOMContentLoaded", function() {
+            // Get a reference to the submit button
+            const submitButton = document.getElementById("submitButton");
+    
+            // Add an event listener for the click event
+            submitButton.addEventListener("click", function(event) {
+                // Prevent the default form submission behavior
+                event.preventDefault();
+    
+                // Raise your custom event here or call a function
+                console.log("Submit button clicked!");
+    
+                // Show the spinner icon
+                const spinner = document.getElementById("spinner");
+                spinner.classList.remove("d-none");
+    
+                // Here you can add additional logic or trigger an AJAX request
+            });
+        });
+    </script> -->
+
 </body>
 
 </html>

@@ -160,15 +160,14 @@ def insert_config(cursor):
             INSERT INTO anomaly_detection.config_ml (category, name) 
             VALUES 
             ('database', 'test_data'), 
-            ('database', 'Firewall'), 
-            ('database', 'Windows'), 
+            ('database', 'firewall'), 
+            ('database', 'windows'), 
             ('database', 'Cisco'), 
             ('cleaning', 'Clean_data'), 
             ('cleaning', 'Handle_null_values'), 
             ('cleaning', 'Remove_outliers'), 
             ('cleaning', 'Balance_data'), 
             ('formatting', 'Lebel_encoding'), 
-            ('formatting', 'One_hot_encoding'), 
             ('formatting', 'Hash_encoding'), 
             ('formatting', 'HashingTF_Encoding'), 
             ('feature_scaling', 'Standered_scaler'), 
@@ -177,8 +176,7 @@ def insert_config(cursor):
             ('feature_scaling', 'MinAbs_scaler'), 
             ('feature_scaling', 'Bucketizer'), 
             ('feature_selection', 'Chisqselector'), 
-            ('select_model', 'Random_forest'), 
-            ('select_model', 'K_means'), 
+            ('select_model', 'Random_forest'),
             ('select_model', 'Linear_regression'), 
             ('select_model', 'Logistic_regression'), 
             ('select_model', 'Linear_SVM')
@@ -216,6 +214,9 @@ def get_database_connection():
             connection.commit()
         if not table_exists(cursor, "labeled"):
             create_labeled_table(cursor)
+            connection.commit()
+        if not table_exists(cursor, "user_selections"):
+            create_userselection_table(cursor)
             connection.commit()
 
     except mysql.connector.Error as e:

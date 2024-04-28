@@ -304,50 +304,60 @@ def visualize():
                 # if "Balance_data" in cleaning_selection:
                 #     data = cleaning.balance_data(data)
                 # data.show(5, truncate=False)
+
                 if formatting_selection == "Lebel_encoding":
-                    data = format.label_encoding(data)
-                    data = format.vector_assemble(data)
-                elif formatting_selection == "One_hot_encoding":
-                    data = format.hash_encoding(data)
-                    data = format.vector_assemble(data)
+                    print("label_encoding")
+                    lebel_df = format.label_encoding(data)
+                    print("Vector Assembler")
+                    assembled_df = format.vector_assemble(lebel_df, "label")
                 elif formatting_selection == "HashingTF_Encoding":
-                    data = format.hashing_tf(data)
-                    data = format.vector_assemble(data)
+                    print("hashing_tf")
+                    hashingtf_df = format.hashing_tf(data)
+                    print("Vector Assembler")
+                    assembled_df = format.vector_assemble(hashingtf_df, "label")
                 elif formatting_selection == "Hash_encoding":
                     hash_df = format.hash_encoding(data)
-                    print("Formatting")
-                    hash_df.show(3, truncate=False)
-
+                    print("hash_encoding")
                     assembled_df = format.vector_assemble(hash_df, "label")
                     print("Vector Assembler")
-                    assembled_df.show(3)
-                    assembled_df.groupby("label").count().show()
-                data.show(5, truncate=False)
-
+                    # assembled_df.show(3)
+                    # assembled_df.groupby("label").count().show()
+                # data.show(5, truncate=False)
+                
                 if scaling_selection == "Standered_scaler":
+                    print("standerd_scaler")
                     data = feature_scaling.standerd_scaler(assembled_df)
                 elif scaling_selection == "Robust_scaler":
+                    print("robustScaler")
                     data = feature_scaling.robustScaler(assembled_df)
                 elif scaling_selection == "Minmax_scaler":
+                    print("minMaxScaler")
                     data = feature_scaling.minMaxScaler(assembled_df)
                 elif scaling_selection == "MinAbs_scaler":
+                    print("minAbsScaler")
                     data = feature_scaling.minAbsScaler(assembled_df)
                 elif scaling_selection == "Bucketizer":
+                    print("Bucketizer")
                     data = feature_scaling.bucketizer(assembled_df)
                 data.show(5, truncate=False)
                 
                 if feature_selection == "Chisqselector":
+                    print("chisqselector")
                     data = feature_selections.chisqselector(data)
                 data.show(5, truncate=False)
 
                 if model_selection == "Random_forest":
+                    print("random_forest")
                     data = mlmodel.random_forest(assembled_df, "label")
                 elif model_selection == "Linear_regression":
+                    print("linear_regression")
                     data = mlmodel.linear_regression(assembled_df, "label")
                 elif model_selection == "Logistic_regression":
+                    print("logistic_regression")
                     data = mlmodel.logistic_regression(assembled_df, "label")
                 elif model_selection == "Linear_SVM":
-                    data = mlmodel.train_linear_svm(assembled_df, "label")
+                    print("Linear_SVM")
+                    data = mlmodel.linear_svm(assembled_df, "label")
                 data.show(5, truncate=False)
 
                 data.groupby("prediction").count().show()

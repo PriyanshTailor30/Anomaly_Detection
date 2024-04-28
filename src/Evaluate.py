@@ -1,4 +1,4 @@
-def regression_evaluator(predictions, label_column):
+def regression_evaluator(predictions, label_column="label"):
     from pyspark.ml.evaluation import RegressionEvaluator
 
     # Evaluate the model
@@ -23,7 +23,7 @@ def regression_evaluator(predictions, label_column):
     print(f"Error (mae) on data = {mae}")
 
 
-def classification_evoluator(predictions, label_column):
+def classification_evoluator(predictions, label_column="label"):
     from pyspark.ml.evaluation import BinaryClassificationEvaluator, MulticlassClassificationEvaluator
 
     # Evaluation the model

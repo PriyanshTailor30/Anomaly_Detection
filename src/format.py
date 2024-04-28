@@ -2,7 +2,7 @@ def label_encoding(df):
     from pyspark.ml import Pipeline
     from pyspark.ml.feature import StringIndexer
 
-    print("\n----------- Lebel Encoding -----------")
+    print("\n----------- Label Encoding -----------")
     string_columns = [col_name for (col_name, dtype) in df.dtypes if dtype == 'string']
 
     indexer = [StringIndexer(inputCol=col, outputCol=col + "_index") for col in string_columns]
